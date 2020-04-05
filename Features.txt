@@ -1,0 +1,40 @@
+New Features in this Version (1.7):
+- Nicer pumpkin overlay.
+- Full moon is now a new moon. (All other moons are still full moons)
+- Dark theme inventory.
+- Dark theme menus.
+- Less noisy bedrock texture.
+- New crosshair.
+- "h" sun is now the right way up during sunrise!
+- Darker menu buttons.
+- Rainbow XP bar.
+- New title screen backdrop.
+- Coloured ping indicator.
+- Uniform ores.
+- Old gravel.
+- Old lava.
+- Lower snowy grass.
+- Sticky piston side shows slime.
+- Lighter nether textures.
+- Old water.
+
+Features From Previous Versions:
+- Simplified redstone wire.
+- Simplified wool blocks.
+- Uniform resource blocks.
+- Hotbar slot numbers.
+- Hotbar slot numbers in inventory.
+- Thick black visible tripwires.
+- Old steve skin.
+- Old outlined food.
+- Outlined tools.
+- Smooth enchantment glint animation.
+- Rainbow border block breaking animation.
+- Old dispenser.
+- Alternate redstone lamp texture.
+- Simple glowstone texture.
+- Simple redstone torch texture.
+- High-contrast stone bricks.
+- Old cobblestone.
+- Old stone furnace top.
+- Alternate item frame sprite and block texture.
