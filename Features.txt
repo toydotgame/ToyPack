@@ -1,40 +1,54 @@
-New Features in this Version (1.7):
-- Nicer pumpkin overlay.
-- Full moon is now a new moon. (All other moons are still full moons)
-- Dark theme inventory.
-- Dark theme menus.
-- Less noisy bedrock texture.
-- New crosshair.
-- "h" sun is now the right way up during sunrise!
-- Darker menu buttons.
-- Rainbow XP bar.
-- New title screen backdrop.
-- Coloured ping indicator.
-- Uniform ores.
-- Old gravel.
-- Old lava.
-- Lower snowy grass.
-- Sticky piston side shows slime.
-- Lighter nether textures.
-- Old water.
+Patches in this update (1.8.1):
++ Fixed alignment of survival crafting grid.
++ Added some more outlined item sprites.
++ Fixed naming issues where the textures would not load due to having a name that only works for a newer version.
++ Fixed menu buttons to all be more uniform.
+- Removed LOLCAT language as it doesn't work.
+- Slime on sticky pistons doesn't show on the sides.
+- Removed armour empty slot sprites so that the slot is just empty like in older versions.
+
+New Features in this Version (1.8):
++ Cleaner and improved dark GUI due to the previous one being borked.
++ Heavily reworked inventory textures. (I spent way too much time making them look good...)
++ Simplified map icons.
++ Simple map border.
++ Old-style black border around more item sprites.
+- No pebbles in dirt and grass side textures.
 
 Features From Previous Versions:
-- Simplified redstone wire.
-- Simplified wool blocks.
-- Uniform resource blocks.
-- Hotbar slot numbers.
-- Hotbar slot numbers in inventory.
-- Thick black visible tripwires.
-- Old steve skin.
-- Old outlined food.
-- Outlined tools.
-- Smooth enchantment glint animation.
-- Rainbow border block breaking animation.
-- Old dispenser.
-- Alternate redstone lamp texture.
-- Simple glowstone texture.
-- Simple redstone torch texture.
-- High-contrast stone bricks.
-- Old cobblestone.
-- Old stone furnace top.
-- Alternate item frame sprite and block texture.
++ Original Minecraft title.
++ Nicer pumpkin overlay.
++ Full moon is now a new moon. (All other moons are still full moons)
++ Dark theme inventory.
++ Dark theme menus.
++ Less noisy bedrock texture.
++ New crosshair.
++ Darker menu buttons.
++ Rainbow XP bar.
++ New title screen backdrop.
++ Coloured ping indicator.
++ Uniform ores.
++ Old gravel.
++ Old lava.
++ Lower snowy grass.
++ Lighter nether textures.
++ Old water.
++ Simplified redstone wire.
++ Simplified wool blocks.
++ Uniform resource blocks.
++ Hotbar slot numbers.
++ Hotbar slot numbers in inventory.
++ Thick black visible tripwires.
++ Old steve skin.
++ Old outlined food.
++ Outlined tools.
++ Smooth enchantment glint animation.
++ Rainbow border block breaking animation.
++ Old dispenser.
++ Alternate redstone lamp texture.
++ Simple glowstone texture.
++ Simple redstone torch texture.
++ High-contrast stone bricks.
++ Old cobblestone.
++ Old stone furnace top.
++ Alternate item frame sprite and block texture.
