@@ -1,3 +1,29 @@
+New Features in this Update (1.9):
++ Old brick texture
++ Old reeds texture
++ Old end stone texture
++ Portal frame texture has old end stone
++ Old lily texture
++ Old spawner texture
++ Old vine texture
++ Attempt for old chest, large chest, and ender chest models
++ Attempt for old skeleton model
++ Old pig texture
++ Old leather armour sprites
++ Black outlines around dye sprites
++ Old brown dye sprite
++ For some reason I forgot to outline the poisonous potato in a previous update, it's done now (oo, with a green hue!)
++ Old sponge texture because it's just so much more contrasting and nicer
++ Fixed position of the player location pointer on the map
++ Fixed position of the survival crafting grid in inventory
++ Fixed brewing stand potion output slot positioning
++ Fixed brewing stand brewing indicator (bubbles) position
++ Fixed severely broken achievements window texture, it has now been replaced and is more uniform to the other GUI windows
++ New comparator, daylight sensor, farmland, hopper, ice, piston, sticky piston, rails, redstone torch, repeater, TNT, torch, tripwire hook, and tripwire textures from FVdisco's oCd pack!
++ Modified the oCd hopper inside texture to show it's orientation
++ Brightened up the disabled button texture
++ Decontrasted the menu buttons
+
 Patches in this update (1.8.1):
 + Fixed alignment of survival crafting grid.
 + Added some more outlined item sprites.
