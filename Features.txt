@@ -1,3 +1,18 @@
+New Features in this Update (1.9.1):
++ We did it! Old sounds are compatible, we now have:
+	+ Old cows
+	+ Old doors and trapdoors etc
+	+ Old chests
+	+ Old hurt sounds!
+	+ Old water sounds
+	+ Old rain
+	+ More that I can't list but they're there and it's amazing!
++ Changed the tripwire texture from a thick black line, to a thick grey one, and now to a bright blue one reminiscent of the original texture.
++ Modified menu buttons so the bottom outline shows due to lazy editing. haha
+- No more minecart sounds like the good old days
+- Quieter villagers, endermen, and ghasts
+- Quieter portals too!
+
 New Features in this Update (1.9):
 + Old brick texture
 + Old reeds texture
