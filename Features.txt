@@ -1,3 +1,12 @@
+New Features in this Update (1.9.2):
+- Changed inventory version number
+- Removed arrow in hopper due to the fact that it only faces north
+- Moved positioning of the survival crafting grid and aligned the missing pixels
++ Cleaned up widgets.png
++ Added bottom outline for the unselectable button
++ Fixed crosshair in widgets.png
++ Added coloured text in the pack description
+
 New Features in this Update (1.9.1):
 + We did it! Old sounds are compatible, we now have:
 	+ Old cows
