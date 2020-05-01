@@ -1,3 +1,8 @@
+New Features in this Update (1.9.3):
++ Old leather armour shows on player
++ Grass background is in player inventory
++ Version number is in creative inventory
+
 New Features in this Update (1.9.2):
 - Changed inventory version number
 - Removed arrow in hopper due to the fact that it only faces north
