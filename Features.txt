@@ -1,3 +1,20 @@
+New Features in this Update (1.10):
++ Connected glass textures
+
+New Features in this Update (1.9.4_01):
+* Fixed textures not loading on some machines
+
+New Featues in this Update (1.9.4):
++ Updated version numbers
++ Brightened wither hearts by 50%
+- Removed popping breathing bubble so they just dissapear once it runs out
+- Removed block models folder because it does nothing and takes up space
++ Saturated colormaps
++ Ilmango golen apples
++ Absolute truckloads (like 60) of new outlined item sprites (plz appreciate it it was so tiring)
+- Removed bone meal particles like when they were added (plz un nerf bone meal it was so cool)
++ Old green enderman eyes
+
 New Features in this Update (1.9.3):
 + Old leather armour shows on player
 + Grass background is in player inventory
