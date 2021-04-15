@@ -1,7 +1,11 @@
+New features in this Patch (1.10_01):
+- Removed connected textures and langauage files, they now are back to default. they would not load in the past for some reason, causing the pack to become useless.
+* Changed name in inventories from "Toy's Pack v1.9.4" to "ToyPack v1.10"
+
 New Features in this Update (1.10):
 + Connected glass textures
 
-New Features in this Update (1.9.4_01):
+New Features in this Patch (1.9.4_01):
 * Fixed textures not loading on some machines
 
 New Featues in this Update (1.9.4):
