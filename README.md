@@ -8,6 +8,32 @@ ToyPack is my personal Minecraft r1.6.4 Resource Pack. It uses textures from man
 * I don't currently know exactly _where_ some denoised textures are from. It's most likely NostalgiaCraft or that other one I forgot. Sorry.
 
 ## Changelog
+New features in this Update (1.11):
+- Removed coloured text in `pack.mcmeta`, due to Unix systems having difficulty displaying it.
++ Added new "Beta" lightmap, which makes light darker and grayscaled; like in Beta 1.3-1.7.
+* Fixed small edge detail in Survival inventory on the crafting grid.
+- Removed Infdev Bricks texture
+- Removed denoised End Stone textures
+- Removed stone top for furnaces (It causes problems for vertical droppers/dispensers)
+- Removed water and lava textures, due to corruption
+- Removed Redstone Lamp texture
+- Simplified Tripwire Hook texture
+- Removed Soul Sand texture
+- Removed textures that were identical to Vanilla Minecraft
+- [Removed lots of item sprites in an attempt to make this pack not look so crap overall](https://github.com/toydotgame/ToyPack/commit/9ff9dd0e076e670e06c162d6351327301339a842)
+- Removed saturated colormap
+* Changed saturation on Vines texture
+- Reverted Stone Bricks to not have such dark grout lines
+- Removed the H Sun
+* Added more saturation to the language button as it had previously been faded
+- Removed corrupted clock textures
+- Removed badly positioned map icons
+- Removed unused OptiFine block models folder
+* Fixed corrupted sounds and cleaned files in the `sound/` directory
++ Made rain and snow less obtrusive
+- Reverted Torch texture to Vanilla Minecraft's texture
+* Fixed error in the Enchanting Table's GUI
+
 New features in this Patch (1.10\_01):
 - Removed connected textures and langauage files, they now are back to default. they would not load in the past for some reason, causing the pack to become useless.
 * Changed name in inventories from "Toy's Pack v1.9.4" to "ToyPack v1.10"
