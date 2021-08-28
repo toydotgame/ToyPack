@@ -5,7 +5,6 @@ ToyPack is my personal Minecraft r1.6.4 Resource Pack. It uses textures from man
 * FVdisco's oCd (Some redstone components and torches)
 * Vanilla Tweaks (Dark inventory, \[some\] natural blocks, denoised bedrock)
 * CodeCrafted (Redstone wire, wool, breaking animation)
-* I don't currently know exactly _where_ some denoised textures are from. It's most likely NostalgiaCraft or that other one I forgot. Sorry.
 
 ## Changelog
 New features in this Update (1.11):
