@@ -3,10 +3,19 @@ ToyPack is my personal Minecraft r1.6.4 Resource Pack. It uses textures from man
 
 ## Attributions
 * FVdisco's oCd (Some redstone components and torches)
-* Vanilla Tweaks (Dark inventory, \[some\] natural blocks, denoised bedrock)
-* CodeCrafted (Redstone wire, wool, breaking animation)
+* Vanilla Tweaks (Dark inventory, \[some\] natural blocks, denoised bedrock, some old sounds, some quieter sounds)
+* CodeCrafted (Redstone wire, breaking animation)
 
 ## Changelog
+New features in this Update (1.12):
+- Removed some non-food item sprites' black outlines.
+- Removed Spawn Egg texture.
++ Re-added old sounds, plus I managed to get the Chest & Door sounds working too - so they're now old also.
++ Re-added(?) old Lava textures.
+* Removed CodeCrafted Wool textures. I replaced them with some self-made denoised ones based off of the original Minecraft textures.
+* Replaced Glass texture with Vanilla-based one \[but it doesn't have the streaks in the middle\].
+- Removed Ice texture.
+
 New features in this Update (1.11):
 - Removed coloured text in `pack.mcmeta`, due to Unix systems having difficulty displaying it.
 + Added new "Beta" lightmap, which makes light darker and grayscaled; like in Beta 1.3-1.7.
