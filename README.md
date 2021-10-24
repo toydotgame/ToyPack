@@ -7,6 +7,10 @@ ToyPack is my personal Minecraft r1.6.4 Resource Pack. It uses textures from man
 * CodeCrafted (Redstone wire, breaking animation)
 
 ## Changelog
+New features in this Update (1.12.1):
+* Resized Map texture to fit behind the map drawing, so that there's a background behind it, but not when the map is fully loaded. (This helps in 1.7+ (not adding support for that just yet) for how Maps expand fully over an Item Frame.
+* Fixed the Brewing Stand GUI so that those little bubble animation things are in the right position. It used to be that the empty bubbles were too far to the left by about five pixels.
+
 New features in this Update (1.12):
 - Removed some non-food item sprites' black outlines.
 - Removed Spawn Egg texture.
