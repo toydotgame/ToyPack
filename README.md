@@ -40,6 +40,7 @@ New features in this Update (1.13): This update is both a feature update and a p
 + Added old-style Netherite armour sprites and textures when worn
 + Added uniform ores for Deepslate Ores, Nether Gold Ore, and Nether Quartz Ore
 + Added the 1.9-1.11 old Shulker colours instead of the 1.12+ colours
++ Added custom model to make an off-hand Shield lower down on the screen
 
 New features in this Update (1.12.1):
 * Resized Map texture to fit behind the map drawing, so that there's a background behind it, but not when the map is fully loaded. (This helps in 1.7+ (not adding support for that just yet) for how Maps expand fully over an Item Frame
