@@ -1,29 +1,63 @@
 # ToyPack
-ToyPack is my personal Minecraft r1.6.4 Resource Pack. It uses textures from many other texture packs (see attributions), and some of my own tweaks.
+ToyPack is my personal Minecraft Resource Pack. It uses textures from many other texture packs (see attributions), and some of my own tweaks.
+
+**ToyPack is intended for use with the Programmer Art texture back as a fallback.** It is recommended that you do this, or else suffer having the ToyPack textures, which are based on the old style, alongside the new Jappa textures. It'll look awful; don't do it.
 
 ## Attributions
-* FVdisco's oCd (Some redstone components and torches)
-* Vanilla Tweaks (Dark inventory, \[some\] natural blocks, denoised bedrock, some old sounds, some quieter sounds)
-* CodeCrafted (Redstone wire, breaking animation)
+* FVdisco's oCd
+* Vanilla Tweaks
+* CodeCrafted
+* MobAndPlayerSkinUploader's HD Paintings
 
 ## Changelog
+New features in this Update (1.13): This update is both a feature update and a port to 1.19 (from 1.6.4).
+* Fixed item enchantment glint to use the colour purple (In older versions, a black-white gradient was used and was hardcoded to be tinted purple, but in newer versions, the texture is purple by default and the game no longer tints the texture. This caused the enchantment glint to be a bright white in modern versions using the old texture)
+* Version number in the inventory now goes over two lines, as in Survival mode there's a Recipe Book in the way, and in Creative mode the armour slots have been centered, taking up space that used to be occupied by a single line of text
+- Removed monochromatic lighing, as it is not supported in Sodium or Iris, and I no longer use OptiFine
++ All Chests, Trapped Chests, and Ender Chests now have a proper, consistent 2D lock
+* Updated Steve texture to support the new skin format in-game
++ Added frostbite hearts and attack indicators to the icon set
+* Fixed Statistics menu sort order arrows to match all other arrow buttons in-game (they were previously not darkened)
+* Fixed sounds and directory structure in `/assets/minecraft/sounds/` to the new 1.19 tree
++ Added sounds for the now "old" XP gain and ×5 level up sound effects
+* Optimised Redstone Dust rendering
+- Removed oars from boats (Mangrove Boats are a TODO, once Vanilla Tweaks adds a Retro/Old Planks boat texture for Mangrove Boats)
++ Re-added the \[now outdated\] pack.png icon for texture packs with no known icon (In recent versions this has been replaced by a 3D Cobblestone block)
++ Added an old-style ice textures for Packed Ice and Blue Ice
++ Added old-Netherrack-based textures for the Nylium blocks
+* Poppies have been renamed to Roses
+* "Teracotta" is back to "Hardened Clay"
+* "Dirt Path" is back to "Grass Path"
+* Zombified Piglins have been renamed back to Zombie Pigmen, alongside having their old texture back
++ Buttons go blue on hover rather than a white outline
++ Added inverted Daylight Detector texture (in the oCd style)
++ Hoppers now have arrows which point which way they're facing (No arrow appears if the Hopper is facing down)
++ Added missing oCd-style textures for the inside and front of the Pistons
++ Added Mutton sprites
+* Beds have 2D sprites, like they used to
++ Added old-style plank textures for the Nylium plank blocks, and Mangrove Planks
++ Added HD banner patterns for shields
++ Added old-style Netherite armour sprites and textures when worn
++ Added uniform ores for Deepslate Ores, Nether Gold Ore, and Nether Quartz Ore
++ Added the 1.9-1.11 old Shulker colours instead of the 1.12+ colours
+
 New features in this Update (1.12.1):
-* Resized Map texture to fit behind the map drawing, so that there's a background behind it, but not when the map is fully loaded. (This helps in 1.7+ (not adding support for that just yet) for how Maps expand fully over an Item Frame.
-* Fixed the Brewing Stand GUI so that those little bubble animation things are in the right position. It used to be that the empty bubbles were too far to the left by about five pixels.
+* Resized Map texture to fit behind the map drawing, so that there's a background behind it, but not when the map is fully loaded. (This helps in 1.7+ (not adding support for that just yet) for how Maps expand fully over an Item Frame
+* Fixed the Brewing Stand GUI so that those little bubble animation things are in the right position. It used to be that the empty bubbles were too far to the left by about five pixels
 
 New features in this Update (1.12):
-- Removed some non-food item sprites' black outlines.
-- Removed Spawn Egg texture.
-+ Re-added old sounds, plus I managed to get the Chest & Door sounds working too - so they're now old also.
-+ Re-added(?) old Lava textures.
-* Removed CodeCrafted Wool textures. I replaced them with some self-made denoised ones based off of the original Minecraft textures.
-* Replaced Glass texture with Vanilla-based one \[but it doesn't have the streaks in the middle\].
-- Removed Ice texture.
+- Removed some non-food item sprites' black outlines
+- Removed Spawn Egg texture
++ Re-added old sounds, plus I managed to get the Chest & Door sounds working too - so they're now old also
++ Re-added(?) old Lava textures
+* Removed CodeCrafted Wool textures. I replaced them with some self-made denoised ones based off of the original Minecraft textures
+* Replaced Glass texture with Vanilla-based one \[but it doesn't have the streaks in the middle\]
+- Removed Ice texture
 
 New features in this Update (1.11):
-- Removed coloured text in `pack.mcmeta`, due to Unix systems having difficulty displaying it.
-+ Added new "Beta" lightmap, which makes light darker and grayscaled; like in Beta 1.3-1.7.
-* Fixed small edge detail in Survival inventory on the crafting grid.
+- Removed coloured text in `pack.mcmeta`, due to Unix systems having difficulty displaying it
++ Added new "Beta" lightmap, which makes light darker and grayscaled; like in Beta 1.3-1.7
+* Fixed small edge detail in Survival inventory on the crafting grid
 - Removed Infdev Bricks texture
 - Removed denoised End Stone textures
 - Removed stone top for furnaces (It causes problems for vertical droppers/dispensers)
