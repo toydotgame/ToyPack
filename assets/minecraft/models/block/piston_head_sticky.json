@@ -2,9 +2,10 @@
 	"credit": "Created by Stridey",
 	"textures": {
 		"3": "block/piston_side_sticky",
-		"4": "block/piston_bottom_sticky",
+		"4": "block/piston_top",
 		"particle": "block/piston_top_sticky",
 		"platform": "block/piston_top_sticky",
+		"unsticky": "block/piston_top",
 		"side": "block/piston_side"
 	},
 	"elements": [
