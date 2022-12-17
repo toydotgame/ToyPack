@@ -10,6 +10,20 @@ ToyPack is my personal Minecraft Resource Pack. It uses textures from many other
 * MobAndPlayerSkinUploader's HD Paintings
 
 ## Changelog
+New features in this Update (1.13.1): This update brings the pack to work with 1.19.3, alongside a few new features and bugfixes from the original 1.19 port.
++ Added old Door sound to work on wooden Trapdoors too
++ Added directional indicators for Observers, Droppers, and Dispensers
+* Updated Creative inventory tabs to support the new 1.19.3 changes
+* Fixed Hopper break particle
+* Renamed "Red Dye" to "Rose Red" (I don't know if this was an MCPE-exclusive old name or if JE had it too but to this day it's still what I call Red Dye)
+* Fixed Piston face texture to be in the oCd style again
++ Added Stone texture to the top of Furnaces (Super super old ToyPack feature I brought back through the magic of stealing JSONs from the vanilla assets)
++ Added Sticky Piston side textures for the side of the head, making it easier to see what type of Piston a Piston is without having to see the face
+- Removed Iron Golem crack textures
+- Removed Lena Raine BGM (The music discs and stuff are still there)
+* Changed Netherite gear (tools, and armour sprites and models) to be based on the Programmer Art Diamond gear textures, but desaturated and darkened
+	* Fixed Netherite armour model textures to show up correctly in 1.19+
+
 New features in this Update (1.13): This update is both a feature update and a port to 1.19 (from 1.6.4).
 * Fixed item enchantment glint to use the colour purple (In older versions, a black-white gradient was used and was hardcoded to be tinted purple, but in newer versions, the texture is purple by default and the game no longer tints the texture. This caused the enchantment glint to be a bright white in modern versions using the old texture)
 * Version number in the inventory now goes over two lines, as in Survival mode there's a Recipe Book in the way, and in Creative mode the armour slots have been centered, taking up space that used to be occupied by a single line of text
