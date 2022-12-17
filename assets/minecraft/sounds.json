@@ -1,0 +1,321 @@
+{
+	"music.creative": {
+		"sounds": [
+			{
+				"name": "music.game",
+				"type": "event"
+			},
+			{
+				"name": "music/game/creative/creative1",
+				"stream": true
+			},
+			{
+				"name": "music/game/creative/creative2",
+				"stream": true
+			},
+			{
+				"name": "music/game/creative/creative3",
+				"stream": true
+			},
+			{
+				"name": "music/game/creative/creative4",
+				"stream": true
+			},
+			{
+				"name": "music/game/creative/creative5",
+				"stream": true
+			},
+			{
+				"name": "music/game/creative/creative6",
+				"stream": true
+			}
+		],
+		"replace": true
+	},
+	"music.credits": {
+		"sounds": [
+			{
+				"name": "music/game/end/credits",
+				"stream": true
+			}
+		],
+		"replace": true
+	},
+	"music.dragon": {
+		"sounds": [
+			{
+				"name": "music/game/end/boss",
+				"stream": true
+			}
+		],
+		"replace": true
+	},
+	"music.end": {
+		"sounds": [
+			{
+				"name": "music/game/end/end",
+				"stream": true
+			}
+		],
+		"replace": true
+	},
+	"music.game": {
+		"sounds": [
+			{
+				"name": "music/game/calm1",
+				"stream": true
+			},
+			{
+				"name": "music/game/calm2",
+				"stream": true
+			},
+			{
+				"name": "music/game/calm3",
+				"stream": true
+			},
+			{
+				"name": "music/game/hal1",
+				"stream": true
+			},
+			{
+				"name": "music/game/hal2",
+				"stream": true
+			},
+			{
+				"name": "music/game/hal3",
+				"stream": true
+			},
+			{
+				"name": "music/game/hal4",
+				"stream": true
+			},
+			{
+				"name": "music/game/nuance1",
+				"stream": true
+			},
+			{
+				"name": "music/game/nuance2",
+				"stream": true
+			},
+			{
+				"name": "music/game/piano1",
+				"stream": true
+			},
+			{
+				"name": "music/game/piano2",
+				"stream": true
+			},
+			{
+				"name": "music/game/piano3",
+				"stream": true
+			}
+		],
+		"replace": true
+	},
+	"music.menu": {
+		"sounds": [
+			{
+				"name": "music/menu/menu1",
+				"stream": true
+			},
+			{
+				"name": "music/menu/menu2",
+				"stream": true
+			},
+			{
+				"name": "music/menu/menu3",
+				"stream": true
+			},
+			{
+				"name": "music/menu/menu4",
+				"stream": true
+			}
+		],
+		"replace": true
+	},
+	"music.nether.basalt_deltas": {
+		"sounds": [
+			{
+				"name": "music.nether.nether_wastes",
+				"type": "event"
+			}
+		],
+		"replace": true
+	},
+	"music.nether.crimson_forest": {
+		"sounds": [
+			{
+				"name": "music.nether.nether_wastes",
+				"type": "event"
+			}
+		],
+		"replace": true
+	},
+	"music.nether.nether_wastes": {
+		"sounds": [
+			{
+				"name": "music/game/nether/nether1",
+				"stream": true
+			},
+			{
+				"name": "music/game/nether/nether2",
+				"stream": true
+			},
+			{
+				"name": "music/game/nether/nether3",
+				"stream": true
+			},
+			{
+				"name": "music/game/nether/nether4",
+				"stream": true
+			}
+		],
+		"replace": true
+	},
+	"music.nether.soul_sand_valley": {
+		"sounds": [
+			{
+				"name": "music.nether.nether_wastes",
+				"type": "event"
+			}
+		],
+		"replace": true
+	},
+	"music.nether.warped_forest": {
+		"sounds": [
+			{
+				"name": "music.nether.nether_wastes",
+				"type": "event"
+			}
+		],
+		"replace": true
+	},
+	"music.overworld.deep_dark": {
+		"sounds": [
+			{
+				"name": "music.game",
+				"type": "event"
+			}
+		],
+		"replace": true
+	},
+	"music.overworld.dripstone_caves": {
+		"sounds": [
+			{
+				"name": "music.game",
+				"type": "event"
+			}
+		],
+		"replace": true
+	},
+	"music.overworld.frozen_peaks": {
+		"sounds": [
+			{
+				"name": "music.game",
+				"type": "event"
+			}
+		],
+		"replace": true
+	},
+	"music.overworld.grove": {
+		"sounds": [
+			{
+				"name": "music.game",
+				"type": "event"
+			}
+		],
+		"replace": true
+	},
+	"music.overworld.jagged_peaks": {
+		"sounds": [
+			{
+				"name": "music.game",
+				"type": "event"
+			}
+		],
+		"replace": true
+	},
+	"music.overworld.jungle_and_forest": {
+		"sounds": [
+			{
+				"name": "music.game",
+				"type": "event"
+			}
+		],
+		"replace": true
+	},
+	"music.overworld.lush_caves": {
+		"sounds": [
+			{
+				"name": "music.game",
+				"type": "event"
+			}
+		],
+		"replace": true
+	},
+	"music.overworld.meadow": {
+		"sounds": [
+			{
+				"name": "music.game",
+				"type": "event"
+			}
+		],
+		"replace": true
+	},
+	"music.overworld.old_growth_taiga": {
+		"sounds": [
+			{
+				"name": "music.game",
+				"type": "event"
+			}
+		],
+		"replace": true
+	},
+	"music.overworld.snowy_slopes": {
+		"sounds": [
+			{
+				"name": "music.game",
+				"type": "event"
+			}
+		],
+		"replace": true
+	},
+	"music.overworld.stony_peaks": {
+		"sounds": [
+			{
+				"name": "music.game",
+				"type": "event"
+			}
+		],
+		"replace": true
+	},
+	"music.overworld.swamp": {
+		"sounds": [
+			{
+				"name": "music.game",
+				"type": "event"
+			}
+		],
+		"replace": true
+	},
+	"music.under_water": {
+		"sounds": [
+			{
+				"name": "music/game/water/axolotl",
+				"stream": true,
+				"volume": 0.4
+			},
+			{
+				"name": "music/game/water/dragon_fish",
+				"stream": true,
+				"volume": 0.4
+			},
+			{
+				"name": "music/game/water/shuniji",
+				"stream": true,
+				"volume": 0.4
+			}
+		],
+		"replace": true
+	}
+}
