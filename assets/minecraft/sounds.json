@@ -351,27 +351,27 @@
 		"sounds": [
 			"block/wooden_door/open"
 		],
-		"subtitle": "subtitles.block.door.toggle"
+		"subtitle": "subtitles.block.fence_gate.toggle"
 	},
 	"block.fence_gate.close": {
 		"replace": true,
 		"sounds": [
 			"block/wooden_door/close"
 		],
-		"subtitle": "subtitles.block.door.toggle"
+		"subtitle": "subtitles.block.fence_gate.toggle"
 	},
 	"block.nether_wood_fence_gate.open": {
 		"replace": true,
 		"sounds": [
 			"block/wooden_door/open"
 		],
-		"subtitle": "subtitles.block.door.toggle"
+		"subtitle": "subtitles.block.fence_gate.toggle"
 	},
 	"block.nether_wood_fence_gate.close": {
 		"replace": true,
 		"sounds": [
 			"block/wooden_door/close"
 		],
-		"subtitle": "subtitles.block.door.toggle"
+		"subtitle": "subtitles.block.fence_gate.toggle"
 	}
 }
