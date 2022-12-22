@@ -8,8 +8,23 @@ ToyPack is my personal Minecraft Resource Pack. It uses textures from many other
 * Vanilla Tweaks
 * CodeCrafted
 * MobAndPlayerSkinUploader's HD Paintings
+* RyanGar46's P.E. Stonecutter
 
 ## Changelog
+New features in this Update (1.13.2): Yet another feature update, with some slight optimisations to how I mod sounds in the future.
+* Fixed wooden Doors sometimes doing a few of the new open/close sounds even though the Door sounds directory has all the sounds replaced
++ Replaced Nylium (Crimson + Warped) Door sounds to match the wooden Door sounds
++ Replaced all Fence Gate sounds to have the old Door sounds
++ Added the old Stonecutter model and textures from Pocket Edition. Unfortunately, due to technical limitations of Minecraft resource packs, I can't change the block's hitbox
+- Removed the oCd Farmland texture
++ Added back the old Button sounds for wooden and Nylium buttons
++ Added back the old Pressure Plate sounds for wooden and Nylium Pressure Plates, but I left the Weighted ones alone so that they're unique
++ Added a uniform Copper Ore (stone) texture, as it was previously missing
++ Replaced the Netherrack walk, place, and break sounds with their old Stone-based sounds
++ Renamed "Sugar Cane" to "Reeds." I think I've done this before and didn't like it, but I've decided to give it another shot anyway
++ Removed the 1.13 water ambience sounds
++ Removed the 1.13 water swim, splash, and fall sounds, and replaced them with the very old compressed-sounding water splash sounds from the Beta(?) days
+
 New features in this Update (1.13.1): This update brings the pack to work with 1.19.3, alongside a few new features and bugfixes from the original 1.19 port.
 + Added old Door sound to work on wooden Trapdoors too
 + Added directional indicators for Observers, Droppers, and Dispensers
