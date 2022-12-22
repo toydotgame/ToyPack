@@ -317,5 +317,19 @@
 			}
 		],
 		"replace": true
+	},
+	"block.wooden_door.open": {
+		"replace": true,
+		"sounds": [
+			"block/wooden_door/open"
+		],
+		"subtitle": "subtitles.block.door.toggle"
+	},
+	"block.wooden_door.close": {
+		"replace": true,
+		"sounds": [
+			"block/wooden_door/close"
+		],
+		"subtitle": "subtitles.block.door.toggle"
 	}
 }
