@@ -12,6 +12,23 @@ ToyPack is my personal Minecraft Resource Pack. It uses textures from many other
 * Injent's Legacy Console Click Sound
 
 ## Changelog
+New features in this Update (1.13.3): Another small batch of new features and retro-ification! (Alongside a couple bugfixes)
++ Added old Gravel step sound ([Credit to Lyann's _Legacy Edition_ resource pack](https://www.planetminecraft.com/texture-pack/legacy-edition-1-15-2/) for the sound, but I'm not giving a full arrtibution because it is just a stock old Minecraft sound file – this is just where I got it from because I had it at hand)
++ Added old-style cast Fishing Rod texture (the Stick)
+* Fixed Furnaces so that lit Furnaces also have the Stone block top and bottom texture, not just unlit ones
++ Changed "You Died!" text on the kill screen to "Game over!" like in Alpha.
++ Changed "Green Dye" to "Cactus Green" (similar to what I did with Rose Red)
++ Changed "Wheat Seeds" to "Seeds" because #GoldenAgeMinecraft amirite
++ Added markers to monster egg variants of blocks in the inventory (does not affect the placed block)
++ Replaced the menu click with the Legacy Console Edition click
++ Changed "Block of Redstone" to "Redstone Block" because honestly who calls it "Block of Redstone?"
++ Readded old Sponge texture (which I thought was still in the pack, but turns out it wasnt)
++ Added old-style Netherite and Copper Ingots (based off of the Programmer Art Iron Ingot sprite)
++ Added oarless, old-style planks Chest Boats
+	+ Removed the oars from Mangrove Boats and Chest Boats, but left in the new Mangrove Planks texture instead of an old one because idk, I just feel like the Mangrove things are new and maybe a bit of non-Programmer Art texturing makes them a bit more unique
++ Renamed Deepslate and its many other derivatives and blocks with its name to their snapshot name: "Grimstone" (including the ores). Honestly it was cooler
++ Renamed the Infested blocks to Monster Eggs like they used to be because I'm not used to it so why bother _ever_ being used to it?
+
 New features in this Update (1.13.2): Yet another feature update, with some slight optimisations to how I mod sounds in the future.
 * Fixed wooden Doors sometimes doing a few of the new open/close sounds even though the Door sounds directory has all the sounds replaced
 + Replaced Nylium (Crimson + Warped) Door sounds to match the wooden Door sounds
