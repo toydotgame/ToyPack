@@ -9,6 +9,7 @@ ToyPack is my personal Minecraft Resource Pack. It uses textures from many other
 * CodeCrafted
 * MobAndPlayerSkinUploader's HD Paintings
 * RyanGar46's P.E. Stonecutter
+* Injent's Legacy Console Click Sound
 
 ## Changelog
 New features in this Update (1.13.2): Yet another feature update, with some slight optimisations to how I mod sounds in the future.
