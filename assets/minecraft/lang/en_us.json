@@ -91,4 +91,6 @@
 "block.minecraft.raw_gold_block": "Raw Gold Block",
 "block.minecraft.raw_iron_block": "Raw Iron Block",
 "block.minecraft.amethyst_block": "Amethyst Block",
-"block.minecraft.quartz_block": "Quartz Block"}
+"block.minecraft.quartz_block": "Quartz Block",
+"item.minecraft.cod": "Fish",
+"item.minecraft.cooked_cod": "Cooked Fish"}
