@@ -497,5 +497,12 @@
 			"step/stone6"
 		],
 		"subtitle": "subtitles.block.generic.break"
+	},
+	"block.chest.close": {
+		"replace": true,
+		"sounds": [
+			"block/chest/close"
+		],
+		"subtitle": "subtitles.block.chest.close"
 	}
 }
