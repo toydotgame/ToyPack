@@ -24,6 +24,8 @@ New features in this Update (1.13.4): Preparing for 1.19.4 and 1.20 textures soo
 + Replaced the Cod and Cooked Cod textures with the old Fish textures, and renamed their items to say "Fish" instead of "Cod" as well.
 * Replaced the Glowstone texture (which was actually the activated Redstone Lamp texture from CodeCrafted) with a recoloured Sea Lantern texture I found on PMC.
 * Removed some more item hints in the Horse and Brewing Stand GUI. The Blaze Powder hint in the Brewing Stand GUI is kept but I didn't want the bottles there because they look bad with Splash Potions in the slots.
++ Added a brewing guide to the Brewing Stand GUI.
++ Removed the text saying "Inventory" from all GUIs. This is so that the hints in the Brewing Stand don't overlap, but also it cleans up some other interfaces where it really doesn't need to be said.
 
 New features in this Update (1.13.3): Another small batch of new features and retro-ification! (Alongside a couple bugfixes)
 + Added old Gravel step sound ([Credit to Lyann's _Legacy Edition_ resource pack](https://www.planetminecraft.com/texture-pack/legacy-edition-1-15-2/) for the sound, but I'm not giving a full arrtibution because it is just a stock old Minecraft sound file – this is just where I got it from because I had it at hand)
