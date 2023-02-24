@@ -16,6 +16,15 @@ I also recommend using the Nostalgic Tweaks mod for select things such as the ol
 * alyssajolt's Less Painful Glowstone
 
 ## Changelog
+New features in this Update (1.13.4): Preparing for 1.19.4 and 1.20 textures soon! New Boats and enchantment glint details will need to be worked out. Small 1.19.3 feature update for now:
++ Added old Villager textures taken from StupidUglE123 on PMC. They're not perfectly Vanilla (see: unemployed and zombie villager textures), but they do have the old textures and remove all the new stuff that I don't like.
+* Fixed the Chest closing sound sometimes being the new one.
+* Reduced the number of splash sounds from 9/18 to 5/18 making a noise.
++ Renamed most "Block of" blocks to just be "\<Material\> Block."
++ Replaced the Cod and Cooked Cod textures with the old Fish textures, and renamed their items to say "Fish" instead of "Cod" as well.
+* Replaced the Glowstone texture (which was actually the activated Redstone Lamp texture from CodeCrafted) with a recoloured Sea Lantern texture I found on PMC.
+* Removed some more item hints in the Horse and Brewing Stand GUI. The Blaze Powder hint in the Brewing Stand GUI is kept but I didn't want the bottles there because they look bad with Splash Potions in the slots.
+
 New features in this Update (1.13.3): Another small batch of new features and retro-ification! (Alongside a couple bugfixes)
 + Added old Gravel step sound ([Credit to Lyann's _Legacy Edition_ resource pack](https://www.planetminecraft.com/texture-pack/legacy-edition-1-15-2/) for the sound, but I'm not giving a full arrtibution because it is just a stock old Minecraft sound file – this is just where I got it from because I had it at hand)
 + Added old-style cast Fishing Rod texture (the Stick)
