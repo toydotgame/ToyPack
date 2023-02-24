@@ -3,6 +3,8 @@ ToyPack is my personal Minecraft Resource Pack. It uses textures from many other
 
 **ToyPack is intended for use with the Programmer Art texture back as a fallback.** It is recommended that you do this, or else suffer having the ToyPack textures, which are based on the old style, alongside the new Jappa textures. It'll look awful; don't do it.
 
+I also recommend using the Nostalgic Tweaks mod for select things such as the old monochrome lightmaps and old smooth lighting, which used to be features of the pack before it dropped OptiFine support when I moved to the CaffeineMC mods.
+
 ## Attributions
 * FVdisco's oCd
 * Vanilla Tweaks
@@ -10,6 +12,8 @@ ToyPack is my personal Minecraft Resource Pack. It uses textures from many other
 * MobAndPlayerSkinUploader's HD Paintings
 * RyanGar46's P.E. Stonecutter
 * Injent's Legacy Console Click Sound
+* StupidEglE123's Old Villagers
+* alyssajolt's Less Painful Glowstone
 
 ## Changelog
 New features in this Update (1.13.3): Another small batch of new features and retro-ification! (Alongside a couple bugfixes)
