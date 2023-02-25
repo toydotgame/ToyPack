@@ -20,6 +20,7 @@ I also recommend using the Nostalgic Tweaks mod for select things such as the ol
 New features in this Update (1.13.5): Patching some stuff and experimenting with some things that I've never really used before much in texture packs.
 + Made the survival mode inventory transparent, including status effect box things.
 	* Changed the hotbar number hints in the survival inventory to be white, to match the rest of the text in there. The rest of the containers still have their old hotbar hint colours because they are not transparent.
+	* Made the brewing guide from the last update transparent as well, as it's quite large.
 * Fixed the long-standing issue of the Z fighting that occurs with the Redstone dot texture, which is on a lot of other Redstone Dust textures, causing them to fight and overall look bad when you look closely. Redstone wires now work as intended in all configurations.
 * Fixed another long-standing issue where I neglected to add white text to the GUI with the dark theme, making most text hard to read. It was kinda a "_It's not a bug, it's a feature!_" type of issue, but I've given in and fixed it now.
 	+ As a consequence, the category names in the creative inventory are all light blue to match the look in the tooltip. Having the category names be white in the GUI makes them white in the tooltip as well and it doesn't look good.
