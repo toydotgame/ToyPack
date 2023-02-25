@@ -14,8 +14,22 @@ I also recommend using the Nostalgic Tweaks mod for select things such as the ol
 * Injent's Legacy Console Click Sound
 * StupidEglE123's Old Villagers
 * alyssajolt's Less Painful Glowstone
+* /u/LaryIsland's Z-Fighting Fix
 
 ## Changelog
+New features in this Update (1.13.5): Patching some stuff and experimenting with some things that I've never really used before much in texture packs.
++ Made the survival mode inventory transparent, including status effect box things.
+	* Changed the hotbar number hints in the survival inventory to be white, to match the rest of the text in there. The rest of the containers still have their old hotbar hint colours because they are not transparent.
+* Fixed the long-standing issue of the Z fighting that occurs with the Redstone dot texture, which is on a lot of other Redstone Dust textures, causing them to fight and overall look bad when you look closely. Redstone wires now work as intended in all configurations.
+* Fixed another long-standing issue where I neglected to add white text to the GUI with the dark theme, making most text hard to read. It was kinda a "_It's not a bug, it's a feature!_" type of issue, but I've given in and fixed it now.
+	+ As a consequence, the category names in the creative inventory are all light blue to match the look in the tooltip. Having the category names be white in the GUI makes them white in the tooltip as well and it doesn't look good.
++ Added inventory indicators to Waxed Copper blocks, similar to the indicators on Monster Eggs.
++ Removed the inside of the Scaffolding texture to make it easier to see through.
++ Added level indicators for:
+	+ Cauldrons (Powder Snow, Lava, and Water types)
+	+ Beehives and Bee Nests
++ Added Ore outlines for all ores (normal, Grimstone, and Nether variants all included).
+
 New features in this Update (1.13.4): Preparing for 1.19.4 and 1.20 textures soon! New Boats and enchantment glint details will need to be worked out. Small 1.19.3 feature update for now:
 + Added old Villager textures taken from StupidUglE123 on PMC. They're not perfectly Vanilla (see: unemployed and zombie villager textures), but they do have the old textures and remove all the new stuff that I don't like.
 * Fixed the Chest closing sound sometimes being the new one.
