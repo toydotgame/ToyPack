@@ -124,17 +124,4 @@
 "entity.minecraft.villager.shepherd":"\u00a7fShepherd\u00a7r",
 "entity.minecraft.villager.tool_smith":"\u00a7fTool Smith\u00a7r",
 "entity.minecraft.villager.weapon_smith":"\u00a7fWeapon Smith\u00a7r",
-"entity.minecraft.villager":"\u00a7fVillager\u00a7r",
-"itemGroup.buildingBlocks":"\u00a7fBuilding Blocks\u00a7r",
-"itemGroup.decorations":"\u00a7fDecoration Blocks\u00a7r",
-"itemGroup.redstone":"\u00a7fRedstone\u00a7r",
-"itemGroup.transportation":"\u00a7fTransportation\u00a7r",
-"itemGroup.misc":"\u00a7fMiscellaneous\u00a7r",
-"itemGroup.search":"\u00a7fSearch Items\u00a7r",
-"itemGroup.food":"\u00a7fFoodstuffs\u00a7r",
-"itemGroup.tools":"\u00a7fTools\u00a7r",
-"itemGroup.combat":"\u00a7fCombat\u00a7r",
-"itemGroup.brewing":"\u00a7fBrewing\u00a7r",
-"itemGroup.materials":"\u00a7fMaterials\u00a7r",
-"itemGroup.inventory":"\u00a7fSurvival Inventory\u00a7r",
-"itemGroup.hotbar":"\u00a7fSaved Toolbars\u00a7r"}
+"entity.minecraft.villager":"\u00a7fVillager\u00a7r"}
