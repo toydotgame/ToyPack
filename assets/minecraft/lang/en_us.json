@@ -140,4 +140,9 @@
 "itemGroup.crafting": "\u00a79Crafting\u00a7r",
 "itemGroup.ingredients": "\u00a79Ingredients\u00a7r",
 "itemGroup.inventory": "\u00a79Survival Inventory\u00a7r",
-"itemGroup.hotbar": "\u00a79Saved Hotbars\u00a7r"}
+"itemGroup.hotbar": "\u00a79Saved Hotbars\u00a7r",
+"container.grindstone_title": "\u00a7fRepair & Disenchant\u00a7r",
+"container.cartography_table": "\u00a7fCartography Table\u00a7r",
+"container.upgrade": "\u00a7fUpgrade Gear\u00a7r",
+"container.loom": "\u00a7fLoom\u00a7r",
+"container.barrel": "\u00a7fBarrel\u00a7r"}
