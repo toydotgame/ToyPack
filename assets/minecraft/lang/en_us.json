@@ -147,4 +147,6 @@
 "container.loom": "\u00a7fLoom\u00a7r",
 "container.barrel": "\u00a7fBarrel\u00a7r",
 "block.minecraft.dandelion": "Flower",
-"multiplayer.unsecureserver.toast": "This server has chat reporting disabled"}
+"multiplayer.unsecureserver.toast": "This server has chat reporting disabled",
+"item.minecraft.cod_bucket": "Bucket of Fish",
+"item.minecraft.cod_spawn_egg": "Spawn Fish"}
