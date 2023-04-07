@@ -12,7 +12,7 @@ I also recommend using the Nostalgic Tweaks mod for select things such as the ol
 * MobAndPlayerSkinUploader's HD Paintings
 * RyanGar46's P.E. Stonecutter
 * Injent's Legacy Console Click Sound
-* StupidEglE123's Old Villagers
+* StupidUglE123's Old Villagers
 * alyssajolt's Less Painful Glowstone
 * /u/LaryIsland's Z-Fighting Fix
 
