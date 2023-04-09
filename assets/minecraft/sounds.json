@@ -518,5 +518,72 @@
 			"block/wooden_trapdoor/close1"
 		],
 		"subtitle": "subtitles.block.trapdoor.toggle"
+	},
+	"item.trident.hit": {
+		"replace": true,
+		"sounds": [
+			{
+				"name": "random/bowhit1",
+				"volume": 1.0,
+				"pitch": 1.0
+			},
+			{
+				"name": "random/bowhit2",
+				"volume": 1.0,
+				"pitch": 0.9
+			},
+			{
+				"name": "random/bowhit3",
+				"volume": 1.0,
+				"pitch": 1.1
+			}
+		],
+		"subtitle": "subtitles.item.trident.hit"
+	},
+	"item.trident.hit_ground": {
+		"replace": true,
+		"sounds": [
+			{
+				"name": "random/bowhit1",
+				"volume": 1.0,
+				"pitch": 1.0
+			},
+			{
+				"name": "random/bowhit2",
+				"volume": 1.0,
+				"pitch": 0.9
+			},
+			{
+				"name": "random/bowhit3",
+				"volume": 1.0,
+				"pitch": 1.1
+			}
+		],
+		"subtitle": "subtitles.item.trident.hit_ground"
+	},
+	"item.trident.throw": {
+		"replace": true,
+		"sounds": [
+			{
+				"name": "random/bow",
+				"volume": 1.0,
+				"pitch": 1.0
+			},
+			{
+				"name": "random/bow",
+				"volume": 1.0,
+				"pitch": 0.9
+			},
+			{
+				"name": "random/bow",
+				"volume": 1.0,
+				"pitch": 1.1
+			}
+		],
+		"subtitle": "subtitles.item.trident.throw"
+	},
+	"item.trident.return": {
+		"replace": true,
+		"subtitle": "subtitles.item.trident.return"
 	}
 }
