@@ -18,6 +18,54 @@ I also recommend using the Nostalgic Tweaks mod for select things such as the ol
 * mbanders' Modern Minecraft Soundtrack Remover Pack
 
 ## Changelog
+New features in this Update (1.13.6): A major update with a lot of features I've planned but just let pile up instead of implementing. This is probably going to be the last update before Minecraft Release 1.20, where I'll probably bump the minor version of this pack from 1.13 to 1.14.
++ New Recipe Book button that appears invisible until you hover over it, displaying a "?" icon.
++ Added a border to frosted Ice (created by Frost Walker boots) in the style of the Glass block border.
++ Added deep fried variants of the Fox hit and death sounds.
++ Overwrote the drown, berry bush, burn, and freeze hurt sounds to all be the normal old hurt sound.
++ Added slight Ice overlay to Powder Snow.
+- Removed the console edition Snowball texture. (This is another one of the 1.0 ToyPack features from long, long ago. RIP)
++ Added Programmer Art style Powder Snow Bucket with the old Snowball and Bucket textures.
++ Added Programmer Art style Campfires, with old flames, smoke, logs, and ash.
+* Fixed the GUI titles of the Loom, Grindstone, Cartography Table, Barrel, Smithing Table, chest Boat, and the Advancements screen to have white text to match the dark UI.
+* Fixed an issue with the dark Smithing Table GUI not showing up on 1.19.4+ versions of the game (causes an incompatibility with 1.19.3 and below, unfortunately).
+- Removed the Lapis slot hint from the Enchanting Table.
+- Removed Boat oar sounds.
++ Renamed "Dandelion" to "Flower"
++ Added old planks for the Mangrove and Mangrove chest Boats.
++ Added Programmer Art styled Boat and chest Boat sprites.
++ Added Beta styled grass, where the side colour of the grass does not change with the biome colourmap.
++ Added ore borders for Budding Amethyst blocks.
++ Added `age: 25` Kelp marker texture.
++ Added power level text for all Redstone wires with a power level above 0.
++ Added Iron Block-styled texture for Netherite Blocks, updating it to look like the other valuable storage blocks.
++ Added Note Block pitch indicators.
++ Added Alpha style panorama overlay, just giving you a dirt background on the title screen.
++ Added transparent system message toasts (namely the alert for servers with disabled chat reporting).
+	+ Changed description text for the secure chat disabled alert to read "This server has chat reporting disabled"
+* Changed Dispenser/Hopper directional textures to be Programmer Art-styled.
+* Changed Observer powered state indicator textures to be Programmer Art-styled (not using the 1.11 snapshot for the front of the Observer though).
++ Added Programmer Art-styled Axolotl and Tadpole buckets.
+* Fixed existing Programmer Art bucket textures for the buckets of Pufferfish, Salmon, Cod, and Tropical Fish.
++ Renamed and retextured Cod and Cod-related items to "Fish." (Yet to retexture the physical entity to be blue instead of brown, but everything else looks and says "Fish" like pre-1.13 had)
++ Fixed Z fighting of Iron Bars bases.
++ Re-added Ilmango Golden Apples (this is another ancient feature I removed in the Great De-obnixification update I believe, but I wanted it back)
++ Added pre-1.18 Stipped Dark Oak Log texture (applied to Wood variant as well).
+* Fixed enchantment glints to work in 1.19.4+.
++ Added pumpkinblur styled freezing overlay.
++ Added darker Dark Oak Leaves.
++ Added shorter Tall Grass.
++ Added alternate White Dye texture, because I didn't like the normal one.
++ Added transparent Recipe Book GUI.
++ Added pixel consistent XP orbs.
+* Fixed Nylium wood trapdoors to have the same sounds as all the other wood trapdoors.
++ Added Stone Bricks-styled Quartz Bricks.
++ Added Blue Rose from MCPE Alpha days, replacing the Blue Orchid.
++ Added Programmer Art textures for the background to the Advancements screens.
++ Added Bow shoot and Arrow land sounds for the Trident.
+- Removed Trident Loytalty return sound effect.
++ Changed all "Spawn Egg" item names to say "Spawn \<Mob\>," like it used to once upon a time.
+
 New features in this Update (1.13.5): Patching some stuff and experimenting with some things that I've never really used before much in texture packs.
 + Made the survival mode inventory transparent, including status effect box things.
 	* Changed the hotbar number hints in the survival inventory to be white, to match the rest of the text in there. The rest of the containers still have their old hotbar hint colours because they are not transparent.
