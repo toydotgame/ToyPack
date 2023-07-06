@@ -244,4 +244,6 @@
 "gamerule.snowAccumulationHeight":"snowAccumulationHeight",
 "gamerule.commandModificationBlockLimit":"commandModificationBlockLimit",
 "gamerule.globalSoundEvents":"globalSoundEvents",
-"item.minecraft.music_disc_otherside.desc": "C418 - Dog"}
+"item.minecraft.music_disc_otherside.desc": "C418 - Dog",
+"block.minecraft.chipped_anvil": "Damaged Anvil",
+"block.minecraft.damaged_anvil": "Very Damaged Anvil"}
