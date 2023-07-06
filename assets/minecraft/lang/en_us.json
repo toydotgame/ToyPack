@@ -64,7 +64,7 @@
 "block.minecraft.quartz_block": "Quartz Block",
 "item.minecraft.cod": "Fish",
 "item.minecraft.cooked_cod": "Cooked Fish",
-"container.brewing": "                                   \u00a7fBrewing Stand                          \ueff2\u00a7r",
+"container.brewing": "                                   Brewing Stand                          \u00a7f\ueff2\u00a7r",
 "container.inventory": "",
 "block.minecraft.dandelion": "Flower",
 "multiplayer.unsecureserver.toast": "This server has chat reporting disabled",
