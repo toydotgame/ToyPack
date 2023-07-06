@@ -243,4 +243,5 @@
 "gamerule.waterSourceConversion":"waterSourceConversion",
 "gamerule.snowAccumulationHeight":"snowAccumulationHeight",
 "gamerule.commandModificationBlockLimit":"commandModificationBlockLimit",
-"gamerule.globalSoundEvents":"globalSoundEvents"}
+"gamerule.globalSoundEvents":"globalSoundEvents",
+"item.minecraft.music_disc_otherside.desc": "C418 - Dog"}
