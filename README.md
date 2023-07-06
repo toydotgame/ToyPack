@@ -16,6 +16,7 @@ I also recommend using the Nostalgic Tweaks mod for select things such as the ol
 * alyssajolt's Less Painful Glowstone
 * /u/LaryIsland's Z-Fighting Fix
 * mbanders' Modern Minecraft Soundtrack Remover Pack
+* Magic's JKM Bushes Pack
 
 ## Changelog
 New features in this Update (1.13.6): A major update with a lot of features I've planned but just let pile up instead of implementing. This is probably going to be the last update before Minecraft Release 1.20, where I'll probably bump the minor version of this pack from 1.13 to 1.14.
