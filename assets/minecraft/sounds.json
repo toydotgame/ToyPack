@@ -585,5 +585,89 @@
 	"item.trident.return": {
 		"replace": true,
 		"subtitle": "subtitles.item.trident.return"
+	},
+	"block.bamboo_wood_trapdoor.open": {
+		"replace": true,
+		"sounds": [
+			"block/wooden_trapdoor/open1"
+		],
+		"subtitle": "subtitles.block.trapdoor.toggle"
+	},
+	"block.bamboo_wood_trapdoor.close": {
+		"replace": true,
+		"sounds": [
+			"block/wooden_trapdoor/close1"
+		],
+		"subtitle": "subtitles.block.trapdoor.toggle"
+	},
+	"block.bamboo_wood_door.open": {
+		"replace": true,
+		"sounds": [
+			"block/wooden_trapdoor/open1"
+		],
+		"subtitle": "subtitles.block.door.toggle"
+	},
+	"block.bamboo_wood_door.close": {
+		"replace": true,
+		"sounds": [
+			"block/wooden_trapdoor/close1"
+		],
+		"subtitle": "subtitles.block.door.toggle"
+	},
+	"block.bamboo_wood_fence_gate.open": {
+		"replace": true,
+		"sounds": [
+			"block/wooden_trapdoor/open1"
+		],
+		"subtitle": "subtitles.block.fence_gate.toggle"
+	},
+	"block.bamboo_wood_fence_gate.close": {
+		"replace": true,
+		"sounds": [
+			"block/wooden_trapdoor/close1"
+		],
+		"subtitle": "subtitles.block.fence_gate.toggle"
+	},
+	"block.cherry_wood_trapdoor.open": {
+		"replace": true,
+		"sounds": [
+			"block/wooden_trapdoor/open1"
+		],
+		"subtitle": "subtitles.block.trapdoor.toggle"
+	},
+	"block.cherry_wood_trapdoor.close": {
+		"replace": true,
+		"sounds": [
+			"block/wooden_trapdoor/close1"
+		],
+		"subtitle": "subtitles.block.trapdoor.toggle"
+	},
+	"block.cherry_wood_door.open": {
+		"replace": true,
+		"sounds": [
+			"block/wooden_trapdoor/open1"
+		],
+		"subtitle": "subtitles.block.door.toggle"
+	},
+	"block.cherry_wood_door.close": {
+		"replace": true,
+		"sounds": [
+			"block/wooden_trapdoor/close1"
+		],
+		"subtitle": "subtitles.block.door.toggle"
+	},
+	"block.cherry_wood_fence_gate.open": {
+		"replace": true,
+		"sounds": [
+			"block/wooden_trapdoor/open1"
+		],
+		"subtitle": "subtitles.block.fence_gate.toggle"
+	},
+	"block.cherry_wood_fence_gate.close": {
+		"replace": true,
+		"sounds": [
+			"block/wooden_trapdoor/close1"
+		],
+		"subtitle": "subtitles.block.fence_gate.toggle"
 	}
 }
