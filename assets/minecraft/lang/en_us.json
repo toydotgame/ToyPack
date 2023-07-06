@@ -197,4 +197,6 @@
 "gamerule.globalSoundEvents":"globalSoundEvents",
 "item.minecraft.music_disc_otherside.desc": "C418 - Dog",
 "block.minecraft.chipped_anvil": "Damaged Anvil",
-"block.minecraft.damaged_anvil": "Very Damaged Anvil"}
+"block.minecraft.damaged_anvil": "Very Damaged Anvil",
+"block.minecraft.bamboo_block": "Bamboo Block",
+"block.minecraft.stripped_bamboo_block": "Stripped Bamboo Block"}
