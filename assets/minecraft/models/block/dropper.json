@@ -1,12 +1,12 @@
 {
 	"credit": "Created by Stridey",
 	"textures": {
-		"0": "block/dispenser_side_l",
-		"1": "block/dispenser_side_r",
+		"0": "block/dropper_side_l",
+		"1": "block/dropper_side_r",
 		"2": "block/dropper_front",
-		"5": "block/dispenser_top",
-		"6": "block/dispenser_back",
-		"particle": "block/dispenser_side_l"
+		"5": "block/dropper_top",
+		"6": "block/dropper_back",
+		"particle": "block/dropper_side_l"
 	},
 	"elements": [
 		{

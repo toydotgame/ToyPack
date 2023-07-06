@@ -2,10 +2,10 @@
 	"credit": "Created by Stridey",
 	"parent": "block/cube",
 	"textures": {
-		"0": "block/dispenser_top",
+		"0": "block/dropper_top",
 		"1": "block/furnace_top",
 		"2": "block/dropper_front_vertical",
-		"particle": "block/dispenser_top"
+		"particle": "block/dropper_top"
 	},
 	"elements": [
 		{
