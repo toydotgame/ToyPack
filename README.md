@@ -63,6 +63,8 @@ New features in this Update (1.14): 1.20 pack update with a bunch of fixes and u
 * Fixed new music suppressor for the new biomes and music.overworld music triggers
 + Added Programmer Art style Chiseled Bookshelf
 + Added dark GUI textures for Simple Voice Chat's menus
+* Fixed lower sides for snowy grass
+- Removed the whiter snow in favour of Programmer Art snow (bye bye yet another 1.0 feature)
 
 New features in this Update (1.13.6): A major update with a lot of features I've planned but just let pile up instead of implementing. This is probably going to be the last update before Minecraft Release 1.20, where I'll probably bump the minor version of this pack from 1.13 to 1.14
 + New Recipe Book button that appears invisible until you hover over it, displaying a "?" icon
