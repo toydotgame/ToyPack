@@ -12,7 +12,7 @@ I also recommend using the Nostalgic Tweaks mod for select things such as the ol
 * [MobAndPlayerSkinUploader's HD Paintings](https://www.planetminecraft.com/texture-pack/hd-paintings/)
 * [ThePinkHacker's P.E. Stonecutter](https://www.curseforge.com/minecraft/texture-packs/old-stonecutter)
 * [Injent's Legacy Console Click Sound](https://www.planetminecraft.com/texture-pack/legacy-console-click-sound/)
-* [SupidUglE123's Old Villagers](https://www.planetminecraft.com/texture-pack/old-villagers/)
+* [StupidUglE123's Old Villagers](https://www.planetminecraft.com/texture-pack/old-villagers/)
 * [alyssajolt's Less Painful Glowstone](https://www.planetminecraft.com/texture-pack/less-painful-glowstone/)
 * [LaryIsland's Z-Fighting Fix](https://www.reddit.com/r/Minecraft/comments/bz360e/redstone_zfighting_overlapping_texture_glitch_fix/)
 * [mbanders' Modern Minecraft Soundtrack Remover Pack](http://web.archive.org/web/20221110071038/https://www.planetminecraft.com/texture-pack/minecraft-caves-amp-cliffs-soundtrack-remover-pack/)
