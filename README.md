@@ -14,12 +14,55 @@ ToyPack is my personal Minecraft Resource Pack. It uses textures from many other
 * [alyssajolt's Less Painful Glowstone](https://www.planetminecraft.com/texture-pack/less-painful-glowstone/)
 * [LaryIsland's Z-Fighting Fix](https://www.reddit.com/r/Minecraft/comments/bz360e/redstone_zfighting_overlapping_texture_glitch_fix/)
 * [mbanders' Modern Minecraft Soundtrack Remover Pack](http://web.archive.org/web/20221110071038/https://www.planetminecraft.com/texture-pack/minecraft-caves-amp-cliffs-soundtrack-remover-pack/)
+* [IanR009's Old Boats 1.16.5](https://www.planetminecraft.com/texture-pack/old-boats-1-16-5/)
 * [Magic's JKM Bushes Pack](https://discord.com/channels/601161964688900117/815037486443134986/1089129887132045414)
 
 ## Changelog
 New features in this Update (1.14): 1.20 pack update with a bunch of fixes and updates for all the new blocks
 + Added Goob plush because I thought it was funny (Replaces totem)
 - Removed the Deepslate → Grimstone renaming
+* Renamed "Yellow Dye" to "Dandelion Yellow"
+* Renamed dyed Hardened Clays to "Stained Clay"
+* Fixed the Mangrove sign not having Programmer Art-styled planks
++ Made Acacia leaves more orange by default, regardless of biome (however, it is most noticable in Savannas)
+* Changed Oak Boat item sprite to be consistently coloured with the old sprite from Beta and not the Oak Boat sprite from the textures I got
++ Added Programmer Art style Cherry Leaves like in old mods (basically just pink Spruce Leaves)
++ Added Programmer Art styled logs and stripped logs for:
+	+ Cherry
+	+ Mangrove
+	+ Warped
+	+ Crimson
++ Added vertical bark directions for logs and stripped logs of:
+	+ Cherry
+	+ Mangrove
+	+ Jungle
++ Added Programmer Art styled Cherry plank-based textures
++ Added Vanilla Tweaks' literal gamerule names lang fix, so that the actual names of gamerules will be shown in the create new world screen
+* Fixed title logo to be compatible with 1.20 (pack-format 15)
+- Removed all of the new 1.19.2 default skins and replaced them again with Steve and Alex only
++ Replaced "otherside" music disc with "Dog"
++ Added a dark red border to Dispensers to differentiate them from Droppers at a glance
++ Added Programmer Art styled Hanging Signs with plank and bark woods instead of stripped
+	+ Updated GUI for editing Hanging Sign message to reflect this
++ Added an OwO face on the active Observer face because I thought it'd be funny and it kinda was
++ Renamed "Chipped Anvil" to "Damaged Anvil" and "Damaged Anvil" to "Very Damaged Anvil" (old naming)
++ Added Magic's JKM cone textures
++ Added "f" key hint to the offhand slot in the HUD
++ Added carbon fiber inspired arrow textures, and different coloured tails of arrows with potion effects/spectral. They look cool
++ Renamed the Advancements screen to Achievements
+	+ Renamed the Advancement Get! toast to Achievement Get!
+* Fixed container titles in the dark GUIs to always be white, but using a shader instead of a manual lang overwrite, fixing compatibility with custom named containers
++ Renamed "Block of" Bamboos to Bamboo Blocks
++ Added Among Us Suspicious Sand (with retro Sand and Gravel backgrounds) because unfunny
++ Added Wither Rose texture based off of the Rose texture
++ Renamed Pottery Sherds → Shards
++ Added an old Cocoa Bean texture to replace the Jappa Brown Dye
++ Added the old door sounds for Cherry and Bamboo Trapdoors, Doors, and Fence Gates
+* Updated the Smithing Table GUI to be dark and in line with the pack
+* Fixed Furnace and Brewing Stand progress arrows to be in line thank goodness
+* Fixed new music suppressor for the new biomes and music.overworld music triggers
++ Added Programmer Art style Chiseled Bookshelf
++ Added dark GUI textures for Simple Voice Chat's menus
 
 New features in this Update (1.13.6): A major update with a lot of features I've planned but just let pile up instead of implementing. This is probably going to be the last update before Minecraft Release 1.20, where I'll probably bump the minor version of this pack from 1.13 to 1.14
 + New Recipe Book button that appears invisible until you hover over it, displaying a "?" icon
