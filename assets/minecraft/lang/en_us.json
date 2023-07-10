@@ -220,4 +220,6 @@
 "item.minecraft.sheaf_pottery_sherd":"Sheaf Pottery Shard",
 "item.minecraft.shelter_pottery_sherd":"Shelter Pottery Shard",
 "item.minecraft.skull_pottery_sherd":"Skull Pottery Shard",
-"item.minecraft.snort_pottery_sherd":"Snort Pottery Shard"}
+"item.minecraft.snort_pottery_sherd":"Snort Pottery Shard",
+"death.attack.genericKill": "%1$s fell out of the world",
+"death.fell.accident.water": "death.fell.accident.water??? how???"}
