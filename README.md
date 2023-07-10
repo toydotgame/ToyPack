@@ -17,84 +17,88 @@ ToyPack is my personal Minecraft Resource Pack. It uses textures from many other
 * [Magic's JKM Bushes Pack](https://discord.com/channels/601161964688900117/815037486443134986/1089129887132045414)
 
 ## Changelog
-New features in this Update (1.13.6): A major update with a lot of features I've planned but just let pile up instead of implementing. This is probably going to be the last update before Minecraft Release 1.20, where I'll probably bump the minor version of this pack from 1.13 to 1.14.
-+ New Recipe Book button that appears invisible until you hover over it, displaying a "?" icon.
-+ Added a border to frosted Ice (created by Frost Walker boots) in the style of the Glass block border.
-+ Added deep fried variants of the Fox hit and death sounds.
-+ Overwrote the drown, berry bush, burn, and freeze hurt sounds to all be the normal old hurt sound.
-+ Added slight Ice overlay to Powder Snow.
-- Removed the console edition Snowball texture. (This is another one of the 1.0 ToyPack features from long, long ago. RIP)
-+ Added Programmer Art style Powder Snow Bucket with the old Snowball and Bucket textures.
-+ Added Programmer Art style Campfires, with old flames, smoke, logs, and ash.
-* Fixed the GUI titles of the Loom, Grindstone, Cartography Table, Barrel, Smithing Table, chest Boat, and the Advancements screen to have white text to match the dark UI.
-* Fixed an issue with the dark Smithing Table GUI not showing up on 1.19.4+ versions of the game (causes an incompatibility with 1.19.3 and below, unfortunately).
-- Removed the Lapis slot hint from the Enchanting Table.
-- Removed Boat oar sounds.
-+ Renamed "Dandelion" to "Flower"
-+ Added old planks for the Mangrove and Mangrove chest Boats.
-+ Added Programmer Art styled Boat and chest Boat sprites.
-+ Added Beta styled grass, where the side colour of the grass does not change with the biome colourmap.
-+ Added ore borders for Budding Amethyst blocks.
-+ Added `age: 25` Kelp marker texture.
-+ Added power level text for all Redstone wires with a power level above 0.
-+ Added Iron Block-styled texture for Netherite Blocks, updating it to look like the other valuable storage blocks.
-+ Added Note Block pitch indicators.
-+ Added Alpha style panorama overlay, just giving you a dirt background on the title screen.
-+ Added transparent system message toasts (namely the alert for servers with disabled chat reporting).
-	+ Changed description text for the secure chat disabled alert to read "This server has chat reporting disabled"
-* Changed Dispenser/Hopper directional textures to be Programmer Art-styled.
-* Changed Observer powered state indicator textures to be Programmer Art-styled (not using the 1.11 snapshot for the front of the Observer though).
-+ Added Programmer Art-styled Axolotl and Tadpole buckets.
-* Fixed existing Programmer Art bucket textures for the buckets of Pufferfish, Salmon, Cod, and Tropical Fish.
-+ Renamed and retextured Cod and Cod-related items to "Fish." (Yet to retexture the physical entity to be blue instead of brown, but everything else looks and says "Fish" like pre-1.13 had)
-+ Fixed Z fighting of Iron Bars bases.
-+ Re-added Ilmango Golden Apples (this is another ancient feature I removed in the Great De-obnixification update I believe, but I wanted it back)
-+ Added pre-1.18 Stipped Dark Oak Log texture (applied to Wood variant as well).
-* Fixed enchantment glints to work in 1.19.4+.
-+ Added pumpkinblur styled freezing overlay.
-+ Added darker Dark Oak Leaves.
-+ Added shorter Tall Grass.
-+ Added alternate White Dye texture, because I didn't like the normal one.
-+ Added transparent Recipe Book GUI.
-+ Added pixel consistent XP orbs.
-* Fixed Nylium wood trapdoors to have the same sounds as all the other wood trapdoors.
-+ Added Stone Bricks-styled Quartz Bricks.
-+ Added Blue Rose from MCPE Alpha days, replacing the Blue Orchid.
-+ Added Programmer Art textures for the background to the Advancements screens.
-+ Added Bow shoot and Arrow land sounds for the Trident.
-- Removed Trident Loytalty return sound effect.
-+ Changed all "Spawn Egg" item names to say "Spawn \<Mob\>," like it used to once upon a time.
+New features in this Update (1.14): 1.20 pack update with a bunch of fixes and updates for all the new blocks
++ Added Goob plush because I thought it was funny (Replaces totem)
+- Removed the Deepslate → Grimstone renaming
 
-New features in this Update (1.13.5): Patching some stuff and experimenting with some things that I've never really used before much in texture packs.
-+ Made the survival mode inventory transparent, including status effect box things.
-	* Changed the hotbar number hints in the survival inventory to be white, to match the rest of the text in there. The rest of the containers still have their old hotbar hint colours because they are not transparent.
-	* Made the brewing guide from the last update transparent as well, as it's quite large.
-* Fixed the long-standing issue of the Z fighting that occurs with the Redstone dot texture, which is on a lot of other Redstone Dust textures, causing them to fight and overall look bad when you look closely. Redstone wires now work as intended in all configurations.
-* Fixed another long-standing issue where I neglected to add white text to the GUI with the dark theme, making most text hard to read. It was kinda a "_It's not a bug, it's a feature!_" type of issue, but I've given in and fixed it now.
-	+ As a consequence, the category names in the creative inventory are all light blue to match the look in the tooltip. Having the category names be white in the GUI makes them white in the tooltip as well and it doesn't look good.
-+ Added inventory indicators to Waxed Copper blocks, similar to the indicators on Monster Eggs.
-+ Removed the inside of the Scaffolding texture to make it easier to see through.
+New features in this Update (1.13.6): A major update with a lot of features I've planned but just let pile up instead of implementing. This is probably going to be the last update before Minecraft Release 1.20, where I'll probably bump the minor version of this pack from 1.13 to 1.14
++ New Recipe Book button that appears invisible until you hover over it, displaying a "?" icon
++ Added a border to frosted Ice (created by Frost Walker boots) in the style of the Glass block border
++ Added deep fried variants of the Fox hit and death sounds
++ Overwrote the drown, berry bush, burn, and freeze hurt sounds to all be the normal old hurt sound
++ Added slight Ice overlay to Powder Snow
+- Removed the console edition Snowball texture (This is another one of the 1.0 ToyPack features from long, long ago. RIP)
++ Added Programmer Art style Powder Snow Bucket with the old Snowball and Bucket textures
++ Added Programmer Art style Campfires, with old flames, smoke, logs, and ash
+* Fixed the GUI titles of the Loom, Grindstone, Cartography Table, Barrel, Smithing Table, chest Boat, and the Advancements screen to have white text to match the dark UI
+* Fixed an issue with the dark Smithing Table GUI not showing up on 1.19.4+ versions of the game (causes an incompatibility with 1.19.3 and below, unfortunately)
+- Removed the Lapis slot hint from the Enchanting Table
+- Removed Boat oar sounds
++ Renamed "Dandelion" to "Flower"
++ Added old planks for the Mangrove and Mangrove chest Boats
++ Added Programmer Art styled Boat and chest Boat sprites
++ Added Beta styled grass, where the side colour of the grass does not change with the biome colourmap
++ Added ore borders for Budding Amethyst blocks
++ Added `age: 25` Kelp marker texture
++ Added power level text for all Redstone wires with a power level above 0
++ Added Iron Block-styled texture for Netherite Blocks, updating it to look like the other valuable storage blocks
++ Added Note Block pitch indicators
++ Added Alpha style panorama overlay, just giving you a dirt background on the title screen
++ Added transparent system message toasts (namely the alert for servers with disabled chat reporting)
+	+ Changed description text for the secure chat disabled alert to read "This server has chat reporting disabled"
+* Changed Dispenser/Hopper directional textures to be Programmer Art-styled
+* Changed Observer powered state indicator textures to be Programmer Art-styled (not using the 1.11 snapshot for the front of the Observer though)
++ Added Programmer Art-styled Axolotl and Tadpole buckets
+* Fixed existing Programmer Art bucket textures for the buckets of Pufferfish, Salmon, Cod, and Tropical Fish
++ Renamed and retextured Cod and Cod-related items to "Fish" (Yet to retexture the physical entity to be blue instead of brown, but everything else looks and says "Fish" like pre-1.13 had)
++ Fixed Z fighting of Iron Bars bases
++ Re-added Ilmango Golden Apples (this is another ancient feature I removed in the Great De-obnixification update I believe, but I wanted it back)
++ Added pre-1.18 Stipped Dark Oak Log texture (applied to Wood variant as well)
+* Fixed enchantment glints to work in 1.19.4+
++ Added pumpkinblur styled freezing overlay
++ Added darker Dark Oak Leaves
++ Added shorter Tall Grass
++ Added alternate White Dye texture, because I didn't like the normal one
++ Added transparent Recipe Book GUI
++ Added pixel consistent XP orbs
+* Fixed Nylium wood trapdoors to have the same sounds as all the other wood trapdoors
++ Added Stone Bricks-styled Quartz Bricks
++ Added Blue Rose from MCPE Alpha days, replacing the Blue Orchid
++ Added Programmer Art textures for the background to the Advancements screens
++ Added Bow shoot and Arrow land sounds for the Trident
+- Removed Trident Loytalty return sound effect
++ Changed all "Spawn Egg" item names to say "Spawn \<Mob\>," like it used to once upon a time
+
+New features in this Update (1.13.5): Patching some stuff and experimenting with some things that I've never really used before much in texture packs
++ Made the survival mode inventory transparent, including status effect box things
+	* Changed the hotbar number hints in the survival inventory to be white, to match the rest of the text in there. The rest of the containers still have their old hotbar hint colours because they are not transparent
+	* Made the brewing guide from the last update transparent as well, as it's quite large
+* Fixed the long-standing issue of the Z fighting that occurs with the Redstone dot texture, which is on a lot of other Redstone Dust textures, causing them to fight and overall look bad when you look closely. Redstone wires now work as intended in all configurations
+* Fixed another long-standing issue where I neglected to add white text to the GUI with the dark theme, making most text hard to read. It was kinda a "_It's not a bug, it's a feature!_" type of issue, but I've given in and fixed it now
+	+ As a consequence, the category names in the creative inventory are all light blue to match the look in the tooltip. Having the category names be white in the GUI makes them white in the tooltip as well and it doesn't look good
++ Added inventory indicators to Waxed Copper blocks, similar to the indicators on Monster Eggs
++ Removed the inside of the Scaffolding texture to make it easier to see through
 + Added level indicators for:
 	+ Cauldrons (Powder Snow, Lava, and Water types)
 	+ Beehives and Bee Nests
-+ Added Ore outlines for all ores (normal, Grimstone, and Nether variants all included).
++ Added Ore outlines for all ores (normal, Grimstone, and Nether variants all included)
 
-New features in this Update (1.13.4): Preparing for 1.19.4 and 1.20 textures soon! New Boats and enchantment glint details will need to be worked out. Small 1.19.3 feature update for now:
-+ Added old Villager textures taken from StupidUglE123 on PMC. They're not perfectly Vanilla (see: unemployed and zombie villager textures), but they do have the old textures and remove all the new stuff that I don't like.
-* Fixed the Chest closing sound sometimes being the new one.
-* Reduced the number of splash sounds from 9/18 to 5/18 making a noise.
-+ Renamed most "Block of" blocks to just be "\<Material\> Block."
-+ Replaced the Cod and Cooked Cod textures with the old Fish textures, and renamed their items to say "Fish" instead of "Cod" as well.
-* Replaced the Glowstone texture (which was actually the activated Redstone Lamp texture from CodeCrafted) with a recoloured Sea Lantern texture I found on PMC.
-* Removed some more item hints in the Horse and Brewing Stand GUI. The Blaze Powder hint in the Brewing Stand GUI is kept but I didn't want the bottles there because they look bad with Splash Potions in the slots.
-+ Added a brewing guide to the Brewing Stand GUI.
-+ Removed the text saying "Inventory" from all GUIs. This is so that the hints in the Brewing Stand don't overlap, but also it cleans up some other interfaces where it really doesn't need to be said.
+New features in this Update (1.13.4): Preparing for 1.19.4 and 1.20 textures soon! New Boats and enchantment glint details will need to be worked out. Small 1.19.3 feature update for now
++ Added old Villager textures taken from StupidUglE123 on PMC. They're not perfectly Vanilla (see: unemployed and zombie villager textures), but they do have the old textures and remove all the new stuff that I don't like
+* Fixed the Chest closing sound sometimes being the new one
+* Reduced the number of splash sounds from 9/18 to 5/18 making a noise
++ Renamed most "Block of" blocks to just be "\<Material\> Block"
++ Replaced the Cod and Cooked Cod textures with the old Fish textures, and renamed their items to say "Fish" instead of "Cod" as well
+* Replaced the Glowstone texture (which was actually the activated Redstone Lamp texture from CodeCrafted) with a recoloured Sea Lantern texture I found on PMC
+* Removed some more item hints in the Horse and Brewing Stand GUI. The Blaze Powder hint in the Brewing Stand GUI is kept but I didn't want the bottles there because they look bad with Splash Potions in the slots
++ Added a brewing guide to the Brewing Stand GUI
++ Removed the text saying "Inventory" from all GUIs. This is so that the hints in the Brewing Stand don't overlap, but also it cleans up some other interfaces where it really doesn't need to be said
 
 New features in this Update (1.13.3): Another small batch of new features and retro-ification! (Alongside a couple bugfixes)
 + Added old Gravel step sound ([Credit to Lyann's _Legacy Edition_ resource pack](https://www.planetminecraft.com/texture-pack/legacy-edition-1-15-2/) for the sound, but I'm not giving a full arrtibution because it is just a stock old Minecraft sound file – this is just where I got it from because I had it at hand)
 + Added old-style cast Fishing Rod texture (the Stick)
 * Fixed Furnaces so that lit Furnaces also have the Stone block top and bottom texture, not just unlit ones
-+ Changed "You Died!" text on the kill screen to "Game over!" like in Alpha.
++ Changed "You Died!" text on the kill screen to "Game over!" like in Alpha
 + Changed "Green Dye" to "Cactus Green" (similar to what I did with Rose Red)
 + Changed "Wheat Seeds" to "Seeds" because #GoldenAgeMinecraft amirite
 + Added markers to monster egg variants of blocks in the inventory (does not affect the placed block)
@@ -283,57 +287,57 @@ New Features in this Update (1.9):
 + Decontrasted the menu buttons
 
 Patches in this update (1.8.1):
-+ Fixed alignment of survival crafting grid.
-+ Added some more outlined item sprites.
-+ Fixed naming issues where the textures would not load due to having a name that only works for a newer version.
-+ Fixed menu buttons to all be more uniform.
-- Removed LOLCAT language as it doesn't work.
-- Slime on sticky pistons doesn't show on the sides.
-- Removed armour empty slot sprites so that the slot is just empty like in older versions.
++ Fixed alignment of survival crafting grid
++ Added some more outlined item sprites
++ Fixed naming issues where the textures would not load due to having a name that only works for a newer version
++ Fixed menu buttons to all be more uniform
+- Removed LOLCAT language as it doesn't work
+- Slime on sticky pistons doesn't show on the sides
+- Removed armour empty slot sprites so that the slot is just empty like in older versions
 
 New Features in this Version (1.8):
-+ Cleaner and improved dark GUI due to the previous one being borked.
-+ Heavily reworked inventory textures. (I spent way too much time making them look good...)
-+ Simplified map icons.
-+ Simple map border.
-+ Old-style black border around more item sprites.
-- No pebbles in dirt and grass side textures.
++ Cleaner and improved dark GUI due to the previous one being borked
++ Heavily reworked inventory textures (I spent way too much time making them look good...)
++ Simplified map icons
++ Simple map border
++ Old-style black border around more item sprites
+- No pebbles in dirt and grass side textures
 
 Features From Previous Versions:
-+ Original Minecraft title.
-+ Nicer pumpkin overlay.
-+ Full moon is now a new moon. (All other moons are still full moons)
-+ Dark theme inventory.
-+ Dark theme menus.
-+ Less noisy bedrock texture.
-+ New crosshair.
-+ Darker menu buttons.
-+ Rainbow XP bar.
-+ New title screen backdrop.
-+ Coloured ping indicator.
-+ Uniform ores.
-+ Old gravel.
-+ Old lava.
-+ Lower snowy grass.
-+ Lighter nether textures.
-+ Old water.
-+ Simplified redstone wire.
-+ Simplified wool blocks.
-+ Uniform resource blocks.
-+ Hotbar slot numbers.
-+ Hotbar slot numbers in inventory.
-+ Thick black visible tripwires.
-+ Old steve skin.
-+ Old outlined food.
-+ Outlined tools.
-+ Smooth enchantment glint animation.
-+ Rainbow border block breaking animation.
-+ Old dispenser.
-+ Alternate redstone lamp texture.
-+ Simple glowstone texture.
-+ Simple redstone torch texture.
-+ High-contrast stone bricks.
-+ Old cobblestone.
-+ Old stone furnace top.
-+ Alternate item frame sprite and block texture.
++ Original Minecraft title
++ Nicer pumpkin overlay
++ Full moon is now a new moon (All other moons are still full moons)
++ Dark theme inventory
++ Dark theme menus
++ Less noisy bedrock texture
++ New crosshair
++ Darker menu buttons
++ Rainbow XP bar
++ New title screen backdrop
++ Coloured ping indicator
++ Uniform ores
++ Old gravel
++ Old lava
++ Lower snowy grass
++ Lighter nether textures
++ Old water
++ Simplified redstone wire
++ Simplified wool blocks
++ Uniform resource blocks
++ Hotbar slot numbers
++ Hotbar slot numbers in inventory
++ Thick black visible tripwires
++ Old steve skin
++ Old outlined food
++ Outlined tools
++ Smooth enchantment glint animation
++ Rainbow border block breaking animation
++ Old dispenser
++ Alternate redstone lamp texture
++ Simple glowstone texture
++ Simple redstone torch texture
++ High-contrast stone bricks
++ Old cobblestone
++ Old stone furnace top
++ Alternate item frame sprite and block texture
 
