@@ -6,17 +6,17 @@ ToyPack is my personal Minecraft Resource Pack. It uses textures from many other
 I also recommend using the Nostalgic Tweaks mod for select things such as the old monochrome lightmaps and old smooth lighting, which used to be features of the pack before it dropped OptiFine support when I moved to the CaffeineMC mods in the update from 1.6.4 to 1.19.
 
 ## Attributions
-* FVdisco's oCd
-* Vanilla Tweaks
-* CodeCrafted
-* MobAndPlayerSkinUploader's HD Paintings
-* RyanGar46's P.E. Stonecutter
-* Injent's Legacy Console Click Sound
-* StupidUglE123's Old Villagers
-* alyssajolt's Less Painful Glowstone
-* /u/LaryIsland's Z-Fighting Fix
-* mbanders' Modern Minecraft Soundtrack Remover Pack
-* Magic's JKM Bushes Pack
+* [FVdisco's oCd](https://www.planetminecraft.com/texture-pack/ocd-pack/)
+* [Vanilla Tweaks](https://vanillatweaks.net/picker/resource-packs/)
+* [CodeCrafted](https://codecrafted.net/)
+* [MobAndPlayerSkinUploader's HD Paintings](https://www.planetminecraft.com/texture-pack/hd-paintings/)
+* [ThePinkHacker's P.E. Stonecutter](https://www.curseforge.com/minecraft/texture-packs/old-stonecutter)
+* [Injent's Legacy Console Click Sound](https://www.planetminecraft.com/texture-pack/legacy-console-click-sound/)
+* [SupidUglE123's Old Villagers](https://www.planetminecraft.com/texture-pack/old-villagers/)
+* [alyssajolt's Less Painful Glowstone](https://www.planetminecraft.com/texture-pack/less-painful-glowstone/)
+* [LaryIsland's Z-Fighting Fix](https://www.reddit.com/r/Minecraft/comments/bz360e/redstone_zfighting_overlapping_texture_glitch_fix/)
+* [mbanders' Modern Minecraft Soundtrack Remover Pack](http://web.archive.org/web/20221110071038/https://www.planetminecraft.com/texture-pack/minecraft-caves-amp-cliffs-soundtrack-remover-pack/)
+* [Magic's JKM Bushes Pack](https://discord.com/channels/601161964688900117/815037486443134986/1089129887132045414)
 
 ## Changelog
 New features in this Update (1.13.6): A major update with a lot of features I've planned but just let pile up instead of implementing. This is probably going to be the last update before Minecraft Release 1.20, where I'll probably bump the minor version of this pack from 1.13 to 1.14.
