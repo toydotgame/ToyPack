@@ -1,9 +1,7 @@
 # ToyPack
-ToyPack is my personal Minecraft Resource Pack. It uses textures from many other texture packs (see attributions), and some of my own tweaks.
+ToyPack is my personal Minecraft Resource Pack. It uses textures from many other texture packs (see attributions), and some of my own tweaks, fixes, and textures.
 
-**ToyPack is intended for use with the Programmer Art texture back as a fallback.** I recommend that you do this, or else suffer having Programmer Art-based textures alongside the new Jappa textures. It'll look awful, don't do it.
-
-I also recommend using the Nostalgic Tweaks mod for select things such as the old monochrome lightmaps and old smooth lighting, which used to be features of the pack before it dropped OptiFine support when I moved to the CaffeineMC mods in the update from 1.6.4 to 1.19.
+**ToyPack is intended for use with the Programmer Art texture back as a fallback.** All ToyPack textures are based off or designed to look like Programmer Art textures, and thus don't work well with the new Jappa textures.
 
 ## Attributions
 * [FVdisco's oCd](https://www.planetminecraft.com/texture-pack/ocd-pack/)
