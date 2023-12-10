@@ -16,6 +16,7 @@ ToyPack is my personal Minecraft Resource Pack. It uses textures from many other
 * [mbanders' Modern Minecraft Soundtrack Remover Pack](http://web.archive.org/web/20221110071038/https://www.planetminecraft.com/texture-pack/minecraft-caves-amp-cliffs-soundtrack-remover-pack/)
 * [IanR009's Old Boats 1.16.5](https://www.planetminecraft.com/texture-pack/old-boats-1-16-5/)
 * [Magic's JKM Bushes Pack](https://discord.com/channels/601161964688900117/815037486443134986/1089129887132045414)
+* [mattbatwings' MattPack](https://github.com/Xyverle/MattPack)
 
 ## Changelog
 New features in this Update (1.14): 1.20 pack update with a bunch of fixes and updates for all the new blocks
