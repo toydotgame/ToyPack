@@ -21,6 +21,20 @@ ToyPack is my personal Minecraft Resource Pack. It uses textures from many other
 
 ## Changelog
 New features in this Update (1.14.1): 1.20.4 (technically 1.20.2+) format update and a few new features
++ Reverted generic `/kill` message to "\<Player\> fell out of the world"
++ Added silly text to `death.fell.accident.water` death message
++ Added Redstone Lamps from MattPack, more visible and makes better screens
+* "Short Grass" back to "Grass"
++ GUI "Back" button in modern updates is back to the old "Cancel" text like it has been since literally every version before 1.20.2 or .4 idk
++ All "Exposed" Coppers are back to "Lightly Weathered"
+* Fixed GUI on 1.20.2+
+* Changed compost texture to Podzol
+* Changed Composter to be made out of Spruce Planks
++ Added a bunch of old biome names (i.e: "Extreme Hills" instead of "Windswept Hills")
+* Fixed Realms annoying badges to disappear again thxbai
++ Added Lever power indicator texture
++ Added desaturated and shinier Tinted Glass
++ Added a PvP font face for the whole pack
 
 New features in this Update (1.14): 1.20 pack update with a bunch of fixes and updates for all the new blocks
 + Added Goob plush because I thought it was funny (Replaces totem)
