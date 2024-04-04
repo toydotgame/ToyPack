@@ -13,7 +13,7 @@ ToyPack is my personal Minecraft Resource Pack. It uses textures from many other
 * [StupidUglE123's Old Villagers](https://www.planetminecraft.com/texture-pack/old-villagers/)
 * [alyssajolt's Less Painful Glowstone](https://www.planetminecraft.com/texture-pack/less-painful-glowstone/)
 * [LaryIsland's Z-Fighting Fix](https://www.reddit.com/r/Minecraft/comments/bz360e/redstone_zfighting_overlapping_texture_glitch_fix/)
-* [mbanders' Modern Minecraft Soundtrack Remover Pack](http://web.archive.org/web/20221110071038/https://www.planetminecraft.com/texture-pack/minecraft-caves-amp-cliffs-soundtrack-remover-pack/)
+* [Luadewi's Classic Music Pack](https://modrinth.com/resourcepack/classic-music-pack)
 * [IanR009's Old Boats 1.16.5](https://www.planetminecraft.com/texture-pack/old-boats-1-16-5/)
 * [Magic's JKM Bushes Pack](https://discord.com/channels/601161964688900117/815037486443134986/1089129887132045414)
 * [mattbatwings' MattPack](https://github.com/Xyverle/MattPack)
