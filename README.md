@@ -18,6 +18,7 @@ ToyPack is my personal Minecraft Resource Pack. It uses textures from many other
 * [Magic's JKM Bushes Pack](https://discord.com/channels/601161964688900117/815037486443134986/1089129887132045414)
 * [mattbatwings' MattPack](https://github.com/Xyverle/MattPack)
 * [CroaBeast's PvP Font](https://legacy.curseforge.com/minecraft/texture-packs/new-pvp-font-1-16-3)
+* [Ganaka's Inventory Fox](https://modrinth.com/resourcepack/inventory-fox)
 
 ## Changelog
 New features in this Update (1.14.1): 1.20.4 (technically 1.20.2+) format update and a few new features
