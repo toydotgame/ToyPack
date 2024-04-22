@@ -1,4 +1,3057 @@
 {
+	"block.azalea_leaves.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"block.azalea_leaves.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.grass.hit",
+			"type": "event"
+		}]
+	},
+	"block.azalea_leaves.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.azalea_leaves.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.grass.step",
+			"type": "event"
+		}]
+	},
+	"block.azalea_leaves.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.grass.fall",
+			"type": "event"
+		}]
+	},
+	"block.cherry_leaves.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"block.cherry_leaves.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.grass.hit",
+			"type": "event"
+		}]
+	},
+	"block.cherry_leaves.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.cherry_leaves.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.grass.step",
+			"type": "event"
+		}]
+	},
+	"block.cherry_leaves.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.grass.fall",
+			"type": "event"
+		}]
+	},
+	"block.moss.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"block.moss.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.grass.hit",
+			"type": "event"
+		}]
+	},
+	"block.moss.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.moss.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.grass.step",
+			"type": "event"
+		}]
+	},
+	"block.moss.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.grass.fall",
+			"type": "event"
+		}]
+	},
+	"block.moss_carpet.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"block.moss_carpet.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.grass.hit",
+			"type": "event"
+		}]
+	},
+	"block.moss_carpet.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.moss_carpet.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.grass.step",
+			"type": "event"
+		}]
+	},
+	"block.moss_carpet.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.grass.fall",
+			"type": "event"
+		}]
+	},
+	"block.mangrove_roots.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"block.mangrove_roots.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.grass.hit",
+			"type": "event"
+		}]
+	},
+	"block.mangrove_roots.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.mangrove_roots.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.grass.step",
+			"type": "event"
+		}]
+	},
+	"block.mangrove_roots.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.grass.fall",
+			"type": "event"
+		}]
+	},
+	"block.cherry_wood.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.wood.break",
+			"type": "event"
+		}]
+	},
+	"block.cherry_wood.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.wood.hit",
+			"type": "event"
+		}]
+	},
+	"block.cherry_wood.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.wood.place",
+			"type": "event"
+		}]
+	},
+	"block.cherry_wood.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.wood.step",
+			"type": "event"
+		}]
+	},
+	"block.cherry_wood.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.wood.fall",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_wood.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.wood.break",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_wood.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.wood.hit",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_wood.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.wood.place",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_wood.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.wood.step",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_wood.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.wood.fall",
+			"type": "event"
+		}]
+	},
+	"block.nether_wood.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.wood.break",
+			"type": "event"
+		}]
+	},
+	"block.nether_wood.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.wood.hit",
+			"type": "event"
+		}]
+	},
+	"block.nether_wood.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.wood.place",
+			"type": "event"
+		}]
+	},
+	"block.nether_wood.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.wood.step",
+			"type": "event"
+		}]
+	},
+	"block.nether_wood.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.wood.fall",
+			"type": "event"
+		}]
+	},
+	"block.stem.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.wood.break",
+			"type": "event"
+		}]
+	},
+	"block.stem.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.wood.hit",
+			"type": "event"
+		}]
+	},
+	"block.stem.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.wood.place",
+			"type": "event"
+		}]
+	},
+	"block.stem.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.wood.step",
+			"type": "event"
+		}]
+	},
+	"block.stem.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.wood.fall",
+			"type": "event"
+		}]
+	},
+	"block.chiseled_bookshelf.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.wood.break",
+			"type": "event"
+		}]
+	},
+	"block.chiseled_bookshelf.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.wood.hit",
+			"type": "event"
+		}]
+	},
+	"block.chiseled_bookshelf.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.wood.place",
+			"type": "event"
+		}]
+	},
+	"block.chiseled_bookshelf.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.wood.step",
+			"type": "event"
+		}]
+	},
+	"block.chiseled_bookshelf.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.wood.fall",
+			"type": "event"
+		}]
+	},
+	"block.hanging_sign.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.wood.break",
+			"type": "event"
+		}]
+	},
+	"block.hanging_sign.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.wood.hit",
+			"type": "event"
+		}]
+	},
+	"block.hanging_sign.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.wood.place",
+			"type": "event"
+		}]
+	},
+	"block.hanging_sign.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.wood.step",
+			"type": "event"
+		}]
+	},
+	"block.hanging_sign.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.wood.fall",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_wood_hanging_sign.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.wood.break",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_wood_hanging_sign.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.wood.hit",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_wood_hanging_sign.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.wood.place",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_wood_hanging_sign.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.wood.step",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_wood_hanging_sign.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.wood.fall",
+			"type": "event"
+		}]
+	},
+	"block.cherry_wood_hanging_sign.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.wood.break",
+			"type": "event"
+		}]
+	},
+	"block.cherry_wood_hanging_sign.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.wood.hit",
+			"type": "event"
+		}]
+	},
+	"block.cherry_wood_hanging_sign.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.wood.place",
+			"type": "event"
+		}]
+	},
+	"block.cherry_wood_hanging_sign.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.wood.step",
+			"type": "event"
+		}]
+	},
+	"block.cherry_wood_hanging_sign.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.wood.fall",
+			"type": "event"
+		}]
+	},
+	"block.nether_wood_hanging_sign.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.wood.break",
+			"type": "event"
+		}]
+	},
+	"block.nether_wood_hanging_sign.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.wood.hit",
+			"type": "event"
+		}]
+	},
+	"block.nether_wood_hanging_sign.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.wood.place",
+			"type": "event"
+		}]
+	},
+	"block.nether_wood_hanging_sign.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.wood.step",
+			"type": "event"
+		}]
+	},
+	"block.nether_wood_hanging_sign.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.wood.fall",
+			"type": "event"
+		}]
+	},
+	"block.bamboo.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.wood.break",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.bamboo.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.wood.hit",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.bamboo.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.wood.place",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.bamboo.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.wood.step",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.bamboo.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.wood.fall",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.scaffolding.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.wood.break",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.scaffolding.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.wood.hit",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.scaffolding.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.wood.place",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.scaffolding.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.wood.step",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.scaffolding.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.wood.fall",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.candle.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.wood.break",
+			"type": "event",
+			"pitch": 1.25,
+			"volume": 0.5
+		}]
+	},
+	"block.candle.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.wood.hit",
+			"type": "event",
+			"pitch": 1.25,
+			"volume": 0.5
+		}]
+	},
+	"block.candle.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.wood.place",
+			"type": "event",
+			"pitch": 1.25,
+			"volume": 0.5
+		}]
+	},
+	"block.candle.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.wood.step",
+			"type": "event",
+			"pitch": 1.25,
+			"volume": 0.5
+		}]
+	},
+	"block.candle.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.wood.fall",
+			"type": "event",
+			"pitch": 1.25,
+			"volume": 0.5
+		}]
+	},
+	"block.candle.extinguish": {
+		"replace": true,
+		"subtitle": "subtitles.block.fire.extinguish",
+		"sounds": [{
+			"name": "block.fire.extinguish",
+			"type": "event",
+			"pitch": 2.0,
+			"volume": 0.2
+		}]
+	},
+	"block.cake.add_candle": {
+		"replace": true,
+		"subtitle": "subtitles.block.cake.add_candle",
+		"sounds": [{
+			"name": "block.wood.place",
+			"type": "event",
+			"pitch": 1.25,
+			"volume": 0.5
+		}]
+	},
+	"block.cherry_wood_button.click_on": {
+		"replace": true,
+		"subtitle": "subtitles.block.button.click",
+		"sounds": [{
+			"name": "block.wooden_button.click_on",
+			"type": "event"
+		}]
+	},
+	"block.cherry_wood_button.click_off": {
+		"replace": true,
+		"subtitle": "subtitles.block.button.click",
+		"sounds": [{
+			"name": "block.wooden_button.click_off",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_wood_button.click_on": {
+		"replace": true,
+		"subtitle": "subtitles.block.button.click",
+		"sounds": [{
+			"name": "block.wooden_button.click_on",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_wood_button.click_off": {
+		"replace": true,
+		"subtitle": "subtitles.block.button.click",
+		"sounds": [{
+			"name": "block.wooden_button.click_off",
+			"type": "event"
+		}]
+	},
+	"block.nether_wood_button.click_on": {
+		"replace": true,
+		"subtitle": "subtitles.block.button.click",
+		"sounds": [{
+			"name": "block.wooden_button.click_on",
+			"type": "event"
+		}]
+	},
+	"block.nether_wood_button.click_off": {
+		"replace": true,
+		"subtitle": "subtitles.block.button.click",
+		"sounds": [{
+			"name": "block.wooden_button.click_off",
+			"type": "event"
+		}]
+	},
+	"block.cherry_wood_door.open": {
+		"replace": true,
+		"subtitle": "subtitles.block.door.toggle",
+		"sounds": [{
+			"name": "block.wooden_door.open",
+			"type": "event"
+		}]
+	},
+	"block.cherry_wood_door.close": {
+		"replace": true,
+		"subtitle": "subtitles.block.door.toggle",
+		"sounds": [{
+			"name": "block.wooden_door.close",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_wood_door.open": {
+		"replace": true,
+		"subtitle": "subtitles.block.door.toggle",
+		"sounds": [{
+			"name": "block.wooden_door.open",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_wood_door.close": {
+		"replace": true,
+		"subtitle": "subtitles.block.door.toggle",
+		"sounds": [{
+			"name": "block.wooden_door.close",
+			"type": "event"
+		}]
+	},
+	"block.nether_wood_door.open": {
+		"replace": true,
+		"subtitle": "subtitles.block.door.toggle",
+		"sounds": [{
+			"name": "block.wooden_door.open",
+			"type": "event"
+		}]
+	},
+	"block.nether_wood_door.close": {
+		"replace": true,
+		"subtitle": "subtitles.block.door.toggle",
+		"sounds": [{
+			"name": "block.wooden_door.close",
+			"type": "event"
+		}]
+	},
+	"block.cherry_wood_fence_gate.open": {
+		"replace": true,
+		"subtitle": "subtitles.block.fence_gate.toggle",
+		"sounds": [{
+			"name": "block.fence_gate.open",
+			"type": "event"
+		}]
+	},
+	"block.cherry_wood_fence_gate.close": {
+		"replace": true,
+		"subtitle": "subtitles.block.fence_gate.toggle",
+		"sounds": [{
+			"name": "block.fence_gate.close",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_wood_fence_gate.open": {
+		"replace": true,
+		"subtitle": "subtitles.block.fence_gate.toggle",
+		"sounds": [{
+			"name": "block.fence_gate.open",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_wood_fence_gate.close": {
+		"replace": true,
+		"subtitle": "subtitles.block.fence_gate.toggle",
+		"sounds": [{
+			"name": "block.fence_gate.close",
+			"type": "event"
+		}]
+	},
+	"block.nether_wood_fence_gate.open": {
+		"replace": true,
+		"subtitle": "subtitles.block.fence_gate.toggle",
+		"sounds": [{
+			"name": "block.fence_gate.open",
+			"type": "event"
+		}]
+	},
+	"block.nether_wood_fence_gate.close": {
+		"replace": true,
+		"subtitle": "subtitles.block.fence_gate.toggle",
+		"sounds": [{
+			"name": "block.fence_gate.close",
+			"type": "event"
+		}]
+	},
+	"block.cherry_wood_trapdoor.open": {
+		"replace": true,
+		"subtitle": "subtitles.block.trapdoor.toggle",
+		"sounds": [{
+			"name": "block.wooden_trapdoor.open",
+			"type": "event"
+		}]
+	},
+	"block.cherry_wood_trapdoor.close": {
+		"replace": true,
+		"subtitle": "subtitles.block.trapdoor.toggle",
+		"sounds": [{
+			"name": "block.wooden_trapdoor.close",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_wood_trapdoor.open": {
+		"replace": true,
+		"subtitle": "subtitles.block.trapdoor.toggle",
+		"sounds": [{
+			"name": "block.wooden_trapdoor.open",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_wood_trapdoor.close": {
+		"replace": true,
+		"subtitle": "subtitles.block.trapdoor.toggle",
+		"sounds": [{
+			"name": "block.wooden_trapdoor.close",
+			"type": "event"
+		}]
+	},
+	"block.nether_wood_trapdoor.open": {
+		"replace": true,
+		"subtitle": "subtitles.block.trapdoor.toggle",
+		"sounds": [{
+			"name": "block.wooden_trapdoor.open",
+			"type": "event"
+		}]
+	},
+	"block.nether_wood_trapdoor.close": {
+		"replace": true,
+		"subtitle": "subtitles.block.trapdoor.toggle",
+		"sounds": [{
+			"name": "block.wooden_trapdoor.close",
+			"type": "event"
+		}]
+	},
+	"block.copper_door.open": {
+		"replace": true,
+		"subtitle": "subtitles.block.door.toggle",
+		"sounds": [{
+			"name": "block.iron_door.open",
+			"type": "event"
+		}]
+	},
+	"block.copper_door.close": {
+		"replace": true,
+		"subtitle": "subtitles.block.door.toggle",
+		"sounds": [{
+			"name": "block.iron_door.close",
+			"type": "event"
+		}]
+	},
+	"block.copper_trapdoor.open": {
+		"replace": true,
+		"subtitle": "subtitles.block.trapdoor.toggle",
+		"sounds": [{
+			"name": "block.iron_trapdoor.open",
+			"type": "event"
+		}]
+	},
+	"block.copper_trapdoor.close": {
+		"replace": true,
+		"subtitle": "subtitles.block.trapdoor.toggle",
+		"sounds": [{
+			"name": "block.iron_trapdoor.close",
+			"type": "event"
+		}]
+	},
+	"block.azalea.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"block.azalea.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.grass.hit",
+			"type": "event"
+		}]
+	},
+	"block.azalea.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.azalea.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.grass.step",
+			"type": "event"
+		}]
+	},
+	"block.azalea.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.grass.fall",
+			"type": "event"
+		}]
+	},
+	"block.flowering_azalea.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"block.flowering_azalea.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.grass.hit",
+			"type": "event"
+		}]
+	},
+	"block.flowering_azalea.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.flowering_azalea.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.grass.step",
+			"type": "event"
+		}]
+	},
+	"block.flowering_azalea.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.grass.fall",
+			"type": "event"
+		}]
+	},
+	"block.cherry_sapling.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"block.cherry_sapling.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.grass.hit",
+			"type": "event"
+		}]
+	},
+	"block.cherry_sapling.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.cherry_sapling.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.grass.step",
+			"type": "event"
+		}]
+	},
+	"block.cherry_sapling.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.grass.fall",
+			"type": "event"
+		}]
+	},
+	"block.fungus.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"block.fungus.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.grass.hit",
+			"type": "event"
+		}]
+	},
+	"block.fungus.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.fungus.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.grass.step",
+			"type": "event"
+		}]
+	},
+	"block.fungus.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.grass.fall",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_sapling.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_sapling.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.grass.hit",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_sapling.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_sapling.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.grass.step",
+			"type": "event"
+		}]
+	},
+	"block.bamboo_sapling.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.grass.fall",
+			"type": "event"
+		}]
+	},
+	"block.pink_petals.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"block.pink_petals.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.grass.hit",
+			"type": "event"
+		}]
+	},
+	"block.pink_petals.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.pink_petals.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.grass.step",
+			"type": "event"
+		}]
+	},
+	"block.pink_petals.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.grass.fall",
+			"type": "event"
+		}]
+	},
+	"block.spore_blossom.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"block.spore_blossom.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.grass.hit",
+			"type": "event"
+		}]
+	},
+	"block.spore_blossom.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.spore_blossom.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.grass.step",
+			"type": "event"
+		}]
+	},
+	"block.spore_blossom.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.grass.fall",
+			"type": "event"
+		}]
+	},
+	"block.roots.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"block.roots.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.grass.hit",
+			"type": "event"
+		}]
+	},
+	"block.roots.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.roots.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.grass.step",
+			"type": "event"
+		}]
+	},
+	"block.roots.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.grass.fall",
+			"type": "event"
+		}]
+	},
+	"block.nether_sprouts.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"block.nether_sprouts.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.grass.hit",
+			"type": "event"
+		}]
+	},
+	"block.nether_sprouts.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.nether_sprouts.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.grass.step",
+			"type": "event"
+		}]
+	},
+	"block.nether_sprouts.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.grass.fall",
+			"type": "event"
+		}]
+	},
+	"block.weeping_vines.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"block.weeping_vines.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.grass.hit",
+			"type": "event"
+		}]
+	},
+	"block.weeping_vines.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.weeping_vines.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.grass.step",
+			"type": "event"
+		}]
+	},
+	"block.weeping_vines.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.grass.fall",
+			"type": "event"
+		}]
+	},
+	"block.big_dripleaf.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"block.big_dripleaf.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.grass.hit",
+			"type": "event"
+		}]
+	},
+	"block.big_dripleaf.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.big_dripleaf.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.grass.step",
+			"type": "event"
+		}]
+	},
+	"block.big_dripleaf.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.grass.fall",
+			"type": "event"
+		}]
+	},
+	"block.big_dripleaf.tilt_down": {
+		"replace": true,
+		"subtitle": "subtitles.block.big_dripleaf.tilt_down",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event",
+			"pitch": 1.5,
+			"volume": 0.3
+		}]
+	},
+	"block.big_dripleaf.tilt_up": {
+		"replace": true,
+		"subtitle": "subtitles.block.big_dripleaf.tilt_up",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event",
+			"pitch": 1.5,
+			"volume": 0.3
+		}]
+	},
+	"block.small_dripleaf.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"block.small_dripleaf.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.grass.hit",
+			"type": "event"
+		}]
+	},
+	"block.small_dripleaf.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.small_dripleaf.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.grass.step",
+			"type": "event"
+		}]
+	},
+	"block.small_dripleaf.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.grass.fall",
+			"type": "event"
+		}]
+	},
+	"block.hanging_roots.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"block.hanging_roots.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.grass.hit",
+			"type": "event"
+		}]
+	},
+	"block.hanging_roots.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.hanging_roots.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.grass.step",
+			"type": "event"
+		}]
+	},
+	"block.hanging_roots.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.grass.fall",
+			"type": "event"
+		}]
+	},
+	"block.cave_vines.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"block.cave_vines.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.grass.hit",
+			"type": "event"
+		}]
+	},
+	"block.cave_vines.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.cave_vines.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.grass.step",
+			"type": "event"
+		}]
+	},
+	"block.cave_vines.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.grass.fall",
+			"type": "event"
+		}]
+	},
+	"block.sweet_berry_bush.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"block.sweet_berry_bush.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.crop.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.grass.break",
+			"type": "event"
+		}]
+	},
+	"item.crop.plant": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.grass.place",
+			"type": "event"
+		}]
+	},
+	"block.deepslate.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.deepslate.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.deepslate.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.deepslate.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.deepslate.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.deepslate_bricks.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.deepslate_bricks.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.deepslate_bricks.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.deepslate_bricks.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.deepslate_bricks.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.deepslate_tiles.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.deepslate_tiles.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.deepslate_tiles.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.deepslate_tiles.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.deepslate_tiles.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.polished_deepslate.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.polished_deepslate.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.polished_deepslate.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.polished_deepslate.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.polished_deepslate.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.dripstone_block.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.dripstone_block.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.dripstone_block.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.dripstone_block.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.dripstone_block.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.pointed_dripstone.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.pointed_dripstone.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.pointed_dripstone.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.pointed_dripstone.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.pointed_dripstone.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.pointed_dripstone.land": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event",
+			"volume": 0.25
+		}]
+	},
+	"block.mud_bricks.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.mud_bricks.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.mud_bricks.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.mud_bricks.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.mud_bricks.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.packed_mud.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.packed_mud.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.packed_mud.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.packed_mud.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.packed_mud.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.netherrack.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.netherrack.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.netherrack.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.netherrack.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.netherrack.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.nylium.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.nylium.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.nylium.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.nylium.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.nylium.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.nether_ore.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.nether_ore.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.nether_ore.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.nether_ore.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.nether_ore.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.nether_gold_ore.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.nether_gold_ore.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.nether_gold_ore.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.nether_gold_ore.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.nether_gold_ore.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.nether_bricks.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.nether_bricks.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.nether_bricks.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.nether_bricks.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.nether_bricks.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.basalt.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.basalt.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.basalt.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.basalt.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.basalt.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.gilded_blackstone.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.gilded_blackstone.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.gilded_blackstone.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.gilded_blackstone.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.gilded_blackstone.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.ancient_debris.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.ancient_debris.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.ancient_debris.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.ancient_debris.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.ancient_debris.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.calcite.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.calcite.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.calcite.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.calcite.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.calcite.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.tuff.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.tuff.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.tuff.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.tuff.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.tuff.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.tuff_bricks.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.tuff_bricks.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.tuff_bricks.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.tuff_bricks.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.tuff_bricks.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.polished_tuff.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.polished_tuff.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.polished_tuff.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.polished_tuff.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.polished_tuff.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.lodestone.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.decorated_pot.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.stone.break",
+			"type": "event"
+		}]
+	},
+	"block.decorated_pot.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.stone.hit",
+			"type": "event"
+		}]
+	},
+	"block.decorated_pot.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.stone.place",
+			"type": "event"
+		}]
+	},
+	"block.decorated_pot.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.stone.step",
+			"type": "event"
+		}]
+	},
+	"block.decorated_pot.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.stone.fall",
+			"type": "event"
+		}]
+	},
+	"block.netherite_block.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.metal.break",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.netherite_block.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.metal.hit",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.netherite_block.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.metal.place",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.netherite_block.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.metal.step",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.netherite_block.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.metal.fall",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.copper.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.metal.break",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.copper.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.metal.hit",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.copper.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.metal.place",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.copper.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.metal.step",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.copper.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.metal.fall",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.copper_bulb.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.metal.break",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.copper_bulb.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.metal.hit",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.copper_bulb.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.metal.place",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.copper_bulb.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.metal.step",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.copper_bulb.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.metal.fall",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.copper_grate.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.metal.break",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.copper_grate.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.metal.hit",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.copper_grate.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.metal.place",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.copper_grate.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.metal.step",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.copper_grate.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.metal.fall",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.lantern.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.metal.break",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.lantern.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.metal.hit",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.lantern.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.metal.place",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.lantern.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.metal.step",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.lantern.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.metal.fall",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.trial_spawner.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.metal.break",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.trial_spawner.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.metal.hit",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.trial_spawner.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.metal.place",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.trial_spawner.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.metal.step",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.trial_spawner.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.metal.fall",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.vault.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.metal.break",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.vault.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.metal.hit",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.vault.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.metal.place",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.vault.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.metal.step",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.vault.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.metal.fall",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.heavy_core.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.anvil.break",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.heavy_core.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.anvil.hit",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.heavy_core.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.anvil.place",
+			"type": "event",
+			"pitch": 1.125,
+			"volume": 0.45
+		}]
+	},
+	"block.heavy_core.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.anvil.step",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.heavy_core.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.anvil.fall",
+			"type": "event",
+			"pitch": 1.5
+		}]
+	},
+	"block.rooted_dirt.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.gravel.break",
+			"type": "event"
+		}]
+	},
+	"block.rooted_dirt.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.gravel.hit",
+			"type": "event"
+		}]
+	},
+	"block.rooted_dirt.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.gravel.place",
+			"type": "event"
+		}]
+	},
+	"block.rooted_dirt.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.gravel.step",
+			"type": "event"
+		}]
+	},
+	"block.rooted_dirt.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.gravel.fall",
+			"type": "event"
+		}]
+	},
+	"block.wart_block.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.wood.break",
+			"type": "event"
+		}]
+	},
+	"block.wart_block.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.wood.hit",
+			"type": "event"
+		}]
+	},
+	"block.wart_block.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.wood.place",
+			"type": "event"
+		}]
+	},
+	"block.wart_block.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.wood.step",
+			"type": "event"
+		}]
+	},
+	"block.wart_block.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.wood.fall",
+			"type": "event"
+		}]
+	},
+	"block.shroomlight.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.wood.break",
+			"type": "event"
+		}]
+	},
+	"block.shroomlight.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.wood.hit",
+			"type": "event"
+		}]
+	},
+	"block.shroomlight.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.wood.place",
+			"type": "event"
+		}]
+	},
+	"block.shroomlight.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.wood.step",
+			"type": "event"
+		}]
+	},
+	"block.shroomlight.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.wood.fall",
+			"type": "event"
+		}]
+	},
+	"block.froglight.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.slime_block.break",
+			"type": "event"
+		}]
+	},
+	"block.froglight.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.slime_block.hit",
+			"type": "event"
+		}]
+	},
+	"block.froglight.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.slime_block.place",
+			"type": "event"
+		}]
+	},
+	"block.froglight.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.slime_block.step",
+			"type": "event"
+		}]
+	},
+	"block.froglight.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.slime_block.fall",
+			"type": "event"
+		}]
+	},
+	"block.muddy_mangrove_roots.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.mud.break",
+			"type": "event"
+		}]
+	},
+	"block.muddy_mangrove_roots.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.mud.hit",
+			"type": "event"
+		}]
+	},
+	"block.muddy_mangrove_roots.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.mud.place",
+			"type": "event"
+		}]
+	},
+	"block.muddy_mangrove_roots.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.mud.step",
+			"type": "event"
+		}]
+	},
+	"block.muddy_mangrove_roots.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.mud.fall",
+			"type": "event"
+		}]
+	},
+	"block.suspicious_sand.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.sand.hit",
+			"type": "event"
+		}]
+	},
+	"block.suspicious_sand.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.sand.place",
+			"type": "event"
+		}]
+	},
+	"block.suspicious_sand.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.sand.step",
+			"type": "event"
+		}]
+	},
+	"block.suspicious_sand.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.sand.fall",
+			"type": "event"
+		}]
+	},
+	"block.suspicious_gravel.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.gravel.hit",
+			"type": "event"
+		}]
+	},
+	"block.suspicious_gravel.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.gravel.place",
+			"type": "event"
+		}]
+	},
+	"block.suspicious_gravel.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.gravel.step",
+			"type": "event"
+		}]
+	},
+	"block.suspicious_gravel.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.gravel.fall",
+			"type": "event"
+		}]
+	},
+	"block.soul_sand.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.sand.break",
+			"type": "event"
+		}]
+	},
+	"block.soul_sand.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.sand.hit",
+			"type": "event"
+		}]
+	},
+	"block.soul_sand.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.sand.place",
+			"type": "event"
+		}]
+	},
+	"block.soul_sand.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.sand.step",
+			"type": "event"
+		}]
+	},
+	"block.soul_sand.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.sand.fall",
+			"type": "event"
+		}]
+	},
+	"block.soul_soil.break": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.break",
+		"sounds": [{
+			"name": "block.gravel.break",
+			"type": "event"
+		}]
+	},
+	"block.soul_soil.hit": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.hit",
+		"sounds": [{
+			"name": "block.gravel.hit",
+			"type": "event"
+		}]
+	},
+	"block.soul_soil.place": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.place",
+		"sounds": [{
+			"name": "block.gravel.place",
+			"type": "event"
+		}]
+	},
+	"block.soul_soil.step": {
+		"replace": true,
+		"subtitle": "subtitles.block.generic.footsteps",
+		"sounds": [{
+			"name": "block.gravel.step",
+			"type": "event"
+		}]
+	},
+	"block.soul_soil.fall": {
+		"replace": true,
+		"sounds": [{
+			"name": "block.gravel.fall",
+			"type": "event"
+		}]
+	},
+
+
+
+
+
 	"music.game": {
 		"replace": "true",
 		"sounds": [
@@ -747,3 +3800,4 @@
 		"subtitle": "subtitles.block.pressure_plate.click"
 	}
 }
+
