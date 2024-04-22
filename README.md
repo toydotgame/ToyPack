@@ -20,6 +20,7 @@ ToyPack is my personal Minecraft Resource Pack. It uses textures from many other
 * [CroaBeast's PvP Font](https://legacy.curseforge.com/minecraft/texture-packs/new-pvp-font-1-16-3)
 * [Ganaka's Inventory Fox](https://modrinth.com/resourcepack/inventory-fox)
 * [PoeticRainbow's Golden Days](https://github.com/PoeticRainbow/golden-days)
+* [Leobaker202's Legacy console edition visuals](https://modrinth.com/resourcepack/legacy-console-edition-visuals)
 
 ## Changelog
 New features in this Update (1.14.1): 1.20.4 (technically 1.20.2+) format update and a few new features
