@@ -24,6 +24,31 @@ ToyPack is my personal Minecraft Resource Pack. It uses textures from many other
 * [miszol's Glass Bottom Boats](https://modrinth.com/resourcepack/programmer-art+-glass-bottom-boats)
 
 ## Changelog
+New features in this Update (1.14.2): Still pack format 22 because 1.20.5 only released like 5 seconds ago and it's probably more worth it to wait for the pack format update in 1.21. However, this is a pretty major-ish update
+* Fixed PvP font rendering in current pack format (some characters would render with the top of another character below it)
+* Fixed music so it plays again (regardless of biome proper this time trust)
++ Added some brighter Nether Brick variants to match the brighter Netherrack and old 1.6 textures literally from version 1 of this pack
++ Added Stone and Cobblestone-based Deepslate textures
++ Deepslate bricks and Blackstone Bricks are now based on the normal Stone Bricks texture but darker
++ Deepslate tiles are now based on the Nether Bricks texture
+* Fixed ores to use their Programmer Art detail texture on a background of Stone/\[the new\] Deepslate texture
++ Added Concrete textures with the 1.11- palette, taken from the CodeCrafted wool textures. I'm on the fence about the border they have so that _may_ be removed in a future update
++ Reverted splashes to a copy of the splashes from 1.6 (SOPA means LOSER in Swedish!)
++ Added the Infdev blue-to-black gradient overlay in the background of the pause menu, inventory, etc (should be 100% faithful copy from those versions I hope)
++ Added inventory fox for the Recipe Book instead of the old question mark. Sprite taken from Ganaka's inventory fox resource pack and modified slightly
+* Fixed Bamboo and Cherry wood Pressure Plate and Button sounds back to a normal Wooden Button pitch
++ Re-added old Cow sounds from ye ancient days, and added some old Slime sounds
++ Re-added the Infdev Bricks texture
++ Added Beta water texture and somewhat older (more blue) colour shading
++ Added the Scaffolding from the Golden Days resource pack
++ Changed hotbar to be continuous (instead of individual cells)
++ Added Legacy Console Edition-styled tooltips, based on Leobaker202's shader file
++ Added Glass texture to the bottom of Boats, based on miszol's idea
++ Added an item ID in brackets (in the format of `(#id/nbt)`) for all items that had an ID pre-The Flattening. Yes I typed these all in manually. Yes it took two days. The ID is in the same format as if you had pressed F3+H in 1.6 or prior, this won't work for custom named items though
++ Renamed "Tall Grass" to "Double Tallgrass"
++ Added old coloured Leather Armour sprites (as a consequence of this, you can't see the item's dye colour without hovering to see its hex value)
++ Un-dumbed the fops (their eyes point forwards now rather than out)
+
 New features in this Update (1.14.1): 1.20.4 (technically 1.20.2+) format update and a few new features
 + Reverted generic `/kill` message to "\<Player\> fell out of the world"
 + Added silly text to `death.fell.accident.water` death message
