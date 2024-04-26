@@ -24,6 +24,10 @@ ToyPack is my personal Minecraft Resource Pack. It uses textures from many other
 * [miszol's Glass Bottom Boats](https://modrinth.com/resourcepack/programmer-art+-glass-bottom-boats)
 
 ## Changelog
+New features in this Update (1.14.2\_01): Small patch to do two things
+* Made Deepslate texture a bit darker (similar tone to the Vanilla side texture rather than the lighter top texture)
+* Smoothed out the continuous hotbar
+
 New features in this Update (1.14.2): Still pack format 22 because 1.20.5 only released like 5 seconds ago and it's probably more worth it to wait for the pack format update in 1.21. However, this is a pretty major-ish update
 * Fixed PvP font rendering in current pack format (some characters would render with the top of another character below it)
 * Fixed music so it plays again (regardless of biome proper this time trust)
