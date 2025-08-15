@@ -35,6 +35,8 @@ If you play with _Accessibility_ → _Monochrome Logo_ turned _off_, ToyPack can
 > In ToyPack 1.12 and prior (MC 1.6.4), we used to be able to change the logo.
 > We can't now due to [MC-40961](https://bugs.mojang.com/browse/MC/issues/MC-40961) (which is a `Works As Intended` unresolved bug): you can't use the `minecraft/textures/gui/title/mojangstudios.png` texture to change the splash logo—the game will **always** use the embedded texture in the JAR rather than ones a resource pack provides.
 
+</details>
+
 ## Changelog
 New features in this Update (1.14.2\_01): Small patch to do two things
 * Made Deepslate texture a bit darker (similar tone to the Vanilla side texture rather than the lighter top texture)
