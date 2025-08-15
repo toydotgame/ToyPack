@@ -21,8 +21,8 @@ ToyPack is my personal Minecraft Resource Pack. It uses textures from many other
 * [Ganaka's Inventory Fox](https://modrinth.com/resourcepack/inventory-fox)
 * [PoeticRainbow's Golden Days](https://github.com/PoeticRainbow/golden-days)
 * [Leobaker202's Legacy console edition visuals](https://modrinth.com/resourcepack/legacy-console-edition-visuals)
-	* **ToyPack 1.14:** Legacy Console tooltip shader code (ported by me to 1.21)
-	* **ToyPack 1.15+:** RGBA values for my custom tooltip sprites
+	* **ToyPack 1.14:** Tooltip shader code (ported by me to 1.21)
+	* **ToyPack 1.15+:** RGBA values for my sprite adaptation
 * [miszol's Glass Bottom Boats](https://modrinth.com/resourcepack/programmer-art+-glass-bottom-boats)
 
 ## Requirements
