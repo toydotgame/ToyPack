@@ -23,6 +23,18 @@ ToyPack is my personal Minecraft Resource Pack. It uses textures from many other
 * [Leobaker202's Legacy console edition visuals](https://modrinth.com/resourcepack/legacy-console-edition-visuals)
 * [miszol's Glass Bottom Boats](https://modrinth.com/resourcepack/programmer-art+-glass-bottom-boats)
 
+## Requirements
+ToyPack is designed to **not** require any mods or whatnot to get it working. Pre-ToyPack 1.13 (Minecraft 1.19 port update), it used to require OptiFine for things like light and colourmaps, etc. So ideally, you need to do nothing to get ToyPack working 100%.
+
+Modern ToyPack tries its best to use the new MC 1.17+ resource pack shader pipeline and other hacks to do its best to change what it can.
+
+<details><summary>Custom splash exception to the above</summary>
+If you play with _Accessibility_ → _Monochrome Logo_ turned _off_, ToyPack can give you the Alpha "Mojang Specifications"-era purple background.
+
+> [!NOTE]
+> In ToyPack 1.12 and prior (MC 1.6.4), we used to be able to change the logo.
+> We can't now due to [MC-40961](https://bugs.mojang.com/browse/MC/issues/MC-40961) (which is a `Works As Intended` unresolved bug): you can't use the `minecraft/textures/gui/title/mojangstudios.png` texture to change the splash logo—the game will **always** use the embedded texture in the JAR rather than ones a resource pack provides.
+
 ## Changelog
 New features in this Update (1.14.2\_01): Small patch to do two things
 * Made Deepslate texture a bit darker (similar tone to the Vanilla side texture rather than the lighter top texture)

@@ -34,6 +34,7 @@ void main() {
 	vertexColor = Color;
 	
 	/* BEGIN TOYPACK CODE */
+	// IN-GAME GUI DIM
 	if(vertexColor.r == 0.0627451 // Dim is grayscale, just check one
 		/*
 		 * Mojang applies an alpha gradient (median alpha ~0xC0/0.7529412f)
@@ -52,6 +53,13 @@ void main() {
 		)*RASTER_HEIGHT_NORMALIZED; // RGB*pixel Y yields black→blue going down
 
 		vertexColor = vec4(INFDEV_BLUE, 0.627); // Arbitrary opacity
+		return;
+	}
+
+	// MOJANG SPLASH DIM
+	const vec3 MOJANG_PURPLE = vec3(0.216, 0.2, 0.388); // #373363 Mojang Specifications colour
+	if(vertexColor.rgb == vec3(0.93725490196, 0.19607843137, 0.23921568627)) { // #EF323D default
+		vertexColor.rgb = MOJANG_PURPLE;
 	}
 	/* END TOYPACK CODE */
 }
