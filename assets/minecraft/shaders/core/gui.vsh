@@ -43,6 +43,7 @@ void main() {
 		 * enough; don't bother being exact
 		 */
 		&& vertexColor.a >= 0.7 && vertexColor.a <= 0.9) {
+		// Remap [-1,1] bottom-to-top to [0,1] top-to-bottom:
 		float RASTER_HEIGHT_NORMALIZED = -0.5*gl_Position.y+0.5;
 		vec3 INFDEV_BLUE = vec3( // Approx. #454563
 			0.27058823529411763,
