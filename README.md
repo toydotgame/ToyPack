@@ -28,13 +28,17 @@ ToyPack is designed to **not** require any mods or whatnot to get it working. Pr
 
 Modern ToyPack tries its best to use the new MC 1.17+ resource pack shader pipeline and other hacks to do its best to change what it can.
 
-<details><summary>Custom splash exception to the above</summary>
+### Exceptions to the above
+<details><summary>Custom splash screen</summary>
 If you play with _Accessibility_ → _Monochrome Logo_ turned _off_, ToyPack can give you the Alpha "Mojang Specifications"-era purple background.
 
 > [!NOTE]
 > In ToyPack 1.12 and prior (MC 1.6.4), we used to be able to change the logo.
 > We can't now due to [MC-40961](https://bugs.mojang.com/browse/MC/issues/MC-40961) (which is a `Works As Intended` unresolved bug): you can't use the `minecraft/textures/gui/title/mojangstudios.png` texture to change the splash logo—the game will **always** use the embedded texture in the JAR rather than ones a resource pack provides.
 
+</details>
+<details><summary>Custom/old item names</summary>
+If you can, play on _English (United States)_ as your language, as ToyPack only provides override translation keys for `minecraft/lang/en_us.json`.
 </details>
 
 ## Changelog
