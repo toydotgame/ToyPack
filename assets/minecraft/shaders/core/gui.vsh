@@ -56,7 +56,8 @@ void main() {
 	// MOJANG SPLASH DIM
 	if(vertexColor.rgb == vec3(239, 50, 61)/255) { // #EF323D default
 		const vec3 MOJANG_PURPLE = vec3(55, 51, 99)/255; // Mojang bg colour
-		vertexColor = vec4(MOJANG_PURPLE, 1.0);
+		//vertexColor = vec4(MOJANG_PURPLE, 1.0);
+		vertexColor.rgb = MOJANG_PURPLE;
 		
 		return;
 	}
