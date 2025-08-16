@@ -1,5 +1,5 @@
 {
-	"parent": "block/template_chest",
+	"parent": "minecraft:block/template_chest",
 	"textures": {
 		"particle": "minecraft:block/obsidian",
 		"chest": "minecraft:entity/chest/ender"

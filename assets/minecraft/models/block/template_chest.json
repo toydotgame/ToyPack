@@ -1,7 +1,35 @@
 {
-	"parent": "block/block",
+	"parent": "minecraft:block/block",
 	"textures": {
-		"particle": "#particles"
+		"particle": "#particle"
+	},
+	"display": {
+		"_toypack_comment": "The below numbers came from great amounts of blood, sweat, and tears. They scale and move a Chest model to match a full block exactly. Change at your own peril",
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [0, 0.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"fixed": {
+			"translation": [0, 0.575, 0],
+			"scale": [0.57125, 0.57125, 0.57125]
+		},
+		"ground": {
+			"_toypack_comment": "Specifying rotation for item entities is redundant. :) Also the translation for this one seems to be perfect when we let it default to 0 (unspecified)",
+			"scale": [0.28, 0.28, 0.28]
+		},
+		"_toypack_comment": "ALL SUBSEQUENT VALUES ARE NOT PERFECT (TODO)! They're so damn close; plus it's nearly 1 am. I don't care",
+		"firstperson_righthand": {
+			"rotation": [0, -135, 0],
+			"translation": [0, 0.45, 0],
+			"scale": [0.4575, 0.4575, 0.4575]
+		},
+		"thirdperson_righthand": {
+			"rotation": [75, -135, 0],
+			"translation": [0, 2.5, 0.45],
+			"scale": [0.415, 0.415, 0.415]
+		},
+		"_toypack_comment_1": "I think _lefthand inherits _righthand if not specified, because the above works fine without specifying _lefthand info"
 	},
 	"elements": [
 		{
