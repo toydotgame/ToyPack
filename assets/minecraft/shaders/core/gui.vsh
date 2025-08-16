@@ -62,6 +62,15 @@ void main() {
 		return;
 	}
 	
+	/*
+	 * The loading bar code below doesn't really work nice since it
+	 * actually DOES turn out there's a lot of white, non-rendertype_text
+	 * pixels in the GUIs (I literally didn't check the menus), so TODO
+	 * is to check for a better way of determining if we're in the splash
+	 * or not
+	 */
+	return;
+	
 	// LOADING BAR
 	/*
 	 * This literally overwrites all white to the Mojang Specifications
