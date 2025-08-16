@@ -1,5 +1,7 @@
 {
-  "animation": {
-    "frametime": 3
-  }
+	"_toypack_comment": "This image was made in GIMP from lava_flow.png, cropped, then cauldron texture tiled. See also lava_flow.png.mcmeta for more info.",
+	"animation": {
+		"frametime": 3
+	}
 }
+
