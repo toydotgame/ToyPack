@@ -1,6 +1,7 @@
 {
-    "parent": "block/scouter",
-    "textures": {
-        "power": "block/powerlevel03"
-    }
+	"parent": "block/scouter",
+	"textures": {
+		"power": "block/powerlevel03"
+	}
 }
+
