@@ -1,4 +1,5 @@
 {
+	"_toypack_comment": "The \"Beta\" lava texture (after the \"Alpha\" one that was in terrain.png until Release 1.6, and before Release 1.5 gave us the modern one) technically has no texture file. It was procedurally generated and hardcoded into the game. To restore it, dumped textures can be made using those procedures—which is where this sprite came from, and hence why it's so big.",
 	"animation": {
 		"frametime": 3
 	}
