@@ -46,20 +46,35 @@ void main() {
 		&& vertexColor.a >= 0.7 && vertexColor.a <= 0.9) {
 		// Remap [-1,1] bottom-to-top to [0,1] top-to-bottom:
 		float RASTER_HEIGHT_NORMALIZED = -0.5*gl_Position.y+0.5;
-		vec3 INFDEV_BLUE = vec3( // Approx. #454563
-			0.27058823529411763,
-			0.27058823529411763,
-			0.38823529411764707
-		)*RASTER_HEIGHT_NORMALIZED; // RGB*pixel Y yields black→blue going down
+		vec3 INFDEV_BLUE = vec3(69, 69, 99) // Approx. #454563
+			/255*RASTER_HEIGHT_NORMALIZED;  // RGB*pixel Y yields black→blue going down
 
 		vertexColor = vec4(INFDEV_BLUE, 0.627); // Arbitrary opacity
 		return;
 	}
 
 	// MOJANG SPLASH DIM
-	const vec3 MOJANG_PURPLE = vec3(0.216, 0.2, 0.388); // #373363 Mojang Specifications colour
-	if(vertexColor.rgb == vec3(0.93725490196, 0.19607843137, 0.23921568627)) { // #EF323D default
-		vertexColor.rgb = MOJANG_PURPLE;
+	if(vertexColor.rgb == vec3(239, 50, 61)/255) { // #EF323D default
+		const vec3 MOJANG_PURPLE = vec3(55, 51, 99)/255; // Mojang bg colour
+		vertexColor = vec4(MOJANG_PURPLE, 1.0);
+		
+		return;
+	}
+	
+	// LOADING BAR
+	/*
+	 * This literally overwrites all white to the Mojang Specifications
+	 * purple, which SOUNDS stupid, BUT: gui.vsh handles rendering of
+	 * the GUI dim, splash, chat, tab menu, subtitles, HUD info line, etc.
+	 * Text is handled by the rendertype_text or whatever it's called
+	 * nowadays. Therefore, it's pretty safe to assume the only pure white
+	 * coloured object we will encounter by this point in execution is from
+	 * the splash screen :)
+	 */
+	if(vertexColor.rgb == vec3(1.0, 1.0, 1.0)) {
+		const vec3 MOJANG_LOGO_PURPLE = vec3(142, 132, 255)/255; // Mojang logo colour
+		//vertexColor = vec4(MOJANG_LOGO_PURPLE, 1.0);
+		vertexColor.rgb = MOJANG_LOGO_PURPLE;
 	}
 	/* END TOYPACK CODE */
 }
