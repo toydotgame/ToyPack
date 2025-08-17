@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/template_cauldron_level1_liquid",
+	"textures": {
+		"content": "minecraft:block/water_still",
+		"window_content": "minecraft:block/water_flow"
+	}
+}
+

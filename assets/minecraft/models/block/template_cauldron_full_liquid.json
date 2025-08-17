@@ -1,31 +1,92 @@
 {
-	"_toypack_comment": "This is a modification of template_cauldron_full to replace the Vanilla cauldron.json so I can have the performance improvements of ToyPack's template_cauldron_full",
+	"_toypack_comment": "See template_cauldron_full for base. This version has UVs adapted for the windows to show the correct resolutions of flowing liquids.",
 	"ambientocclusion": false,
 	"textures": {
-		"particle":       "minecraft:block/cauldron_side",
+		"particle":       "minecraft:block/cauldron_side_window",
 		"top":            "minecraft:block/cauldron_top",
 		"side":           "minecraft:block/cauldron_side",
+		"window":         "minecraft:block/cauldron_side_window",
 		"feet":           "minecraft:block/cauldron_bottom",
-		"inside":         "minecraft:block/cauldron_inner"
+		"inside":         "minecraft:block/cauldron_inner",
+		"content":        "#content",
+		"window_content": "#content"
 	},
 	"elements": [
 		{
-			"name": "bottom",
+			"name": "content",
+			"_toypack_comment": "The Y value of the .to[] list is the fill height. This applies for all content* objects",
 			"from": [ 2,  3,  2],
-			"to":   [14,  4, 14],
+			"to":   [14, 15, 14],
 			"faces": {
-				"up":   {"texture": "#inside", "cullface": "up"},
+				"up": {
+					"texture": "#content",
+					"cullface": "up",
+					"tintindex": 0
+				},
 				"down": {"texture": "#inside"}
 			}
 		},
+		{
+			"name": "content_north",
+			"from": [ 7,  5, -0.01],
+			"to":   [ 9, 13, -0.01],
+			"faces": {
+				"north": {
+					"uv": [3.5, 1.5, 4.5, 5.5],
+					"texture": "#window_content",
+					"cullface": "north",
+					"tintindex": 0
+				}
+			}
+		},
+		{
+			"name": "content_east",
+			"from": [16.01,  5,  7],
+			"to":   [16.01, 13,  9],
+			"faces": {
+				"east": {
+					"uv": [3.5, 1.5, 4.5, 5.5],
+					"texture": "#window_content",
+					"cullface": "east",
+					"tintindex": 0
+				}
+			}
+		},
+		{
+			"name": "content_south",
+			"from": [ 7,  5, 16.01],
+			"to":   [ 9, 13, 16.01],
+			"faces": {
+				"south": {
+					"uv": [3.5, 1.5, 4.5, 5.5],
+					"texture": "#window_content",
+					"cullface": "south",
+					"tintindex": 0
+				}
+			}
+		},
+		{
+			"name": "content_west",
+			"from": [-0.01,  5,  7],
+			"to":   [-0.01, 13,  9],
+			"faces": {
+				"west": {
+					"uv": [3.5, 1.5, 4.5, 5.5],
+					"texture": "#window_content",
+					"cullface": "west",
+					"tintindex": 0
+				}
+			}
+		},
+
 		{
 			"name": "side_north",
 			"from": [ 2,  3,  0],
 			"to":   [14, 16,  2],
 			"faces": {
-				"north": {"texture": "#side", "cullface": "north"},
-				"south": {"texture": "#side", "cullface": "up"},
-				"up":    {"texture": "#top",  "cullface": "up"},
+				"north": {"texture": "#window", "cullface": "north"},
+				"south": {"texture": "#side",   "cullface": "up"},
+				"up":    {"texture": "#top",    "cullface": "up"},
 				"down":  {"texture": "#inside"}
 			}
 		},
@@ -34,11 +95,11 @@
 			"from": [14,  3,  0],
 			"to":   [16, 16, 16],
 			"faces": {
-				"north": {"texture": "#side", "cullface": "north"},
-				"east":  {"texture": "#side", "cullface": "east"},
-				"south": {"texture": "#side", "cullface": "south"},
-				"west":  {"texture": "#side", "cullface": "up"},
-				"up":    {"texture": "#top",  "cullface": "up"},
+				"north": {"texture": "#side",   "cullface": "north"},
+				"east":  {"texture": "#window", "cullface": "east"},
+				"south": {"texture": "#side",   "cullface": "south"},
+				"west":  {"texture": "#side",   "cullface": "up"},
+				"up":    {"texture": "#top",    "cullface": "up"},
 				"down":  {"texture": "#inside"}
 			}
 		},
@@ -47,9 +108,9 @@
 			"from": [ 2,  3, 14],
 			"to":   [14, 16, 16],
 			"faces": {
-				"north": {"texture": "#side", "cullface": "up"},
-				"south": {"texture": "#side", "cullface": "south"},
-				"up":    {"texture": "#top",  "cullface": "up"},
+				"north": {"texture": "#side",   "cullface": "up"},
+				"south": {"texture": "#window", "cullface": "south"},
+				"up":    {"texture": "#top",    "cullface": "up"},
 				"down":  {"texture": "#inside"}
 			}
 		},
@@ -58,11 +119,11 @@
 			"from": [ 0,  3,  0],
 			"to":   [ 2, 16, 16],
 			"faces": {
-				"north": {"texture": "#side", "cullface": "north" },
-				"east":  {"texture": "#side", "cullface": "up"},
-				"south": {"texture": "#side", "cullface": "south"},
-				"west":  {"texture": "#side", "cullface": "west"},
-				"up":    {"texture": "#top",  "cullface": "up"},
+				"north": {"texture": "#side",   "cullface": "north" },
+				"east":  {"texture": "#side",   "cullface": "up"},
+				"south": {"texture": "#side",   "cullface": "south"},
+				"west":  {"texture": "#window", "cullface": "west"},
+				"up":    {"texture": "#top",    "cullface": "up"},
 				"down":  {"texture": "#inside"}
 			}
 		},
