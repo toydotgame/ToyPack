@@ -1,8 +1,7 @@
 {
-	"credit": "Created by Stridey",
 	"ambientocclusion": false,
 	"textures": {
-		"6": "block/cauldron_water",
+		"content": "block/water_still",
 		"outside": "block/water_cauldron_side_level_1",
 		"top": "block/cauldron_top",
 		"bottom": "block/cauldron_bottom",
@@ -27,7 +26,7 @@
 			"from": [2, 3, 2],
 			"to": [14, 9, 14],
 			"faces": {
-				"up": {"uv": [2, 2, 14, 14], "texture": "#6", "cullface": "up"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#content", "cullface": "up", "tintindex": 0},
 				"down": {"uv": [2, 2, 14, 14], "texture": "#inside"}
 			}
 		},
@@ -149,3 +148,4 @@
 		}
 	]
 }
+
