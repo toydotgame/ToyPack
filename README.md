@@ -24,6 +24,8 @@ ToyPack is my personal Minecraft Resource Pack. It uses textures from many other
 	* **ToyPack 1.14:** Tooltip shader code (ported by me to 1.21)
 	* **ToyPack 1.15+:** RGBA values for my sprite adaptation
 * [miszol's Glass Bottom Boats](https://modrinth.com/resourcepack/programmer-art+-glass-bottom-boats)
+* [XeKr's XK Redstone Display](https://modrinth.com/resourcepack/xk-redstone-display)
+	* Note Block instruments (most of the model code, instrument and pitch sprites and fonts)
 
 ## Requirements
 ToyPack is designed to **not** require any mods or whatnot to get it working. Pre-ToyPack 1.13 (Minecraft 1.19 port update), it used to require OptiFine for things like light and colourmaps, etc. So ideally, you need to do nothing to get ToyPack working 100%.

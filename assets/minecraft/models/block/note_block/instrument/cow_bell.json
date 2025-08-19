@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/note_block/note_surface",
+	"textures": {
+		"all": "minecraft:block/note_block/instrument/cow_bell"
+	}
+}
+
