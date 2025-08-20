@@ -1,31 +1,49 @@
 # ToyPack
-ToyPack is my personal Minecraft Resource Pack. It uses textures from many other texture packs (see attributions), and some of my own tweaks, fixes, and textures.
+ToyPack is my personal Minecraft Resource Pack. Originally, this was most of CodeCrafted (MC 1.7 version) combined with a few 1.16 Vanilla Tweaks. Today, it is a combination of multiple mostly-complete texture packs, individual features from packs, and my own personal additions, tweaks, and fixes (either my own or inspired by another pack).
 
 **ToyPack is intended for use with the Programmer Art texture back as a fallback.** All ToyPack textures are based off or designed to look like Programmer Art textures, and thus don't work well with the new Jappa textures.
 
 ## Attributions
-* [FVdisco's oCd](https://www.planetminecraft.com/texture-pack/ocd-pack/)
-* [Vanilla Tweaks](https://vanillatweaks.net/picker/resource-packs/)
-* [CodeCrafted](https://codecrafted.net/)
-* [MobAndPlayerSkinUploader's HD Paintings](https://www.planetminecraft.com/texture-pack/hd-paintings/)
-* [ThePinkHacker's P.E. Stonecutter](https://www.curseforge.com/minecraft/texture-packs/old-stonecutter)
-* [Injent's Legacy Console Click Sound](https://www.planetminecraft.com/texture-pack/legacy-console-click-sound/)
-* [StupidUglE123's Old Villagers](https://www.planetminecraft.com/texture-pack/old-villagers/)
-* [alyssajolt's Less Painful Glowstone](https://www.planetminecraft.com/texture-pack/less-painful-glowstone/)
-* [LaryIsland's Z-Fighting Fix](https://www.reddit.com/r/Minecraft/comments/bz360e/redstone_zfighting_overlapping_texture_glitch_fix/)
-* [Luadewi's Classic Music Pack](https://modrinth.com/resourcepack/classic-music-pack)
-* [IanR009's Old Boats 1.16.5](https://www.planetminecraft.com/texture-pack/old-boats-1-16-5/)
-* [Magic's JKM Bushes Pack](https://discord.com/channels/601161964688900117/815037486443134986/1089129887132045414)
-* [mattbatwings' MattPack](https://github.com/Xyverle/MattPack)
-* [CroaBeast's PvP Font](https://legacy.curseforge.com/minecraft/texture-packs/new-pvp-font-1-16-3)
-* [Ganaka's Inventory Fox](https://modrinth.com/resourcepack/inventory-fox)
-* [PoeticRainbow's Golden Days](https://github.com/PoeticRainbow/golden-days)
+Copied/inspired textures appeared in these updates, from these places. Versions are also listed for older textures that are no longer in the modern release of ToyPack.
+
+**Ancient ToyPack:**
+* [FVdisco's oCd](https://www.planetminecraft.com/texture-pack/ocd-pack/) — Rails, pre-Redstone Update Redstone components, Daylight Sensor, TNT
+* [Vanilla Tweaks](https://vanillatweaks.net/picker/resource-packs/) — Uncountable and changes a lot between ToyPack versions. Suffice it to say that this pack originated as a Vanilla Tweaks backport and as such is still heavily based off it today. Many tweaks have had their textures redone by me; block models have been modified by me too
+* [CodeCrafted](https://codecrafted.net/) — Redstone Dust
+	* **ToyPack <1.10(?):** Glass
+	* **ToyPack ≤1.13.2:** Glowstone block
+**ToyPack ~1.13:**
+* [MobAndPlayerSkinUploader's HD Paintings](https://www.planetminecraft.com/texture-pack/hd-paintings/) — Kristoffer Zetterstrand paintings from Indev, "Wither" painting
+* [ThePinkHacker's P.E. Stonecutter](https://www.curseforge.com/minecraft/texture-packs/old-stonecutter) — Stonecutter textures and block model
+**ToyPack 1.13.1:**
+* [Luadewi's Classic Music Pack](https://modrinth.com/resourcepack/classic-music-pack) — sounds.json base for C418-only music, modified heavily by me for the 1.19.4+ biome-based music changes
+**ToyPack 1.13.3:**
+* [Injent's Legacy Console Click Sound](https://www.planetminecraft.com/texture-pack/legacy-console-click-sound/) — Menu button click sound
+* [alyssajolt's Less Painful Glowstone](https://www.planetminecraft.com/texture-pack/less-painful-glowstone/) — Glowstone block
+**ToyPack 1.13.4:**
+* [StupidUglE123's Old Villagers](https://www.planetminecraft.com/texture-pack/old-villagers/) — Old-style Villager textures
+**ToyPack 1.13.5:**
+* [LaryIsland's Z-Fighting Fix](https://www.reddit.com/r/Minecraft/comments/bz360e/redstone_zfighting_overlapping_texture_glitch_fix/) — Redstone Dust block models
+**ToyPack 1.13.6:**
+* [IanR009's Old Boats 1.16.5](https://www.planetminecraft.com/texture-pack/old-boats-1-16-5/) — Boat sprites for Birch, Spruce, Dark Oak, Acacia, and Jungle Boats
+**ToyPack 1.14:**
+* [Magic's JKM Bushes Pack](https://discord.com/channels/601161964688900117/815037486443134986/1089129887132045414) — Dead Bush
+**ToyPack 1.14.1:**
+* [mattbatwings' MattPack](https://github.com/Xyverle/MattPack) — Redstone Lamp
+* [CroaBeast's PvP Font](https://legacy.curseforge.com/minecraft/texture-packs/new-pvp-font-1-16-3) — Font, tweaked by me in more recent versions for dark mode and 1.20 font changes
+**ToyPack 1.14.2:**
+* [Ganaka's Inventory Fox](https://modrinth.com/resourcepack/inventory-fox) — Base sprite for the Recipe Book Fox, tweaked by me
+* [PoeticRainbow's Golden Days](https://github.com/PoeticRainbow/golden-days) — Scaffolding, tweaked by me
+* [miszol's Glass Bottom Boats](https://modrinth.com/resourcepack/programmer-art+-glass-bottom-boats) — Idea and layout for my version of Glass-bottomed Boats
+* [SuperAnt_'s No Dark Inventory Overlay](https://modrinth.com/resourcepack/no-dark-inventory-overlay)
+	* **ToyPack 1.14.2→1.14.2_01:** GUI shader base code I stole to make the Infdev blue gradient tint in MC 1.19–1.20
+	* **ToyPack 1.15+:** Maybe has some origin in the GUI code I've written, but gui.vsh is definitely 100% mine and Mojang's now
 * [Leobaker202's Legacy console edition visuals](https://modrinth.com/resourcepack/legacy-console-edition-visuals)
-	* **ToyPack 1.14:** Tooltip shader code (ported by me to 1.21)
-	* **ToyPack 1.15+:** RGBA values for my sprite adaptation
-* [miszol's Glass Bottom Boats](https://modrinth.com/resourcepack/programmer-art+-glass-bottom-boats)
+	* **ToyPack 1.14.2→1.14.2_01:** Tooltip shader code (ported by me to 1.21)
+	* **ToyPack 1.15+:** RGBA values for my sprite texture adaptation
+**ToyPack 1.15:**
 * [XeKr's XK Redstone Display](https://modrinth.com/resourcepack/xk-redstone-display)
-	* Note Block instruments (most of the model code, instrument and pitch sprites and fonts)
+	* **ToyPack 1.15+:** Note Block instruments (most of the model code, instrument and pitch sprites and fonts)
 
 ## Requirements
 ToyPack is designed to **not** require any mods or whatnot to get it working. Pre-ToyPack 1.13 (Minecraft 1.19 port update), it used to require OptiFine for things like light and colourmaps, etc. So ideally, you need to do nothing to get ToyPack working 100%.
