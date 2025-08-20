@@ -12,25 +12,34 @@ Copied/inspired textures appeared in these updates, from these places. Versions 
 * [CodeCrafted](https://codecrafted.net/) — Redstone Dust
 	* **ToyPack <1.10(?):** Glass
 	* **ToyPack ≤1.13.2:** Glowstone block
+
 **ToyPack ~1.13:**
 * [MobAndPlayerSkinUploader's HD Paintings](https://www.planetminecraft.com/texture-pack/hd-paintings/) — Kristoffer Zetterstrand paintings from Indev, "Wither" painting
 * [ThePinkHacker's P.E. Stonecutter](https://www.curseforge.com/minecraft/texture-packs/old-stonecutter) — Stonecutter textures and block model
+
 **ToyPack 1.13.1:**
 * [Luadewi's Classic Music Pack](https://modrinth.com/resourcepack/classic-music-pack) — sounds.json base for C418-only music, modified heavily by me for the 1.19.4+ biome-based music changes
+
 **ToyPack 1.13.3:**
 * [Injent's Legacy Console Click Sound](https://www.planetminecraft.com/texture-pack/legacy-console-click-sound/) — Menu button click sound
 * [alyssajolt's Less Painful Glowstone](https://www.planetminecraft.com/texture-pack/less-painful-glowstone/) — Glowstone block
+
 **ToyPack 1.13.4:**
 * [StupidUglE123's Old Villagers](https://www.planetminecraft.com/texture-pack/old-villagers/) — Old-style Villager textures
+
 **ToyPack 1.13.5:**
 * [LaryIsland's Z-Fighting Fix](https://www.reddit.com/r/Minecraft/comments/bz360e/redstone_zfighting_overlapping_texture_glitch_fix/) — Redstone Dust block models
+
 **ToyPack 1.13.6:**
 * [IanR009's Old Boats 1.16.5](https://www.planetminecraft.com/texture-pack/old-boats-1-16-5/) — Boat sprites for Birch, Spruce, Dark Oak, Acacia, and Jungle Boats
+
 **ToyPack 1.14:**
 * [Magic's JKM Bushes Pack](https://discord.com/channels/601161964688900117/815037486443134986/1089129887132045414) — Dead Bush
+
 **ToyPack 1.14.1:**
 * [mattbatwings' MattPack](https://github.com/Xyverle/MattPack) — Redstone Lamp
 * [CroaBeast's PvP Font](https://legacy.curseforge.com/minecraft/texture-packs/new-pvp-font-1-16-3) — Font, tweaked by me in more recent versions for dark mode and 1.20 font changes
+
 **ToyPack 1.14.2:**
 * [Ganaka's Inventory Fox](https://modrinth.com/resourcepack/inventory-fox) — Base sprite for the Recipe Book Fox, tweaked by me
 * [PoeticRainbow's Golden Days](https://github.com/PoeticRainbow/golden-days) — Scaffolding, tweaked by me
@@ -41,6 +50,7 @@ Copied/inspired textures appeared in these updates, from these places. Versions 
 * [Leobaker202's Legacy console edition visuals](https://modrinth.com/resourcepack/legacy-console-edition-visuals)
 	* **ToyPack 1.14.2→1.14.2_01:** Tooltip shader code (ported by me to 1.21)
 	* **ToyPack 1.15+:** RGBA values for my sprite texture adaptation
+
 **ToyPack 1.15:**
 * [XeKr's XK Redstone Display](https://modrinth.com/resourcepack/xk-redstone-display)
 	* **ToyPack 1.15+:** Note Block instruments (most of the model code, instrument and pitch sprites and fonts)
