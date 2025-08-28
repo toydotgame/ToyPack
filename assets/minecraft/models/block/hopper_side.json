@@ -3,13 +3,11 @@
 	"credit": "Created by Stridey; Ported to ToyPack by toydotgame",
 	"ambientocclusion": false,
 	"textures": {
-		"4": "block/hopper_outside_flipped",
 		"5": "block/hopper_inside",
 		"top": "block/hopper_top",
 		"particle": "block/hopper_outside",
 		"side": "block/hopper_outside",
-		"inside": "block/hopper_inside_side",
-		"back": "block/hopper_back"
+		"inside": "block/hopper_inside_side"
 	},
 	"elements": [
 		{
@@ -31,9 +29,9 @@
 			"to": [2, 16, 16],
 			"faces": {
 				"north": {"uv": [14, 0, 16, 5], "texture": "#side", "cullface": "north"},
-				"east": {"uv": [0, 0, 16, 5], "texture": "#back", "cullface": "up"},
+				"east": {"uv": [0, 0, 16, 5], "texture": "#side", "cullface": "up"},
 				"south": {"uv": [0, 0, 2, 5], "texture": "#side", "cullface": "south"},
-				"west": {"uv": [0, 0, 16, 5], "texture": "#4", "cullface": "west"},
+				"west": {"uv": [0, 0, 16, 5], "texture": "#side", "cullface": "west"},
 				"up": {"uv": [0, 0, 2, 16], "texture": "#top", "cullface": "up"}
 			}
 		},
@@ -45,7 +43,7 @@
 				"north": {"uv": [0, 0, 2, 5], "texture": "#side", "cullface": "north"},
 				"east": {"uv": [0, 0, 16, 5], "texture": "#side", "cullface": "east"},
 				"south": {"uv": [14, 0, 16, 5], "texture": "#side", "cullface": "south"},
-				"west": {"uv": [0, 0, 16, 5], "texture": "#back", "cullface": "up"},
+				"west": {"uv": [0, 0, 16, 5], "texture": "#side", "cullface": "up"},
 				"up": {"uv": [14, 0, 16, 16], "texture": "#top", "cullface": "up"}
 			}
 		},
@@ -54,8 +52,8 @@
 			"from": [2, 11, 0],
 			"to": [14, 16, 2],
 			"faces": {
-				"north": {"uv": [2, 0, 14, 5], "texture": "#back", "cullface": "north"},
-				"south": {"uv": [2, 0, 14, 5], "texture": "#back", "cullface": "up"},
+				"north": {"uv": [2, 0, 14, 5], "texture": "#side", "cullface": "north"},
+				"south": {"uv": [2, 0, 14, 5], "texture": "#side", "cullface": "up"},
 				"up": {"uv": [2, 0, 14, 2], "texture": "#top", "cullface": "up"}
 			}
 		},
@@ -64,8 +62,8 @@
 			"from": [2, 11, 14],
 			"to": [14, 16, 16],
 			"faces": {
-				"north": {"uv": [2, 0, 14, 5], "texture": "#back", "cullface": "up"},
-				"south": {"uv": [2, 0, 14, 5], "texture": "#back", "cullface": "south"},
+				"north": {"uv": [2, 0, 14, 5], "texture": "#side", "cullface": "up"},
+				"south": {"uv": [2, 0, 14, 5], "texture": "#side", "cullface": "south"},
 				"up": {"uv": [2, 14, 14, 16], "texture": "#top", "cullface": "up"}
 			}
 		},
