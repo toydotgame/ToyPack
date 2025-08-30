@@ -29,7 +29,7 @@
 	"block.minecraft.amethyst_block": "Amethyst Block",
 	"item.minecraft.cod": "Fish",
 	"item.minecraft.cooked_cod": "Cooked Fish",
-	"container.brewing": " Brewing Stand\u00a7f\ueff2\u00a7r",
+	"container.brewing": "                                   Brewing Stand                          \u00a7f\ueff2\u00a7r",
 	"container.inventory": "",
 	"multiplayer.unsecureserver.toast": "This server has chat reporting disabled",
 	"item.minecraft.cod_bucket": "Bucket of Fish",
