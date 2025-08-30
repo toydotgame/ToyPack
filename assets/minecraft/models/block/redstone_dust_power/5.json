@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/template_z_fix_redstone_dust",
+	"textures": {
+		"power": "minecraft:block/redstone_dust_power/5"
+	}
+}
+
