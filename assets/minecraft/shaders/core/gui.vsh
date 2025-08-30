@@ -41,9 +41,10 @@ void main() {
 		 * going opaque→transparent-er down the image, __during the frag
 		 * shader__ (step after this file). I WASTED LIKE 5 HOURS OF MY LIFE
 		 * TRYING TO FIGHT THIS. :((((( Simple solution: 0.7≤a≤0.9 is good
-		 * enough; don't bother being exact
+		 * enough; don't bother being exact. I actually use a≤0.9 only
+		 * because the Bed fade in is hard to fight so I just include all
 		 */
-		&& vertexColor.a >= 0.7 && vertexColor.a <= 0.9) {
+		&& vertexColor.a <= 0.9) {
 		// Remap [-1,1] bottom-to-top to [0,1] top-to-bottom:
 		float RASTER_HEIGHT_NORMALIZED = -0.5*gl_Position.y+0.5;
 		vec3 INFDEV_BLUE = vec3(69, 69, 99) // Approx. #454563
