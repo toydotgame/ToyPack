@@ -1,0 +1,10 @@
+{
+	"parent": "minecraft:block/dispenser",
+	"textures": {
+		"side":  "minecraft:block/dispenser_side_triggered",
+		"front": "minecraft:block/dispenser_front_triggered",
+		"top":   "minecraft:block/dispenser_top_triggered",
+		"back":  "minecraft:block/dispenser_back_triggered"
+	}
+}
+
