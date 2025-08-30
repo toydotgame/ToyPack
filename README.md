@@ -53,6 +53,7 @@ Copied/inspired textures appeared in these updates, from these places. Versions 
 
 **ToyPack 1.15:**
 * [XeKr's XK Redstone Display](https://modrinth.com/resourcepack/xk-redstone-display) — Note Block instruments (most of the model code, instrument and pitch sprites and fonts)
+* [/u/Red\_Mersi's "Fern" screenshot and reconstruction](https://www.reddit.com/r/Minecraft/comments/1fd02lx/a_512x512_rendition_of_fern_by_kristoffer/) — _Fern_ HD painting texture, made from a screenshot from the Tricky Trials trailer
 
 ## Requirements
 ToyPack is designed to **not** require any mods or whatnot to get it working. Pre-ToyPack 1.13 (Minecraft 1.19 port update), it used to require OptiFine for things like light and colourmaps, etc. So ideally, you need to do nothing to get ToyPack working 100%.
