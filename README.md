@@ -69,7 +69,7 @@ If you play with <i>Accessibility</i> → <i>Monochrome Logo</i> turned <b>off</
 
 </details>
 <details><summary>Custom/old item names</summary>
-If you can, play on <i>English (United States)</i> as your language, as ToyPack only provides override translation keys for <code>minecraft/lang/en\_us.json</code>.
+If you can, play on <i>English (United States)</i> as your language, as ToyPack only provides override translation keys for <code>minecraft/lang/en_us.json</code>.
 </details>
 <details><summary><b>(IMPORTANT!)</b> Chest models</summary>
 Chest models…aren't great. Since Enhanced Block Entities hasn't been updated for more recent versions of 1.21, I've falled back to FastChest Revived for my chest optimisations in my client. However, FastChest uses hardcoded block models rather than entity models for Chests as it's defining feature; this is fine mod-wise but means I can't just texture out the 3D latches in favor of the 2D ones I like.
