@@ -1,24 +1,9 @@
 {
-	"credit": "Created by Stridey",
-	"parent": "block/cube",
+	"parent": "minecraft:block/dispenser_vertical",
 	"textures": {
-		"0": "block/dropper_top",
-		"1": "block/furnace_top",
-		"2": "block/dropper_front_vertical",
-		"particle": "block/dropper_top"
-	},
-	"elements": [
-		{
-			"from": [0, 0, 0],
-			"to": [16, 16, 16],
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "north"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "east"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "south"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "west"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "up"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "down"}
-			}
-		}
-	]
+		"side":   "minecraft:block/dropper_top",
+		"bottom": "minecraft:block/dropper_bottom",
+		"front":  "minecraft:block/dropper_front_vertical"
+	}
 }
+
