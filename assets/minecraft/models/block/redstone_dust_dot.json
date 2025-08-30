@@ -1,34 +1,21 @@
 {
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"line":     "mineacraft:block/redstone_dust_dot",
-		"overlay":  "minecraft:block/redstone_dust_overlay",
-		"particle": "#line"
+		"particle": "block/redstone_dust_dot",
+		"dot": "block/redstone_dust_dot"
 	},
 	"elements": [
 		{
-			"from": [ 0, 0.3,  0],
-			"to": [16, 0.3, 16],
+			"from": [0, 0.35, 0],
+			"to": [16, 0.35, 16],
 			"shade": false,
 			"faces": {
-				"up": {
-					"uv": [ 0,  0, 16, 16],
-					"texture": "#line",
-					"tintindex": 0
-				}
-			}
-		},
-		{
-			"from": [ 0, 0.3,  0],
-			"to": [16, 0.3, 16],
-			"shade": false,
-			"faces": {
-				"up": {
-					"uv": [ 0,  0, 16, 16],
-					"texture": "#overlay"
-				}
+				"up": {"uv": [0, 0, 16, 16], "texture": "#dot", "tintindex": 0},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#dot", "cullface": "down", "tintindex": 0}
 			}
 		}
-	]
+	],
+	"_toypack_comment": "redstone_dust_dot handles rendering the dot on standalone dust blocks, or intersections between dust lines"
 }
-
