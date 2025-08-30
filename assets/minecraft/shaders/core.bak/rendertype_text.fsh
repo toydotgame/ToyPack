@@ -15,6 +15,9 @@ in float sphericalVertexDistance;
 in float cylindricalVertexDistance;
 in vec4 vertexColor;
 in vec2 texCoord0;
+/* BEGIN TOYPACK CODE */
+in float inGUI;
+/* END TOYPACK CODE */
 
 out vec4 fragColor;
 
@@ -25,10 +28,14 @@ void main() {
 	}
 	/* BEGIN TOYPACK CODE */
 	// If we catch some grey text, force it white:
-	if(color.r > 0.2479 && color.r < 0.2481) {
-		color.rgb = vec3(1.0, 1.0, 1.0);
+	if(inGUI > 0.5) {
+		const float epsilon = 0.01;
+		if(color.r >= 0.247-epsilon && color.r <= 0.251+epsilon) {
+			color.rgb += 1;
+		}
 	}
 	/* END TOYPACK CODE */
+
 	fragColor = apply_fog(color, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
 }
 
