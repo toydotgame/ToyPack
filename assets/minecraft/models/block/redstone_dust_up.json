@@ -1,0 +1,44 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"line": "block/redstone_dust_line0",
+		"particle": "block/redstone_dust_dot"
+	},
+	"elements": [
+		{
+			"name": "up",
+			"from": [0, 0.25, 0.25],
+			"to": [16, 16, 0.25],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#line", "cullface": "north", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#line", "tintindex": 0}
+			}
+		},
+		{
+			"name": "gap_fix_up",
+			"from": [0, 16.25, 0],
+			"to": [16, 16.25, 0.25],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, -1]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 1], "texture": "#line", "cullface": "up", "tintindex": 0},
+				"down": {"uv": [0, 0, 16, 1], "texture": "#line", "cullface": "north", "tintindex": 0}
+			}
+		},
+		{
+			"name": "gap_fix_south",
+			"from": [0, 16, 0.25],
+			"to": [16, 16.25, 0.25],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, -1]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 1], "texture": "#line", "cullface": "north", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 1], "texture": "#line", "cullface": "up", "tintindex": 0}
+			}
+		}
+	],
+	"_toypack_comment": "redstone_dust_up draws only the vertical geometry part of a Redstone line going up/down the side of a block. Also note that the #overlay geometry is unused in ToyPack, so I've removed the texture and the part of this model"
+}

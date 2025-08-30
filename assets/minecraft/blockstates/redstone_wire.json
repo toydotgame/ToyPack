@@ -1,6 +1,7 @@
 {
 	"multipart": [
 		{
+			"_toypack_comment": "DOT OR CROSS",
 			"when": {"OR": [
 					{"north": "none", "east": "none",
 					 "south": "none", "west": "none"},
@@ -11,7 +12,9 @@
 			]},
 			"apply": {"model": "minecraft:block/redstone_dust_dot"}
 		},
+
 		{
+			"_toypack_comment": "CONNECTS NORTH (+ ANY) OR ONLY SOUTH",
 			"when": {"OR": [
 					{"north": "none",    "east": "none",
 					 "south": "side|up", "west": "none"},
@@ -20,6 +23,7 @@
 			"apply": {"model": "minecraft:block/redstone_dust_side0"}
 		},
 		{
+			"_toypack_comment": "CONNECTS SOUTH (+ ANY) OR ONLY SOUTH",
 			"when": {"OR": [
 					{"north": "side|up", "east": "none",
 					 "south": "none",    "west": "none"},
@@ -28,6 +32,7 @@
 			"apply": {"model": "minecraft:block/redstone_dust_side_alt0"}
 		},
 		{
+			"_toypack_comment": "CONNECTS EAST (+ ANY) OR ONLY WEST",
 			"when": {"OR": [
 					{"north": "none", "east": "none",
 					 "south": "none", "west": "side|up"},
@@ -39,6 +44,7 @@
 			}
 		},
 		{
+			"_toypack_comment": "CONNECTS WEST (+ ANY) OR ONLY EAST",
 			"when": {"OR": [
 					{"north": "none", "east": "side|up",
 					 "south": "none", "west": "none"},
@@ -49,6 +55,7 @@
 				"y": 270
 			}
 		},
+
 		{
 			"when":  {"north": "up"},
 			"apply": {"model": "minecraft:block/redstone_dust_up"}
