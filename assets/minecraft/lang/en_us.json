@@ -37,6 +37,7 @@
 	"gui.advancements": "Achievements",
 	"advancements.toast.task": "Achievement Get!",
 	"argument.entity.options.advancements.description": "Players with achievements",
+	
 	"item.minecraft.allay_spawn_egg": "Spawn Allay",
 	"item.minecraft.axolotl_spawn_egg": "Spawn Axolotl",
 	"item.minecraft.bee_spawn_egg": "Spawn Bee",
@@ -70,6 +71,12 @@
 	"item.minecraft.zoglin_spawn_egg": "Spawn Zoglin",
 	"item.minecraft.goat_spawn_egg": "Spawn Goat",
 	"item.minecraft.sniffer_spawn_egg": "Spawn Sniffer",
+	"item.minecraft.armadillo_spawn_egg": "Spawn Armadillo",
+	"item.minecraft.bogged_spawn_egg": "Spawn Bogged",
+	"item.minecraft.breeze_spawn_egg": "Spawn Breeze",
+	"item.minecraft.creaking_spawn_egg": "Spawn Creaking",
+	"item.minecraft.happy_ghast_spawn_egg": "Spawn Happy Ghast",
+	
 	"item.minecraft.yellow_dye": "Dandelion Yellow",
 	"gamerule.announceAdvancements":"announceAdvancements",
 	"gamerule.commandBlockOutput":"commandBlockOutput",
