@@ -2,112 +2,112 @@
 	"music.game": {
 		"replace": "true",
 		"sounds": [
-		  {
+			{
 			"name": "music/game/minecraft",
 			"stream": true
-		  },
-		  {
+			},
+			{
 			"name": "music/game/clark",
 			"stream": true
-		  },
-		  {
+			},
+			{
 			"name": "music/game/sweden",
 			"stream": true
-		  },
-		  {
+			},
+			{
 			"name": "music/game/subwoofer_lullaby",
 			"stream": true
-		  },
-		  {
+			},
+			{
 			"name": "music/game/living_mice",
 			"stream": true
-		  },
-		  {
+			},
+			{
 			"name": "music/game/haggstrom",
 			"stream": true
-		  },
-		  {
+			},
+			{
 			"name": "music/game/danny",
 			"stream": true
-		  },
-		  {
+			},
+			{
 			"name": "music/game/key",
 			"stream": true
-		  },
-		  {
+			},
+			{
 			"name": "music/game/oxygene",
 			"stream": true
-		  },
-		  {
+			},
+			{
 			"name": "music/game/dry_hands",
 			"stream": true
-		  },
-		  {
+			},
+			{
 			"name": "music/game/wet_hands",
 			"stream": true
-		  },
-		  {
+			},
+			{
 			"name": "music/game/mice_on_venus",
 			"stream": true
-		  }
+			}
 		]
 	},
 	"music.menu": {
 		"replace": "true",
 		"sounds": [
 			{
-              "name": "music/menu/mutation",
-              "stream": true
-            },
-            {
-              "name": "music/menu/moog_city_2",
-              "stream": true
-            },
-            {
-              "name": "music/menu/beginning_2",
-              "stream": true
-            },
-            {
-              "name": "music/menu/floating_trees",
-              "stream": true
-            }
+							"name": "music/menu/mutation",
+							"stream": true
+						},
+						{
+							"name": "music/menu/moog_city_2",
+							"stream": true
+						},
+						{
+							"name": "music/menu/beginning_2",
+							"stream": true
+						},
+						{
+							"name": "music/menu/floating_trees",
+							"stream": true
+						}
 		]
 	},
 	"music.creative": {
 		"replace": "true",
 		"sounds": [
-            {
-              "name": "music/game/creative/biome_fest",
-              "stream": true
-            },
-            {
-              "name": "music/game/creative/blind_spots",
-              "stream": true
-            },
-            {
-              "name": "music/game/creative/haunt_muskie",
-              "stream": true
-            },
-            {
-              "name": "music/game/creative/aria_math",
-              "stream": true
-            },
-            {
-              "name": "music/game/creative/dreiton",
-              "stream": true
-            },
-            {
-              "name": "music/game/creative/taswell",
-              "stream": true
-            }
-        ]
+						{
+							"name": "music/game/creative/biome_fest",
+							"stream": true
+						},
+						{
+							"name": "music/game/creative/blind_spots",
+							"stream": true
+						},
+						{
+							"name": "music/game/creative/haunt_muskie",
+							"stream": true
+						},
+						{
+							"name": "music/game/creative/aria_math",
+							"stream": true
+						},
+						{
+							"name": "music/game/creative/dreiton",
+							"stream": true
+						},
+						{
+							"name": "music/game/creative/taswell",
+							"stream": true
+						}
+				]
 	},
 	"music.overworld.badlands": {
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.game",
-			  "type": "event"
+				"name": "music.game",
+				"type": "event"
 			}
 		]
 	},
@@ -115,8 +115,8 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.game",
-			  "type": "event"
+				"name": "music.game",
+				"type": "event"
 			}
 		]
 	},
@@ -124,8 +124,8 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.game",
-			  "type": "event"
+				"name": "music.game",
+				"type": "event"
 			}
 		]
 	},
@@ -133,8 +133,8 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.game",
-			  "type": "event"
+				"name": "music.game",
+				"type": "event"
 			}
 		]
 	},
@@ -142,8 +142,8 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.game",
-			  "type": "event"
+				"name": "music.game",
+				"type": "event"
 			}
 		]
 	},
@@ -151,8 +151,8 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.game",
-			  "type": "event"
+				"name": "music.game",
+				"type": "event"
 			}
 		]
 	},
@@ -160,8 +160,8 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.game",
-			  "type": "event"
+				"name": "music.game",
+				"type": "event"
 			}
 		]
 	},
@@ -169,8 +169,8 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.game",
-			  "type": "event"
+				"name": "music.game",
+				"type": "event"
 			}
 		]
 	},
@@ -178,8 +178,8 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.game",
-			  "type": "event"
+				"name": "music.game",
+				"type": "event"
 			}
 		]
 	},
@@ -187,8 +187,8 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.game",
-			  "type": "event"
+				"name": "music.game",
+				"type": "event"
 			}
 		]
 	},
@@ -196,8 +196,8 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.game",
-			  "type": "event"
+				"name": "music.game",
+				"type": "event"
 			}
 		]
 	},
@@ -205,8 +205,8 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.game",
-			  "type": "event"
+				"name": "music.game",
+				"type": "event"
 			}
 		]
 	},
@@ -214,8 +214,8 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.game",
-			  "type": "event"
+				"name": "music.game",
+				"type": "event"
 			}
 		]
 	},
@@ -223,8 +223,8 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.game",
-			  "type": "event"
+				"name": "music.game",
+				"type": "event"
 			}
 		]
 	},
@@ -232,8 +232,8 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.game",
-			  "type": "event"
+				"name": "music.game",
+				"type": "event"
 			}
 		]
 	},
@@ -241,8 +241,8 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.game",
-			  "type": "event"
+				"name": "music.game",
+				"type": "event"
 			}
 		]
 	},
@@ -250,8 +250,8 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.game",
-			  "type": "event"
+				"name": "music.game",
+				"type": "event"
 			}
 		]
 	},
@@ -259,8 +259,8 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.game",
-			  "type": "event"
+				"name": "music.game",
+				"type": "event"
 			}
 		]
 	},
@@ -268,31 +268,31 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.game",
-			  "type": "event"
+				"name": "music.game",
+				"type": "event"
 			}
 		]
 	},
 	"music.under_water": {
 		"replace": "true",
 		"sounds": [
-		  {
+			{
 			"name": "music/game/water/axolotl",
 			"stream": true,
 			"volume": 0.4
-		  },
-		  {
+			},
+			{
 			"name": "music/game/water/dragon_fish",
 			"stream": true,
 			"volume": 0.4
-		  },
-		  {
+			},
+			{
 			"name": "music/game/water/shuniji",
 			"stream": true,
 			"volume": 0.4
-		  }
+			}
 		]
-    },
+		},
 	"music.nether.nether_wastes": {
 		"replace": "true",
 		"sounds": [
@@ -316,10 +316,10 @@
 	},
 	"music.nether.basalt_deltas": {
 		"replace": "true",
-	  	"sounds": [
+			"sounds": [
 			{
-			  "name": "music.nether.nether_wastes",
-			  "type": "event"
+				"name": "music.nether.nether_wastes",
+				"type": "event"
 			}
 		]
 	},
@@ -327,8 +327,8 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.nether.nether_wastes",
-			  "type": "event"
+				"name": "music.nether.nether_wastes",
+				"type": "event"
 			}
 		]
 	},
@@ -336,8 +336,8 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.nether.nether_wastes",
-			  "type": "event"
+				"name": "music.nether.nether_wastes",
+				"type": "event"
 			}
 		]
 	},
@@ -345,8 +345,8 @@
 		"replace": "true",
 		"sounds": [
 			{
-			  "name": "music.nether.nether_wastes",
-			  "type": "event"
+				"name": "music.nether.nether_wastes",
+				"type": "event"
 			}
 		]
 	},
@@ -745,6 +745,63 @@
 			}
 		],
 		"subtitle": "subtitles.block.pressure_plate.click"
+	},
+	
+	"block.iron.break": {
+		"replace": true,
+		"sounds": [
+			{"name": "dig/stone1", "volume": 1.0, "pitch": 1.2},
+			{"name": "dig/stone2", "volume": 1.0, "pitch": 1.2},
+			{"name": "dig/stone3", "volume": 1.0, "pitch": 1.2},
+			{"name": "dig/stone4", "volume": 1.0, "pitch": 1.2}
+		],
+		"subtitle": "subtitles.block.generic.break"
+	},
+	"block.iron.fall": {
+		"replace": true,
+		"sounds": [
+			{"name": "step/stone1", "volume": 0.5, "pitch": 1.25},
+			{"name": "step/stone2", "volume": 0.5, "pitch": 1.25},
+			{"name": "step/stone3", "volume": 0.5, "pitch": 1.25},
+			{"name": "step/stone4", "volume": 0.5, "pitch": 1.25},
+			{"name": "step/stone5", "volume": 0.5, "pitch": 1.25},
+			{"name": "step/stone6", "volume": 0.5, "pitch": 1.25}
+		],
+		"subtitle": "subtitles.block.generic.fall"
+	},
+	"block.iron.hit": {
+		"replace": true,
+		"sounds": [
+			{"name": "step/stone1", "volume": 0.25, "pitch": 0.75},
+			{"name": "step/stone2", "volume": 0.25, "pitch": 0.75},
+			{"name": "step/stone3", "volume": 0.25, "pitch": 0.75},
+			{"name": "step/stone4", "volume": 0.25, "pitch": 0.75},
+			{"name": "step/stone5", "volume": 0.25, "pitch": 0.75},
+			{"name": "step/stone6", "volume": 0.25, "pitch": 0.75}
+		],
+		"subtitle": "subtitles.block.generic.hit"
+	},
+	"block.iron.place": {
+		"replace": true,
+		"sounds": [
+			{"name": "dig/stone1", "volume": 1.0, "pitch": 1.2},
+			{"name": "dig/stone2", "volume": 1.0, "pitch": 1.2},
+			{"name": "dig/stone3", "volume": 1.0, "pitch": 1.2},
+			{"name": "dig/stone4", "volume": 1.0, "pitch": 1.2}
+		],
+		"subtitle": "subtitles.block.generic.place"
+	},
+	"block.iron.step": {
+		"replace": true,
+		"sounds": [
+			{"name": "step/stone1", "volume": 0.5, "pitch": 1.25},
+			{"name": "step/stone2", "volume": 0.5, "pitch": 1.25},
+			{"name": "step/stone3", "volume": 0.5, "pitch": 1.25},
+			{"name": "step/stone4", "volume": 0.5, "pitch": 1.25},
+			{"name": "step/stone5", "volume": 0.5, "pitch": 1.25},
+			{"name": "step/stone6", "volume": 0.5, "pitch": 1.25}
+		],
+		"subtitle": "subtitles.block.generic.footsteps"
 	}
 }
 
