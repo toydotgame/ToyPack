@@ -54,6 +54,7 @@ Copied/inspired textures appeared in these updates, from these places. Versions 
 **ToyPack 1.15:**
 * [XeKr's XK Redstone Display](https://modrinth.com/resourcepack/xk-redstone-display) — Note Block instruments (most of the model code, instrument and pitch sprites and fonts)
 * [/u/Red\_Mersi's "Fern" screenshot and reconstruction](https://www.reddit.com/r/Minecraft/comments/1fd02lx/a_512x512_rendition_of_fern_by_kristoffer/) — _Fern_ HD painting texture, made from a screenshot from the Tricky Trials trailer
+* [rich1051414's Damage Indicators Mod](https://legacy.curseforge.com/minecraft/mc-mods/damage-indicators-mod) — Health bar PNG for the _Health Indicators TXF_ "Default" bar texture
 
 ## Requirements
 ToyPack is designed to **not** require any mods or whatnot to get it working. Pre-ToyPack 1.13 (Minecraft 1.19 port update), it used to require OptiFine for things like light and colourmaps, etc. So ideally, you need to do nothing to get ToyPack working 100%.
@@ -78,6 +79,11 @@ Therefore, I need to make a custom block model for the Chest and derivatives to 
 **However**, everything kinda falls apart with the Chest Minecart. As such, there's a CEM model file for the Chest block that flat out removes it, meaning that I do hightly suggest using the Entity Model Features (EMF) mod to take advantage of what I've done.
 
 FabulouslyOptimised is an example of a modpack that struggles heavily with my Chest optimisations and customisations, but thankfully it includes EMF out of the box and therefore this pack *does* work fine there!
+</details>
+<details><summary><i>Health Indicators TXF</i> mod</summary>
+Custom textures exist for this! If you remember golden age modding and the ubiquitous health bar mod, I've ported that texture for use in the modern <i>Health Indicators TXF</i> mod.
+
+Select the "Default" bar style to use the ToyPack texture.
 </details>
 
 ## Changelog
