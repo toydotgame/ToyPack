@@ -955,6 +955,8 @@
 	"painting.minecraft.stage.title": "The stage is set",
 	"painting.minecraft.sunset.title": "Sunset dense",
 	"painting.minecraft.tides.title": "Oh, The Sea",
-	"painting.minecraft.void.title": "The Void"
+	"painting.minecraft.void.title": "The Void",
+
+	"item.components": "NBT: %s tag(s)"
 }
 
