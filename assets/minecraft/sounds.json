@@ -802,6 +802,63 @@
 			{"name": "step/stone6", "volume": 0.5, "pitch": 1.25}
 		],
 		"subtitle": "subtitles.block.generic.footsteps"
+	},
+
+	"block.spawner.break": {
+		"replace": true,
+		"sounds": [
+			{"name": "dig/stone1", "volume": 1.0, "pitch": 1.2},
+			{"name": "dig/stone2", "volume": 1.0, "pitch": 1.2},
+			{"name": "dig/stone3", "volume": 1.0, "pitch": 1.2},
+			{"name": "dig/stone4", "volume": 1.0, "pitch": 1.2}
+		],
+		"subtitle": "subtitles.block.generic.break"
+	},
+	"block.spawner.fall": {
+		"replace": true,
+		"sounds": [
+			{"name": "step/stone1", "volume": 0.5, "pitch": 1.25},
+			{"name": "step/stone2", "volume": 0.5, "pitch": 1.25},
+			{"name": "step/stone3", "volume": 0.5, "pitch": 1.25},
+			{"name": "step/stone4", "volume": 0.5, "pitch": 1.25},
+			{"name": "step/stone5", "volume": 0.5, "pitch": 1.25},
+			{"name": "step/stone6", "volume": 0.5, "pitch": 1.25}
+		],
+		"subtitle": "subtitles.block.generic.fall"
+	},
+	"block.spawner.hit": {
+		"replace": true,
+		"sounds": [
+			{"name": "step/stone1", "volume": 0.25, "pitch": 0.75},
+			{"name": "step/stone2", "volume": 0.25, "pitch": 0.75},
+			{"name": "step/stone3", "volume": 0.25, "pitch": 0.75},
+			{"name": "step/stone4", "volume": 0.25, "pitch": 0.75},
+			{"name": "step/stone5", "volume": 0.25, "pitch": 0.75},
+			{"name": "step/stone6", "volume": 0.25, "pitch": 0.75}
+		],
+		"subtitle": "subtitles.block.generic.hit"
+	},
+	"block.spawner.place": {
+		"replace": true,
+		"sounds": [
+			{"name": "dig/stone1", "volume": 1.0, "pitch": 1.2},
+			{"name": "dig/stone2", "volume": 1.0, "pitch": 1.2},
+			{"name": "dig/stone3", "volume": 1.0, "pitch": 1.2},
+			{"name": "dig/stone4", "volume": 1.0, "pitch": 1.2}
+		],
+		"subtitle": "subtitles.block.generic.place"
+	},
+	"block.spawner.step": {
+		"replace": true,
+		"sounds": [
+			{"name": "step/stone1", "volume": 0.5, "pitch": 1.25},
+			{"name": "step/stone2", "volume": 0.5, "pitch": 1.25},
+			{"name": "step/stone3", "volume": 0.5, "pitch": 1.25},
+			{"name": "step/stone4", "volume": 0.5, "pitch": 1.25},
+			{"name": "step/stone5", "volume": 0.5, "pitch": 1.25},
+			{"name": "step/stone6", "volume": 0.5, "pitch": 1.25}
+		],
+		"subtitle": "subtitles.block.generic.footsteps"
 	}
 }
 
