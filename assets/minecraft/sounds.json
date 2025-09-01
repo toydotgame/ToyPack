@@ -1,5 +1,5 @@
 {
-	"_toypack_0": {"c": "This file is HUGE. It is the amalgamation of MANY of my own tweaks and some additional tweaks from other packs. Ideally, everything is split into somewhat-organised sections. You'll notice comments aren't just standalone strings. The resource loader DOES NOT like that… Use a containing JSON object instead (like this one!) Good luck :)"},
+	"_toypack_0": {"c": "This file is/was pretty big. It is the amalgamation of MANY of my own tweaks and some additional tweaks from other packs. Ideally, everything is split into somewhat-organised sections. You'll notice comments aren't just standalone strings. The resource loader DOES NOT like that. Use a containing JSON object instead (like this one!) Good luck :)"},
 
 	"_toypack_1": {"c": "#### MUSIC ####"},
 
