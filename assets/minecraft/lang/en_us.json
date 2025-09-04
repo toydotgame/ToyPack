@@ -957,6 +957,10 @@
 	"painting.minecraft.tides.title": "Oh, The Sea",
 	"painting.minecraft.void.title": "The Void",
 
-	"item.components": "NBT: %s tag(s)"
+	"item.components": "NBT: %s tag(s)",
+	"block.minecraft.spawn.not_valid": "Your home bed is missing or obstructed",
+	"block.minecraft.bed.no_sleep": "You can only sleep at night",
+	"block.minecraft.bed.not_safe": "You may not rest now, there are monsters nearby",
+	"block.minecraft.bed.too_far_away": "You may not rest now, the bed is too far away"
 }
 
