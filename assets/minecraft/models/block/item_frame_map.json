@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/template_item_frame_map",
+	"textures": {
+		"wood":     "minecraft:block/oak_planks",
+		"back":     "minecraft:block/item_frame",
+		"particle": "minecraft:block/oak_planks"
+	}
+}
+
