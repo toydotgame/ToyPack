@@ -1,5 +1,18 @@
 #version 150
 
+/*
+ * AUTHOR: Mojang, toydotgame
+ * CREATED: 2025-09-04
+ * Mojang's lightmap.fsh as of 1.21.8, with ToyPack modifications to achieve:
+ * - Monochromatic block lighting (as an approximation of the mean of the
+ *   Vanilla RGB curves rather than a purely linear relation)
+ * - Monochromatic skylight colour
+ * - Fix MC-225088 by just…not mixing a bit of light grey once or twice every
+ *   frame, allowing dark to be more dark and bright to be more bright
+ *     - Requires a manual re-implementation of minimum block light in the code
+ *       where we apply lighting to non-fullbright/night vision renders, see below
+ */
+
 layout(std140) uniform LightmapInfo {
 	float AmbientLightFactor;
 	float SkyFactor;
@@ -28,105 +41,70 @@ vec3 notGamma(vec3 x) {
 
 void main() {
 	/* BEGIN TOYPACK CODE */
-	/*
-	 * lightmapInfo.BlockFactor is the subtle flicker applied to block light
-	 * since Beta 1.8-pre1. From some very basic testing, it seems to flicker
-	 * at and around 1.5f, so to remove it I just replace said variable with
-	 * the literal 1.5:
-	 */
-	float block_brightness = 1.5*get_brightness(floor(16*texCoord.x)/15);
+	// lightmapInfo.BlockFactor is the flicker to apply to block light sources.
+	// It wavers around 1.5f; I don't want it, so we replace it with the literal:
+	float bl = 1.5*get_brightness(floor(texCoord.x * 16)/15);
 	/* END TOYPACK CODE */
 	float sky_brightness = get_brightness(floor(texCoord.y * 16) / 15) * lightmapInfo.SkyFactor;
 	
 	/* BEGIN TOYPACK CODE */
 	/*
-	 * Alpha used a grayscale non-linear function for light levels where
-	 * block light 15 → 1, bl 14 → 80% of 1, bl 13 → 80% of bl 14, etc. This
-	 * can be expressed as:
-	 *     f(x) = 0.8^(15-x)
-	 * (Where x is the block light from 0–15 inclusive) Note how:
-	 *    f(15) = 0.8^(15-15) = 0.8^0 = 1
-	 * and
-	 *    f(14) = 0.8^(15-14) = 0.8^1 = 80%
-	 * As described above!
+	 * Vanilla uses the following three functions to determine the brightness
+	 * of a block given light level from light sources `l` (0–1):
+	 *     r(l) = l
+	 *     g(l) = 0.36l² + 0.64l
+	 *     b(l) = 0.6l³ + 0.4l
 	 * 
-	 * Or given that `block_brightness` is a 0–1 float value we get in this
-	 * shader, we can do:
-	 *     g(x) = 0.8^(15-15x)
-	 * To compensate.
+	 * For reference, Minecraft Alpha 'till Beta 1.8 determined the value for
+	 * all three as:
+	 *     v₁(b) = 0.8^(15-b)
+	 * (Where `b` is block light, 0–15) Alternatively, for the `l` scale of 0–1:
+	 *     v₂(l) = 0.8^(15-15l)
 	 * 
-	 * pow() isn't really great to use in the rendering pipleline, but to be
-	 * completely fair the Vanilla original used three seperate calculations
-	 * to create cubic functions for the R, G, and B channels uniquely, so one
-	 * expensive pow() for all there isn't _too bad_… (Coping)
+	 * I personally think the Alpha/Beta-era function looks nicer, but
+	 * practically it gets dim real fast and isn't fun for non-aesthetic
+	 * gameplay. Therefore, I instead define a new function `f` which is the
+	 * average of the aforementioned functions `r`, `g`, and `b`:
+	 *     f(l) = r(l) + g(l) + b(l) = l + (0.36l² + 0.64l) + (0.6l³ + 0.4l)
+	 *            ------------------   -------------------------------------
+	 *                    3                              3
+	 *                               = 0.6l³ + 0.36l² + 2.04l
+	 *                                 ----------------------
+	 *                                            3
+	 *                               = 0.2l³ + 0.12l² + 0.68l
+	 * We can define `l` in the function `f` to be `bl` (block light) in the GLSL
+	 * here. To potentially(?) save memory and effort, we just redefine `bl` in
+	 * terms of its previous value. Also note pow() is less computationally efficient
+	 * than manually typing out the exponentiation (for values <~9 I think)
+	 * 
+	 * To be insanely tight with computation, we can create `h`:
+	 *     f(l) ≈ h(l) = 0.42l² + 0.58l
+	 * Note the cases:
+	 *     h(l) = f(l) ⇔ l∈{0,½,1}
+	 *     h(l) < f(l),  0 < l < ½
+	 *     h(l) > f(l),  ½ < l < 1
+	 * The approximation `h` is also pretty good because—with the above cases in mind:
+	 *     ∫₀¹⸍² f(l) - h(l) dl = ∫₁⸝₂¹ h(l) - f(l) dl
+	 * i.e. The gaps between `f` and `h` are the same size on each side of l=½
 	 */
-	float bl = pow(0.8, 15-15*block_brightness);
-	vec3 color = vec3(bl, bl, bl); // Map the block light's luminosity value to R/G/B
+	//bl = pow(0.8, 15-15*bl); // Alpha-style
+	bl = 0.42*bl*bl + 0.58*bl; // Approximation of mean of modern RGB curves
+	vec3 color = vec3(bl, bl, bl); // Replace Mojang's RGB values with monochromatic luminosity
 	/* END TOYPACK CODE */
 
-	/* BEGIN TOYPACK CODE */
-	/*
-	 * Honestly not quite sure what this one does. It applies a non-sky-tinted
-	 * pale green lerp to whatever the block light colour is, if
-	 * UseBrightLightmap is 0.
-	 * If not, then it mixes in the sky colour (amplified according to the sky
-	 * brightness), and adds some "darkness" too. (???)
-	 */
-	/* END TOYPACK CODE */
 	if (lightmapInfo.UseBrightLightmap != 0) {
 		color = mix(color, vec3(0.99, 1.12, 1.0), 0.25);
 		color = clamp(color, 0.0, 1.0);
 	} else {
 		/* BEGIN TOYPACK CODE */
-		/*
-		 * Regardless, I wanna mess with the SkyLightColor to make the skylight
-		 * monochromatic.
-		 * We take a monchromatic mean of the sky colour's RGB to get a luminosity
-		 * value. `sky_brightness` varies and determines how much of this light
-		 * colour we should add.
-		 * In the base game, it's:
-		 *     sky_light = sky_colour*sky_brightness
-		 * I want to add a multiplier to lower the minimum light level, without
-		 * affecting the higher ones, ergo the above is a linear relation of
-		 * the form:
-		 *     f(l) = Cl
-		 * (Where l is the light level (0–1), and C is the aforementioned luminosity)
-		 * Ergo, with a turning point at (1,C) (i.e. the 100% brightness pure sky
-		 * colour), that would be:
-		 *     g(l) = C(l-1)+C
-		 * Simply inserting some multiplier m into the mix:
-		 *     h(l,m) = C(2-m)(l-1)+C
-		 * And that does it! Note m should be 0–1, and that the constant 2 makes
-		 * the multiplier affect the gradient of g(l) positively, rather than
-		 * not at all (1), or negatively (0).
-		 *
-		 * sky_brightness_multiplier is REALLY mean, values ≥0.9 are the only
-		 * practically useful ones, as anything less creates insane shadows.
-		 * Anything less than 1 breaks fullbright/night vision stuff, so I'm
-		 * actually going to leave this mostly commented out.
-		 */
-		//const float sky_brightness_multiplier = 0.95;
-		float sky_color_mean = ( // I don't think there's a pretty way to do this
-			 lightmapInfo.SkyLightColor.r
-			+lightmapInfo.SkyLightColor.g
-			+lightmapInfo.SkyLightColor.b
-		)/3;
-		//float sl = sky_color_mean*(2-sky_brightness_multiplier)*(sky_brightness-1)+sky_color_mean;
-		//color += vec3(sl, sl, sl);
-
-		color += vec3(sky_color_mean, sky_color_mean, sky_color_mean)*sky_brightness; // Here because above multiplier code is commented out
-
-		// Commenting out fixes MC-225088. Why did 21w18a randomly decide to make sky light less?:
-		//color = mix(color, vec3(0.75), 0.04);
+		float mean_sky_color = (lightmapInfo.SkyLightColor.r+lightmapInfo.SkyLightColor.g+lightmapInfo.SkyLightColor.b)/3;
+		color += mean_sky_color*sky_brightness; // Replace Mojang's adding sky colour with just adding luminosity
+		// Mojang's mix() approach of 0.04*vec3(0.75) to implement minimum block light levels causes
+		// ugly brightness and colour issues (MC-225088). Instead we can just set a lower bound without
+		// affecting the rest of the curve:
+		color = clamp(color, 0.03, 1.0);
 		/* END TOYPACK CODE */
-		
-		/* BEGIN TOYPACK CODE */
-		/*
-		 * darkened_color is just color and a bit of a reddish-grey tint.
-		 * DarkenWorldFactor is used to determine how much of said colour to
-		 * apply. It is only used in the Ender Dragon fight
-		 */
-		/* END TOYPACK CODE */
+
 		vec3 darkened_color = color * vec3(0.7, 0.6, 0.6);
 		color = mix(color, darkened_color, lightmapInfo.DarkenWorldFactor);
 	}
@@ -147,10 +125,11 @@ void main() {
 	vec3 notGamma = notGamma(color);
 	color = mix(color, notGamma, lightmapInfo.BrightnessFactor);
 	/* BEGIN TOYPACK CODE */
-	//color = mix(color, vec3(0.75), 0.04); // MC-225088 fix as above
+	//color = mix(color, vec3(0.75), 0.04); // Commenting out fixes MC-225088
 	/* END TOYPACK CODE */
 	color = clamp(color, 0.0, 1.0);
 
 	fragColor = vec4(color, 1.0);
 }
 
+// vim: syntax=glsl:
