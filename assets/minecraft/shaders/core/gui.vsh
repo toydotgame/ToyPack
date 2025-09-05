@@ -55,8 +55,9 @@ void main() {
 	}
 
 	// CHAT SCROLL BAR: This is a blind test for RGB matches, but hey at least we know it won't happen in a GUI
-	if(vertexColor.rgb == vec3(51, 51, 170)/255
-	|| vertexColor.rgb == vec3(204)/255) {
+	if(vertexColor.a < 1.0
+	&& (vertexColor.rgb == vec3(51, 51, 170)/255
+	 || vertexColor.rgb == vec3(204)/255)) {
 		vertexColor = vec4(0); // Yeet if matches scroll bar colour
 		return;
 	}
