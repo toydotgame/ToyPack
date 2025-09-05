@@ -38,7 +38,7 @@
 		},
 		{
 			"when":  {"instrument": "basedrum"},
-			"apply": {"model": "minecraft:block/note_block/instrument/basedrum"}
+			"apply": {"model": "minecraft:block/note_block/instrument/bassdrum"}
 		},
 		{
 			"when":  {"instrument": "iron_xylophone"},
