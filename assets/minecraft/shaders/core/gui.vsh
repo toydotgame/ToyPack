@@ -54,6 +54,13 @@ void main() {
 		return;
 	}
 
+	// CHAT SCROLL BAR: This is a blind test for RGB matches, but hey at least we know it won't happen in a GUI
+	if(vertexColor.rgb == vec3(51, 51, 170)/255
+	|| vertexColor.rgb == vec3(204)/255) {
+		vertexColor = vec4(0); // Yeet if matches scroll bar colour
+		return;
+	}
+
 	// MOJANG SPLASH DIM
 	if(vertexColor.rgb == vec3(239, 50, 61)/255) { // #EF323D default
 		const vec3 MOJANG_PURPLE = vec3(55, 51, 99)/255; // Mojang bg colour
