@@ -85,6 +85,13 @@ Custom textures exist for this! If you remember golden age modding and the ubiqu
 
 Select the "Default" bar style to use the ToyPack texture.
 </details>
+<details><summary>Dirt fill in Programmer Art Minecarts</summary>
+If you are using the Entity Model Features mod, there is a custom model that uses the "dirt" texture present in <code>minecart.png</code> in the Programmer Art pack, back from when Minecarts were unrideable and meant to carry dirt.
+
+I have added a plane that was removed in Release 1.18-pre2 but has been present since Infdev that showed this feature inside the bottom geometry of the Minecart and its derivatives.
+
+Additionally, if you are able to use my custom model to re-add this, I have culled 4 faces total (meaning you net 3 faces less than the Vanilla model despite me adding the dirt geometry back) that cause UV fighting and are unnecessary to render inside the Minecart's sides.
+</details>
 
 ## Changelog
 New features in this Update (1.14.2\_01): Small patch to do two things
