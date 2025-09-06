@@ -1,0 +1,84 @@
+{
+	"textureSize": [64, 32],
+	"texture": "textures/entity/minecart.png",
+	"models": [
+		{
+			"part": "back",
+			"id": "back",
+			"invertAxis": "xy",
+			"translate": [9, -20, 0],
+			"scale": 1,
+			"boxes": [
+				{
+					"coordinates": [-17, 21, -1, 16, 8, 2],
+					"uvNorth": [2, 2, 18, 10],
+					"uvEast": [0, 2, 2, 10],
+					"uvSouth": [20, 2, 36, 10],
+					"uvWest": [18, 2, 20, 10],
+					"uvUp": [18, 2, 2, 0]
+				}
+			]
+		},
+		{
+			"part": "left",
+			"id": "left",
+			"invertAxis": "xy",
+			"translate": [0, -20, 7],
+			"scale": 1,
+			"boxes": [
+				{
+					"coordinates": [-8, 21, -8, 16, 8, 2],
+					"uvNorth": [2, 2, 18, 10],
+					"uvSouth": [20, 2, 36, 10],
+					"uvUp": [18, 2, 2, 0]
+				}
+			]
+		},
+		{
+			"part": "bottom",
+			"id": "bottom",
+			"invertAxis": "xy",
+			"translate": [0, -20, 0],
+			"scale": 1,
+			"boxes": [
+				{"coordinates": [-10, 12, -1, 20, 16, 2], "textureOffset": [0, 10]},
+				{
+					"coordinates": [-8, 14, 0, 16, 12, 0],
+					"uvSouth": [62, 24, 46, 12]
+				}
+			]
+		},
+		{
+			"part": "front",
+			"id": "front",
+			"invertAxis": "xy",
+			"translate": [-9, -20, 0],
+			"scale": 1,
+			"boxes": [
+				{
+					"coordinates": [1, 21, -1, 16, 8, 2],
+					"uvNorth": [2, 2, 18, 10],
+					"uvEast": [0, 2, 2, 10],
+					"uvSouth": [20, 2, 36, 10],
+					"uvWest": [18, 2, 20, 10],
+					"uvUp": [18, 2, 2, 0]
+				}
+			]
+		},
+		{
+			"part": "right",
+			"id": "right",
+			"invertAxis": "xy",
+			"translate": [0, -20, -7],
+			"scale": 1,
+			"boxes": [
+				{
+					"coordinates": [-8, 21, 6, 16, 8, 2],
+					"uvNorth": [2, 2, 18, 10],
+					"uvSouth": [20, 2, 36, 10],
+					"uvUp": [18, 2, 2, 0]
+				}
+			]
+		}
+	]
+}
