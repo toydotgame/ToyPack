@@ -21,7 +21,7 @@ Copied/inspired textures appeared in these updates, from these places. Versions 
 * [Luadewi's Classic Music Pack](https://modrinth.com/resourcepack/classic-music-pack) — sounds.json base for C418-only music, modified heavily by me for the 1.19.4+ biome-based music changes
 
 **ToyPack 1.13.3:**
-* [Injent's Legacy Console Click Sound](https://www.planetminecraft.com/texture-pack/legacy-console-click-sound/) — Menu button click sound
+* [Injent's Legacy Console Click Sound](https://www.planetminecraft.com/texture-pack/legacy-console-click-sound/) — Menu button click sound. Not their asset but I took the LCE dumped sound file from there specifically
 * [alyssajolt's Less Painful Glowstone](https://www.planetminecraft.com/texture-pack/less-painful-glowstone/) — Glowstone block
 
 **ToyPack 1.13.4:**
@@ -55,6 +55,8 @@ Copied/inspired textures appeared in these updates, from these places. Versions 
 * [XeKr's XK Redstone Display](https://modrinth.com/resourcepack/xk-redstone-display) — Note Block instruments (most of the model code, instrument and pitch sprites and fonts)
 * [/u/Red\_Mersi's "Fern" screenshot and reconstruction](https://www.reddit.com/r/Minecraft/comments/1fd02lx/a_512x512_rendition_of_fern_by_kristoffer/) — _Fern_ HD painting texture, made from a screenshot from the Tricky Trials trailer
 * [rich1051414's Damage Indicators Mod](https://legacy.curseforge.com/minecraft/mc-mods/damage-indicators-mod) — Health bar PNG for the _Health Indicators TXF_ "Default" bar texture
+* [Narotiza's Consistent Sounds](https://modrinth.com/resourcepack/consistent-sounds) — Most of the "consistent" sounds.json data to make new blocks use the core Stone/Gravel/Wood/etc sounds for better continuity. Previously I had used this as a fallback alongside Programmer Art for ToyPack. Since ToyPack 1.15 the _Consistent Sounds_ JSON has been integrated into ToyPack to eliminate my need for multiple packs, and also so I can maintain this **now unmaintained** pack into the future/resolve conflicts with ToyPack sounds.json stuff
+* [S-N00B-1's consolesounds](https://github.com/S-N00B-1/consolesounds) — As with the _Legacy Console Click Sound_ attribution, this isn't a full attribution to the author. This is a LCE asset, but it was dumped in the source tree here and so this is the location where I got the ToyPack `stonecutter_select` sound from
 
 ## Requirements
 ToyPack is designed to **not** require any mods or whatnot to get it working. Pre-ToyPack 1.13 (Minecraft 1.19 port update), it used to require OptiFine for things like light and colourmaps, etc. So ideally, you need to do nothing to get ToyPack working 100%.
