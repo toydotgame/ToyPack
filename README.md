@@ -15,7 +15,9 @@ Copied/inspired textures appeared in these updates, from these places. Versions 
 
 **ToyPack ~1.13:**
 * [MobAndPlayerSkinUploader's HD Paintings](https://www.planetminecraft.com/texture-pack/hd-paintings/) — Kristoffer Zetterstrand paintings from Indev, "Wither" painting
-* [ThePinkHacker's P.E. Stonecutter](https://www.curseforge.com/minecraft/texture-packs/old-stonecutter) — Stonecutter textures and block model
+* [ThePinkHacker's P.E. Stonecutter](https://www.curseforge.com/minecraft/texture-packs/old-stonecutter)
+	* **ToyPack ~1.13→1.14.2_01:** Stonecutter textures and block model
+	* **ToyPack 1.15+:** Stonecutter front and top texture rips only
 
 **ToyPack 1.13.1:**
 * [Luadewi's Classic Music Pack](https://modrinth.com/resourcepack/classic-music-pack) — sounds.json base for C418-only music, modified heavily by me for the 1.19.4+ biome-based music changes
