@@ -826,6 +826,7 @@
     "item.minecraft.music_disc_creator_music_box": "Music Disc (#2273*)",
     "item.minecraft.music_disc_far": "Music Disc (#2260)",
     "item.minecraft.music_disc_lava_chicken": "Music Disc (#2276*)",
+    "item.minecraft.music_disc_lava_chicken.desc": "C418 - dog",
     "item.minecraft.music_disc_mall": "Music Disc (#2261)",
     "item.minecraft.music_disc_mellohi": "Music Disc (#2262)",
     "item.minecraft.music_disc_otherside": "Music Disc (#2269*)",
@@ -953,6 +954,8 @@
     "item.minecraft.zombie_spawn_egg": "Spawn Zombie (#383/54)",
     "item.minecraft.zombie_villager_spawn_egg": "Spawn Zombie Villager (#383/27)",
     "item.minecraft.zombified_piglin_spawn_egg": "Spawn Zombie Pigman (#383/57)",
+
+    "jukebox_song.minecraft.lava_chicken": "C418 - dog",
 
     "multiplayer.unsecureserver.toast": "This server has chat reporting disabled",
 
