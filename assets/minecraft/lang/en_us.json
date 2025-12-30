@@ -546,7 +546,7 @@
     "block.minecraft.zombie_head": "Zombie Head (#397/2)",
     "block.minecraft.zombie_wall_head": "Zombie Wall Head (#144/2)",
 
-    "container.brewing": "                                   Brewing Stand                          \u00a7f\ueff2\u00a7r",
+    "container.brewing": "                                              Brewing Stand              \u00a7f\ueff2\u00a7r",
     "container.inventory": "",
 
     "death.attack.genericKill": "%1$s fell out of the world",
