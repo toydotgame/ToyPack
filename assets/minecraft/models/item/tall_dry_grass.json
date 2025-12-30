@@ -1,7 +1,7 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "minecraft:item/tall_grass"
+        "layer0": "minecraft:item/tall_dry_grass"
     }
 }
 
