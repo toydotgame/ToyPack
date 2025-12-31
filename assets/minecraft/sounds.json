@@ -149,7 +149,7 @@
                                         "subtitle": "subtitles.entity.generic.splash"},
     "entity.player.splash.high_speed": {"replace": true, "sounds": [{"name": "entity.generic.splash", "type": "event"}],
                                         "subtitle": "subtitles.entity.generic.splash"},
-    
+
     "entity.hostile.swim":        {"replace": true, "sounds": [{"name": "entity.generic.swim", "type": "event"}],
                                    "subtitle": "subtitles.entity.generic.swim"},
     "entity.drowned.swim":        {"replace": true, "sounds": [{"name": "entity.generic.swim", "type": "event"}],
@@ -159,11 +159,14 @@
     "entity.player.swim":         {"replace": true, "sounds": [{"name": "entity.generic.swim", "type": "event"}],
                                    "subtitle": "subtitles.entity.generic.swim"},
 
-    "_toypack_7": {"c": "Quieter Minecarts the evil way:"},
+    "_toypack_7": {"c": "Remove air meter bubble pop sounds:"},
+    "ui.hud.bubble_pop": {"replace": true, "sounds": ["intentionally_empty"]},
+
+    "_toypack_8": {"c": "Quieter Minecarts the evil way:"},
     "entity.minecart.riding": {"replace": true, "sounds": [{"name": "minecart/base",   "volume": 0.5 }], "subtitle": "subtitles.entity.minecart.riding"},
     "entity.minecart.inside": {"replace": true, "sounds": [{"name": "minecart/inside", "volume": 0.5}], "_toypack_comment": "No Vanilla subtitle!"},
     
-    "_toypack_8": {"c": "Quieter Endermen the evil way:"},
+    "_toypack_9": {"c": "Quieter Endermen the evil way:"},
     "entity.enderman.ambient": {
         "replace": true,
         "sounds": [
@@ -209,10 +212,10 @@
         ],
         "subtitle": "subtitles.entity.enderman.teleport"
     },
-    "_toypack_9": {"c0": "There are also teleport sounds for the Player, Fox, Chorus Fruit, and Shulkers that use the",
+    "_toypack_10": {"c0": "There are also teleport sounds for the Player, Fox, Chorus Fruit, and Shulkers that use the",
                    "c1": "endermen/ sounds, but I don't wanna touch those"},
     
-    "_toypack_10": {"c": "Arrow sounds in less files:"},
+    "_toypack_11": {"c": "Arrow sounds in less files:"},
     "entity.arrow.hit": {"replace": true, "sounds": ["random/bowhit"], "subtitle": "subtitles.entity.arrow.hit"},
 
     "item.crossbow.hit":     {"replace": true, "sounds": [{"name": "entity.arrow.hit", "type": "event"}],
@@ -222,9 +225,9 @@
     
     
     
-    "_toypack_11": {"c": "#### BLOCK SOUNDS ####"},
+    "_toypack_12": {"c": "#### BLOCK SOUNDS ####"},
     
-    "_toypack_12": {"c": "Deterministic sounds: Don't randomly play things like open and close sounds. They should always correspond"},
+    "_toypack_13": {"c": "Deterministic sounds: Don't randomly play things like open and close sounds. They should always correspond"},
     "block.wooden_door.open":      {"replace": true, "sounds": ["block/wooden_door/open"],  "subtitle": "subtitles.block.door.toggle"},
     "block.wooden_door.close":     {"replace": true, "sounds": ["block/wooden_door/close"], "subtitle": "subtitles.block.door.toggle"},
     "block.wooden_trapdoor.open":  {"replace": true, "sounds": [{"name": "block.wooden_door.open",  "type": "event"}],
@@ -236,7 +239,7 @@
     "block.fence_gate.close":      {"replace": true, "sounds": [{"name": "block.wooden_door.close", "type": "event"}],
                                     "subtitle": "subtitles.block.fence_gate.toggle"},
 
-    "_toypack_13": {"c": "Click noises for wooden buttons and pressure plates:"},
+    "_toypack_14": {"c": "Click noises for wooden buttons and pressure plates:"},
     "block.wooden_button.click_on":          {"replace": true, "sounds": [{"name": "random/click", "volume": 0.3, "pitch": 0.6}],
                                               "subtitle": "subtitles.block.button.click"},
     "block.wooden_button.click_off":         {"replace": true, "sounds": [{"name": "random/click", "volume": 0.3, "pitch": 0.5}],
@@ -246,7 +249,7 @@
     "block.wooden_pressure_plate.click_off": {"replace": true, "sounds": [{"name": "block.wooden_button.click_off", "type": "event"}],
                                               "subtitle": "subtitles.block.pressure_plate.click"},
     
-    "_toypack_14": {"c": "Make chests use door sounds without requiring new OGGs:"},
+    "_toypack_15": {"c": "Make chests use door sounds without requiring new OGGs:"},
     "block.chest.open":        {"replace": true, "sounds": [{"name": "block.wooden_door.open",  "type": "event"}],
                                 "subtitle": "subtitles.block.chest.open"},
     "block.chest.close":       {"replace": true, "sounds": [{"name": "block.wooden_door.close", "type": "event"}],
@@ -256,7 +259,7 @@
     "block.ender_chest.close": {"replace": true, "sounds": [{"name": "block.wooden_door.close", "type": "event"}],
                                 "subtitle": "subtitles.block.chest.close"},
     
-    "_toypack_15": {"c": "Iron Block: Revert 25w02a (1.21.5) new sounds"},
+    "_toypack_16": {"c": "Iron Block: Revert 25w02a (1.21.5) new sounds"},
     "block.iron.break": {
         "replace": true,
         "sounds": [
@@ -314,7 +317,7 @@
         "subtitle": "subtitles.block.generic.footsteps"
     },
 
-    "_toypack_16": {"c": "Quieter Nether portal and Respawn Anchors:"},
+    "_toypack_17": {"c": "Quieter Nether portal and Respawn Anchors:"},
     "block.portal.ambient": {
         "replace": true,
         "sounds": [{"name": "portal/portal","volume": 0.2, "attenuation_distance": 8}],
@@ -325,7 +328,7 @@
     
     "block.respawn_anchor.ambient": {"replace": true, "sounds": ["intentionally_empty"]},
 
-    "_toypack_17": {"c": "Remove ladder/revert to Oak Planks:"},
+    "_toypack_18": {"c": "Remove ladder/revert to Oak Planks:"},
     "block.ladder.step": {"replace": true, "sounds": ["intentionally_empty"]},
 
     "block.ladder.fall": {"replace": true, "sounds": [{"name": "block.wood.fall", "type": "event"}],
@@ -333,7 +336,7 @@
     "block.ladder.hit":  {"replace": true, "sounds": [{"name": "block.wood.hit",  "type": "event"}],
                           "subtitle": "subtitles.block.generic.hit"},
     
-    "_toypack_18": {"c": "Use 4 `grass` step sound type files instead of 6:"},
+    "_toypack_19": {"c": "Use 4 `grass` step sound type files instead of 6:"},
     "block.grass.step": {
         "replace": true,
         "sounds": [
@@ -352,7 +355,7 @@
     "block.vine.hit":   {"replace": true, "sounds": [{"name": "block.grass.step", "type": "event"}],
                          "subtitle": "subtitles.block.generic.hit"},
     
-    "_toypack_19": {"c": "Ditto but for `stone`:"},
+    "_toypack_20": {"c": "Ditto but for `stone`:"},
     "block.stone.step": {
         "replace": true,
         "sounds": [
@@ -393,7 +396,7 @@
     "block.stone.hit":      {"replace": true, "sounds": [{"name": "block.stone.step", "type": "event"}],
                              "subtitle": "subtitles.block.generic.hit"},
     
-    "_toypack_20": {"c": "Ditto again for `wood` steps:"},
+    "_toypack_21": {"c": "Ditto again for `wood` steps:"},
     "block.wood.step": {
         "replace": true,
         "sounds": [
@@ -410,7 +413,7 @@
     "block.wood.hit":  {"replace": true, "sounds": [{"name": "block.wood.step", "type": "event"}],
                         "subtitle": "subtitles.block.generic.hit"},
     
-    "_toypack_21": {"c": "And `sand`:"},
+    "_toypack_22": {"c": "And `sand`:"},
     "block.sand.step": {
         "replace": true,
         "sounds": [
