@@ -59,6 +59,7 @@ Copied/inspired textures appeared in these updates, from these places. Versions 
 * [rich1051414's Damage Indicators Mod](https://legacy.curseforge.com/minecraft/mc-mods/damage-indicators-mod) — Health bar PNG for the _Health Indicators TXF_ "Default" bar texture
 * [Narotiza's Consistent Sounds](https://modrinth.com/resourcepack/consistent-sounds) — Most of the "consistent" sounds.json data to make new blocks use the core Stone/Gravel/Wood/etc sounds for better continuity. Previously I had used this as a fallback alongside Programmer Art for ToyPack. Since ToyPack 1.15 the _Consistent Sounds_ JSON has been integrated into ToyPack to eliminate my need for multiple packs, and also so I can maintain this **now unmaintained** pack into the future/resolve conflicts with ToyPack sounds.json stuff
 * [S-N00B-1's consolesounds](https://github.com/S-N00B-1/consolesounds) — As with the _Legacy Console Click Sound_ attribution, this isn't a full attribution to the author. This is a LCE asset, but it was dumped in the source tree here and so this is the location where I got the ToyPack `stonecutter_select` sound from
+* [catsflex's Old Potion Colors](https://modrinth.com/resourcepack/old-potion-colors) — Pre-1.19.3 potion colours
 
 ## Requirements
 ToyPack is designed to **not** require any mods or whatnot to get it working. Pre-ToyPack 1.13 (Minecraft 1.19 port update), it used to require OptiFine for things like light and colourmaps, etc. So ideally, you need to do nothing to get ToyPack working 100%.
@@ -95,6 +96,9 @@ If you are using the Entity Model Features mod, there is a custom model that use
 I have added a plane that was removed in Release 1.18-pre2 but has been present since Infdev that showed this feature inside the bottom geometry of the Minecart and its derivatives.
 
 Additionally, if you are able to use my custom model to re-add this, I have culled 4 faces total (meaning you net 3 faces less than the Vanilla model despite me adding the dirt geometry back) that cause UV fighting and are unnecessary to render inside the Minecart's sides.
+</details>
+<details><summary>Old potion colours</summary>
+I couldn't quite get an OptiFine-based <code>color.properties</code> file to work (i.e. because many mods are backwards-compatible with OptiFine), so you'll just have to use <i>Polytone</i>. Polytone works out-of-the-box, so simply installing the mod is enough to get old potion colours back!
 </details>
 
 ## Changelog
