@@ -100,6 +100,11 @@ Additionally, if you are able to use my custom model to re-add this, I have cull
 <details><summary>Old potion colours</summary>
 I couldn't quite get an OptiFine-based <code>color.properties</code> file to work (i.e. because many mods are backwards-compatible with OptiFine), so you'll just have to use <i>Polytone</i>. Polytone works out-of-the-box, so simply installing the mod is enough to get old potion colours back!
 </details>
+<details><summary>Removed Swamp grass/foliage colours</summary>
+This uses an OptiFine custom colourmap that happens to be a rip of the regular Vanilla one. Specifying it explicitly in an OptiFine <code>.properties</code> file allows for this to apply to Swamp biomes too, which a regular <code>assets/minecraft/textures/colormap/</code> colourmap can't.
+
+Using the <i>Polytone</i> mod is recommended, because of the other colour changes I've made (see above), but you can also just use any old mod that supports OptiFine backwards-compatibility if you like.
+</details>
 
 ## Changelog
 New features in this Update (1.14.2\_01): Small patch to do two things
