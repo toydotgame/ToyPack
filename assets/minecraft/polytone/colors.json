@@ -1,0 +1,37 @@
+{
+    "effect": {
+        "minecraft:absorption":          "0x2552A5",
+        "minecraft:bad_omen":            "0x0B6138",
+        "minecraft:blindness":           "0x1F1F23",
+        "minecraft:conduit_power":       "0x1DC2D1",
+        "minecraft:dolphins_grace":      "0x88A3BE",
+        "minecraft:fire_resistance":     "0xE49A3A",
+        "minecraft:glowing":             "0x94A061",
+        "minecraft:haste":               "0xD9C043",
+        "minecraft:health_boost":        "0xF87D23",
+        "minecraft:hero_of_the_village": "0x44FF44",
+        "minecraft:hunger":              "0x587653",
+        "minecraft:instant_damage":      "0x430A09",
+        "minecraft:instant_health":      "0xF82423",
+        "minecraft:invisibility":        "0x7F8392",
+        "minecraft:jump_boost":          "0x22FF4C",
+        "minecraft:levitation":          "0xCEFFFF",
+        "minecraft:luck":                "0x339900",
+        "minecraft:mining_fatigue":      "0x4A4217",
+        "minecraft:nausea":              "0x551D4A",
+        "minecraft:night_vision":        "0x1F1FA1",
+        "minecraft:poison":              "0x87A363",
+        "minecraft:regeneration":        "0xCD5CAB",
+        "minecraft:resistance":          "0x99453A",
+        "minecraft:saturation":          "0xF82423",
+        "minecraft:slow_falling":        "0xFFEFD1",
+        "minecraft:slowness":            "0x5A6C81",
+        "minecraft:speed":               "0x7CAFC6",
+        "minecraft:strength":            "0x932423",
+        "minecraft:unluck":              "0xC0A44D",
+        "minecraft:water_breathing":     "0x2E5299",
+        "minecraft:weakness":            "0x484D48",
+        "minecraft:wither":              "0x352A27"
+    }
+}
+
