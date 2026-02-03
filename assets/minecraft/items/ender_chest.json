@@ -1,0 +1,21 @@
+{
+    "model": {
+        "type":     "minecraft:select",
+        "property": "minecraft:display_context",
+
+        "cases": [{
+            "when": "none",
+            "model": {
+                "type":  "minecraft:special",
+                "base":  "minecraft:item/ender_chest",
+                "model": {"type": "minecraft:chest", "texture": "minecraft:ender"}
+            }
+        }],
+
+        "fallback": {
+            "type":  "minecraft:model",
+            "model": "toypack:item/ender_chest"
+        }
+    }
+}
+
