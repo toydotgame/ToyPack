@@ -78,12 +78,13 @@ If you play with <i>Accessibility</i> → <i>Monochrome Logo</i> turned <b>off</
 If you can, play on <i>English (United States)</i> as your language, as ToyPack only provides override translation keys for <code>minecraft/lang/en_us.json</code>.
 </details>
 <details><summary><b>(IMPORTANT!)</b> Chest models</summary>
-Chest models…aren't great. Since Enhanced Block Entities hasn't been updated for more recent versions of 1.21, I've fallen back to FastChest Revived for my chest optimisations in my client. FastChest's main thing is replacing the entity model and renderer for chests with block models (massive performance boost when rendering chests at the expense of the open animation). Excluding a few exceptions, block models don't support transparency—so I can't just texture out the 3D latches in favor of the 2D ones I like.
+The textures for the various chests have all been 2D-ified, but I have chosen to keep their overall block model the same 14x14x14 size as opposed to a full 16x16x16 as Beta had, just 'cuz the server is going to give you that 14x14x14 hitbox when you collide with it so…lol.
 
-Therefore, I need to make a custom block model for the Chest and derivatives to make everything work. This fixes how it works in FastChest and is backwards-compatible with Vanilla's entity model rendering to some extent.<br>
-**However**, everything kinda falls apart with the Chest Minecart. As such, there's a CEM model file for the Chest block that flat out removes it, meaning that I do hightly suggest using the Entity Model Features (EMF) mod to take advantage of what I've done.
-
-FabulouslyOptimised is an example of a modpack that struggles heavily with my Chest optimisations and customisations, but thankfully it includes EMF out of the box and therefore this pack *does* work fine there!
+ToyPack 1.15 is made for 1.21.11+, and as such the current modding scene re. optimisation of tile entities boils down to three options:
+1. **Vanilla:** No action is needed for chests to display correctly! Items, block models, and Chest Minecarts all work
+2. **Sodium:** No action is needed either! Out of the box, Sodium leaves Chests/etc as tile entities, so the transparency used works still and faux-2D textures work just the same.
+3. **Sodium+Better Block Entities:** BBE turns all chests not currently being used/animating from tile entities into block geometry that's part of the terrain mesh. What this means is that support for transparent pixels disappears as most chests are now rendered as solid blocks are. Chest Minecarts befall the same fate as their Chests are rendered using the solid block renderer as well.
+    * The fix for this is simple: I've written some shader files to allow transparent pixels in terrain (solid block) rendering. The one to fix Chest Minecarts works out of the box, but the one to fix placed chests requires the [Sodium Core Shader Support](https://modrinth.com/mod/sodium-core-shader-support) mod. Note that the Sodium+BBE combo is the _only_ case where you need this mod in turn. Sodium alone, or nothing at all (pure Vanilla) don't require this patch to be utilised
 </details>
 <details><summary><i>Health Indicators TXF</i> mod</summary>
 Custom textures exist for this! If you remember golden age modding and the ubiquitous health bar mod, I've ported that texture for use in the modern <i>Health Indicators TXF</i> mod.
