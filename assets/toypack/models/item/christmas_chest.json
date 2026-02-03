@@ -1,0 +1,10 @@
+{
+    "parent": "toypack:item/template_chest",
+    "textures": {
+        "front":  "toypack:block/christmas_chest_front",
+        "side":   "toypack:block/christmas_chest_side",
+        "top":    "toypack:block/christmas_chest_top",
+        "bottom": "toypack:block/christmas_chest_bottom"
+    }
+}
+

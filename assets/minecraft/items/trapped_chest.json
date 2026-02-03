@@ -1,0 +1,45 @@
+{
+    "model": {
+        "type":     "minecraft:select",
+        "property": "minecraft:local_time",
+        "pattern":  "MM-dd",
+
+        "cases": [{
+            "when": ["12-24", "12-25", "12-26"],
+            "model": {
+                "type":     "minecraft:select",
+                "property": "minecraft:display_context",
+                "cases": [{
+                    "when": "none",
+                    "model": {
+                        "type":  "minecraft:special",
+                        "base":  "minecraft:item/trapped_chest",
+                        "model": {"type": "minecraft:chest", "texture": "minecraft:christmas"}
+                    }
+                }],
+                "fallback": {
+                    "type":  "minecraft:model",
+                    "model": "toypack:item/christmas_chest"
+                }
+            }
+        }],
+
+        "fallback": {
+            "type":     "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [{
+                "when": "none",
+                "model": {
+                    "type":  "minecraft:special",
+                    "base":  "minecraft:item/trapped_chest",
+                    "model": {"type": "minecraft:chest", "texture": "minecraft:trapped"}
+                }
+            }],
+            "fallback": {
+                "type":  "minecraft:model",
+                "model": "toypack:item/trapped_chest"
+            }
+        }
+    }
+}
+
