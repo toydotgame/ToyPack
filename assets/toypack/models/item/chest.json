@@ -1,9 +1,0 @@
-{
-    "parent": "toypack:item/template_chest",
-    "textures": {
-        "front": "toypack:block/chest_front",
-        "side":  "toypack:block/chest_side",
-        "top":   "toypack:block/chest_top"
-    }
-}
-

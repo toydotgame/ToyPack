@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:item/template_chest_inventory",
+    "textures": {
+        "front": "minecraft:item/trapped_chest_front",
+        "side":  "minecraft:item/chest_side",
+        "top":   "minecraft:item/chest_top"
+    }
+}
+

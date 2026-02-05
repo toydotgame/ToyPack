@@ -14,7 +14,7 @@
 
         "fallback": {
             "type":  "minecraft:model",
-            "model": "toypack:item/ender_chest"
+            "model": "minecraft:item/ender_chest_inventory"
         }
     }
 }
