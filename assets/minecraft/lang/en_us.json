@@ -580,6 +580,8 @@
     "deathScreen.title": "Game over!",
     "deathScreen.title.hardcore": "Game over!",
 
+    "entity.minecraft.bamboo_chest_raft": "Bamboo Boat with Chest",
+    "entity.minecraft.bamboo_raft": "Bamboo Boat",
     "entity.minecraft.zombified_piglin": "Zombie Pigman",
 
     "gamerule.allowFireTicksAwayFromPlayer": "allowFireTicksAwayFromPlayer",
@@ -655,6 +657,8 @@
     "item.minecraft.arrow": "Arrow (#262)",
     "item.minecraft.axolotl_spawn_egg": "Spawn Axolotl",
     "item.minecraft.baked_potato": "Baked Potato (#393)",
+    "item.minecraft.bamboo_chest_raft": "Bamboo Boat with Chest",
+    "item.minecraft.bamboo_raft": "Bamboo Boat",
     "item.minecraft.bat_spawn_egg": "Spawn Bat (#383/65)",
     "item.minecraft.bee_spawn_egg": "Spawn Bee",
     "item.minecraft.beef": "Raw Beef (#363)",
