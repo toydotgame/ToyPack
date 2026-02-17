@@ -506,9 +506,16 @@
     
     "_toypack_29": {"c": "#### OTHER ####"},
 
-    "_toypack_30": {"c": "Stonecutter has a unique UI click sound unlike everything else. Opportunity for more legacy console I say!"},
-    "ui.stonecutter.select_recipe": {"replace": true, "sounds": ["random/stonecutter_select"]},
-    
+    "_toypack_30": {"c": "Legacy console menu sounds for anything that supports it:"},
+    "ui.cartography_table.take_result": {"replace": true, "sounds": ["random/lce_menu_click"],
+                                         "subtitle": "subtitles.ui.cartography_table.take_result"},
+    "ui.loom.select_pattern":           {"replace": true, "sounds": ["random/lce_menu_select"]},
+    "ui.loom.take_result":              {"replace": true, "sounds": ["random/lce_menu_click"],
+                                         "subtitle": "subtitles.ui.loom.take_result"},
+    "ui.stonecutter.select_recipe":     {"replace": true, "sounds": ["random/lce_menu_select"]},
+    "ui.stonecutter.take_result":       {"replace": true, "sounds": ["random/lce_menu_click"],
+                                         "subtitle": "subtitles.ui.stonecutter.take_result"},
+
     "_toypack_31": {"c0": "Above I mentioned that the dig/* Vanilla sounds are the same as the step/* ToyPack \"old\"",
                     "c1": "sounds, albeit with Mojang's modifications. Those modifications in question are specifically",
                     "c2": "Grass and Gravel, which are old, but also quieter. Here I just replace instances of",
