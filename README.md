@@ -45,7 +45,9 @@ Copied/inspired textures appeared in these updates, from these places. Versions 
 **ToyPack 1.14.2:**
 * [Ganaka's Inventory Fox](https://modrinth.com/resourcepack/inventory-fox) — Base sprite for the Recipe Book Fox, tweaked by me
 * [PoeticRainbow's Golden Days](https://github.com/PoeticRainbow/golden-days) — Scaffolding, tweaked by me
-* [miszol's Glass Bottom Boats](https://modrinth.com/resourcepack/programmer-art+-glass-bottom-boats) — Idea and layout for my version of Glass-bottomed Boats
+* [miszol's Glass Bottom Boats](https://modrinth.com/resourcepack/programmer-art+-glass-bottom-boats)
+    * **ToyPack 1.14.2→1.15:** Idea and layout for my version of Glass-bottomed Boats
+    * **ToyPack 1.15+:** Idea
 * [SuperAnt_'s No Dark Inventory Overlay](https://modrinth.com/resourcepack/no-dark-inventory-overlay)
 	* **ToyPack 1.14.2→1.14.2_01:** GUI shader base code I stole to make the Infdev blue gradient tint in MC 1.19–1.20
 	* **ToyPack 1.15+:** Maybe has some origin in the GUI code I've written, but gui.vsh is definitely 100% mine and Mojang's now
@@ -58,7 +60,7 @@ Copied/inspired textures appeared in these updates, from these places. Versions 
 * [/u/Red\_Mersi's "Fern" screenshot and reconstruction](https://www.reddit.com/r/Minecraft/comments/1fd02lx/a_512x512_rendition_of_fern_by_kristoffer/) — _Fern_ HD painting texture, made from a screenshot from the Tricky Trials trailer
 * [rich1051414's Damage Indicators Mod](https://legacy.curseforge.com/minecraft/mc-mods/damage-indicators-mod) — Health bar PNG for the _Health Indicators TXF_ "Default" bar texture
 * [Narotiza's Consistent Sounds](https://modrinth.com/resourcepack/consistent-sounds) — Most of the "consistent" sounds.json data to make new blocks use the core Stone/Gravel/Wood/etc sounds for better continuity. Previously I had used this as a fallback alongside Programmer Art for ToyPack. Since ToyPack 1.15 the _Consistent Sounds_ JSON has been integrated into ToyPack to eliminate my need for multiple packs, and also so I can maintain this **now unmaintained** pack into the future/resolve conflicts with ToyPack sounds.json stuff
-* [S-N00B-1's consolesounds](https://github.com/S-N00B-1/consolesounds) — As with the _Legacy Console Click Sound_ attribution, this isn't a full attribution to the author. This is a LCE asset, but it was dumped in the source tree here and so this is the location where I got the ToyPack `stonecutter_select` sound from
+* [S-N00B-1's consolesounds](https://github.com/S-N00B-1/consolesounds) — Not a full attribution, just happens to be the place I ripped `lce_menu_click` from
 * [catsflex's Old Potion Colors](https://modrinth.com/resourcepack/old-potion-colors) — Pre-1.19.3 potion colours
 
 ## Requirements
