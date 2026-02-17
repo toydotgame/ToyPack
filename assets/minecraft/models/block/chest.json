@@ -1,6 +1,6 @@
 {
     "textures": {
-        "particle": "toypack:block/chest_top"
+        "particle": "minecraft:item/chest_top"
     }
 }
 
