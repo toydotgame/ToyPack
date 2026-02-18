@@ -1,0 +1,10 @@
+{
+    "parent": "minecraft:item/template_chest_inventory",
+    "textures": {
+        "front":  "minecraft:item/copper_chest_front",
+        "side":   "minecraft:item/copper_chest_side",
+        "top":    "minecraft:item/copper_chest_top",
+        "bottom": "minecraft:item/copper_chest_bottom"
+    }
+}
+

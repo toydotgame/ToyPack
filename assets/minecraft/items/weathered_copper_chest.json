@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type":     "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [{
+            "when": "none",
+            "model": {
+                "type": "minecraft:special",
+                "base": "minecraft:item/weathered_copper_chest",
+                "model": {"type": "minecraft:chest", "texture": "minecraft:copper_weathered"}
+            }
+        }],
+        "fallback": {
+            "type":  "minecraft:model",
+            "model": "minecraft:item/weathered_copper_chest_inventory"
+        }
+    }
+}
+
